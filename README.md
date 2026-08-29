@@ -1,3 +1,5 @@
+# Colin Mattson
+
 # Purdue ROV KiCad Board Template
 
 Starter template for new PCB designs in Purdue ROV. Pre-configured with the team component library submodule, Git clean filters, isolation rules, and CI/CD validation.
