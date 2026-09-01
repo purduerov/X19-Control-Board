@@ -1,59 +1,47 @@
-# Colin Mattson
+# X19 Board Control
 
-# Purdue ROV KiCad Board Template
+Primary microcontroller board managing actuator actuation, telemetry collection, and vehicle subsystem communication for the Purdue ROV X19 vehicle.
 
-Starter template for new PCB designs in Purdue ROV. Pre-configured with the team component library submodule, Git clean filters, isolation rules, and CI/CD validation.
+## Getting Started
 
-## Creating a New Board Repository
+### 1. Clone the Repository
+Clone recursively to ensure the central component library is initialized:
+```bash
+git clone --recursive https://github.com/purduerov/X19_Board_Control.git
+cd X19_Board_Control
+```
 
-1. In GitHub, click **Use this template** > **Create a new repository**.
-2. Name the repo to match the board function (e.g. `thruster-interface-board`).
-3. Clone recursively so submodules are pulled:
-   ```bash
-   git clone --recursive https://github.com/purduerov/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-   If cloned without `--recursive`, initialize the submodule:
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-4. Configure local Git clean filters and hooks:
-   - **Windows (PowerShell):** `.\setup_git_filters.ps1`
-   - **macOS / Linux:** `./setup_git_filters.sh`
-
-5. Rename the project files (`board-template.kicad_*`) to match your project name.
-
-## Daily Workflow
-
-You can open the project in KiCad directly, or use the launcher scripts:
+### 2. Launch KiCad
+You can open `X19_Board_Control.kicad_pro` directly in KiCad, or run the 1-click launcher script:
 - **Windows:** Double-click `LAUNCH_KICAD.bat`
 - **macOS / Linux:** Run `./LAUNCH_KICAD.sh`
 
-The launcher pulls the latest symbols and footprints from `purdue-rov-kicad-lib` before opening your `.kicad_pro` project.
+The launcher script updates the `purdue-rov-kicad-lib` submodule to latest `master` before launching KiCad.
 
-## Local Validation (KiBot / Docker)
+## Central Component Library & Manager GUI
 
-Run ERC, DRC, and manufacturing output generation locally before pushing:
-- **Windows (PowerShell):**
-  ```powershell
-  .\run_validation.ps1
-  ```
-- **macOS / Linux:**
-  ```bash
-  ./run_validation.sh
-  ```
+The project links to the central `purdue-rov-kicad-lib` submodule mapped across 6 categories in `sym-lib-table` and `fp-lib-table`:
+- `rov_passives`: Resistors, capacitors, inductors, crystals
+- `rov_power`: Voltage regulators, buck/boost converters, MOSFETs, diodes
+- `rov_logic`: MCUs, logic ICs, op-amps, drivers, level shifters
+- `rov_connectors`: Power terminals, XT60, headers, USB, JST connectors
+- `rov_sensors`: IMUs, temperature, pressure sensors
+- `rov_mech`: Mounting holes, standoffs, test points
 
-Outputs are saved in `Generated_Outputs/`:
-- Schematic PDF
-- Interactive HTML BOM
-- Gerbers and Drill files
+### Launching the Library Manager GUI
+To browse parts, inspect footprints, edit properties, or add/delete components in the shared library:
+- **Windows:** Double-click `libs\purdue-rov-kicad-lib\LIBRARY_MANAGER.bat`
+- **macOS / Linux:** Run `./libs/purdue-rov-kicad-lib/LIBRARY_MANAGER.sh`
 
 ## Design Rules & Clearances
 
-- Clearance rules are defined in `custom_rules.kicad_dru`.
-- High-power thruster nets require a minimum 2.0 mm clearance from low-voltage logic (3.3V / 5V).
+- Clearance and isolation constraints are configured in `custom_rules.kicad_dru`.
+- All symbols and footprints must comply with central library guidelines.
 
-## Adding New Components
+## Automated CI/CD & DevOps Preflight Checks
 
-If a part is missing from the central library, add it to `purdue-rov-kicad-lib` rather than creating a local-only symbol. See the [central library README](libs/purdue-rov-kicad-lib/README.md) for details on importing parts and required symbol fields.
+All CI/CD automation and tooling are centralized in [`purduerov/pcb-devops`](https://github.com/purduerov/pcb-devops):
+1. **Automated Git Clean Filters:** Configured automatically by `.githooks/pre-commit` to prevent viewport/zoom merge noise.
+2. **KiCad Symbol Linting:** Validates mandatory fields (`MPN`, `Manufacturer`, `Category`, `DigiKey`, `Datasheet`, `Temp_Range`) on all library components.
+3. **ERC & DRC Validation:** Executes Electrical and Design Rules Checks via KiBot in GitHub Actions.
+4. **Artifact Generation:** Exports schematic PDFs, Interactive HTML BOMs, and fabrication Gerbers on every pull request.
