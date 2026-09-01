@@ -1,4 +1,4 @@
-# X19 Board Control
+# X19 Control Board
 
 Primary microcontroller board managing actuator actuation, telemetry collection, and vehicle subsystem communication for the Purdue ROV X19 vehicle.
 
@@ -7,12 +7,12 @@ Primary microcontroller board managing actuator actuation, telemetry collection,
 ### 1. Clone the Repository
 Clone recursively to ensure the central component library is initialized:
 ```bash
-git clone --recursive https://github.com/purduerov/X19_Board_Control.git
-cd X19_Board_Control
+git clone --recursive https://github.com/purduerov/X19-Control-Board.git
+cd X19-Control-Board
 ```
 
 ### 2. Launch KiCad
-You can open `X19_Board_Control.kicad_pro` directly in KiCad, or run the 1-click launcher script:
+You can open `X19-Control-Board.kicad_pro` directly in KiCad, or run the 1-click launcher script:
 - **Windows:** Double-click `LAUNCH_KICAD.bat`
 - **macOS / Linux:** Run `./LAUNCH_KICAD.sh`
 
