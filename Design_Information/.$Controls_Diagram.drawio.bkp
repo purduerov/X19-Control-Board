@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="qbdeGGiOvc8V8adkGAeN">
-    <mxGraphModel dx="974" dy="1649" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2435" dy="2472" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,12 +87,6 @@
         <mxCell id="OfK6a02Ye1GljuWU-gjZ-66" value="&lt;div&gt;&lt;b&gt;TCAN1044&lt;/b&gt;&lt;/div&gt;CAN Transceiver" style="rounded=1;whiteSpace=wrap;html=1;" parent="NJiFFoPBFIuBvokDhqsu-60" vertex="1">
           <mxGeometry x="345" y="119.8" width="120.86224863091145" height="49.91830065359477" as="geometry" />
         </mxCell>
-        <mxCell id="3jFeJJJtIswYYZa4J2-d-2" value="Headers for these wires" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NJiFFoPBFIuBvokDhqsu-60">
-          <mxGeometry x="1074" y="919" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MTqKmf8s_TBtd_I0CE2z-1" value="&lt;div&gt;Depth Sens&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="NJiFFoPBFIuBvokDhqsu-60" vertex="1">
-          <mxGeometry x="991.9999999999999" y="918" width="73.41" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="NJiFFoPBFIuBvokDhqsu-23" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC00CC;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1610" y="130" width="430" height="50" as="geometry" />
         </mxCell>
@@ -113,6 +107,9 @@
         </mxCell>
         <mxCell id="OfK6a02Ye1GljuWU-gjZ-12" value="&lt;div&gt;&lt;b&gt;Power Monitoring Chip&lt;/b&gt;&lt;/div&gt;&lt;div&gt;12V Power Monitoring&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="NJiFFoPBFIuBvokDhqsu-20" vertex="1">
           <mxGeometry x="346.1" y="95" width="73.41" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MTqKmf8s_TBtd_I0CE2z-1" value="&lt;div&gt;Depth Sens&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="NJiFFoPBFIuBvokDhqsu-20" vertex="1">
+          <mxGeometry x="346.0999999999999" y="235" width="73.41" height="24" as="geometry" />
         </mxCell>
         <mxCell id="c4aIX-G3SarT2C3lmnkM-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;" parent="1" source="MflqVq6KJdmgB4elUAzq-6" target="c4aIX-G3SarT2C3lmnkM-111" edge="1">
           <mxGeometry relative="1" as="geometry" />

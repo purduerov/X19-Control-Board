@@ -1,0 +1,6 @@
+Board Quick Notes:
+
+- There is plenty of space
+- The connector location needs to be changed, I am not routing into that
+
+- Aman CAN thing
