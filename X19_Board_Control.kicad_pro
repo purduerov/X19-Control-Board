@@ -486,12 +486,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "board_control_manual_lib"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "X19-Control-Board.kicad_pro",
+    "filename": "X19_Board_Control.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -662,18 +660,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "X19-Control-Board.kicad_sch",
-        "name": "X19-Control-Board",
+        "filename": "X19_Board_Control.kicad_sch",
+        "name": "X19_Board_Control",
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "U1-6,Q1-10,Y1-2,J1-4,#PWR1,MK1",
+    "used_designators": "U1-6,Q1-10,Y1,J1,#PWR1,MK1",
     "variants": []
   },
   "sheets": [
     [
       "00000000-0000-0000-0000-000060e6118b",
-      "X19-Control-Board"
+      "X19_Board_Control"
     ]
   ],
   "text_variables": {},
