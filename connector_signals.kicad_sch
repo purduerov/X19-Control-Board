@@ -3197,7 +3197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca7bacc-a8f3-4406-8b5d-729b2eb88cad")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR048"
 			(at 63.5 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3258,7 +3258,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/5aebb1ae-5eca-4b0a-af28-23512fd077fb"
-					(reference "#PWR028")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3367,7 +3367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e121f79-b7a9-45a3-a04a-4aa01200f421")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 49.53 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/5aebb1ae-5eca-4b0a-af28-23512fd077fb"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289dcc8e-a2a0-43aa-b9a7-afa14a8fd8f1")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 194.31 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,7 +3610,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/5aebb1ae-5eca-4b0a-af28-23512fd077fb"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3741,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3900f759-77ca-4ce0-b955-7be55f09eb25")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR049"
 			(at 101.6 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3802,7 +3802,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/5aebb1ae-5eca-4b0a-af28-23512fd077fb"
-					(reference "#PWR029")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3820,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6471ef4d-979b-40bb-a2b5-4b2bfd2cc073")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR047"
 			(at 33.02 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3881,7 +3881,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/5aebb1ae-5eca-4b0a-af28-23512fd077fb"
-					(reference "#PWR027")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
