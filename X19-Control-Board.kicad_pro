@@ -680,16 +680,12 @@
       "MOSFET_driver"
     ],
     [
-      "308c07a2-455c-43b7-a833-4b2c3f558c11",
-      "Power_Monitoring"
-    ],
-    [
       "a66e3e05-3f82-4c46-8531-6fdc7968dd66",
       "Sensors_Telemetry"
     ],
     [
       "b875d5fe-2b54-4be4-ba29-178f725d3d54",
-      "Voltage Conv-Protec"
+      "Voltage Conv-Protec-Monitoring"
     ],
     [
       "5aebb1ae-5eca-4b0a-af28-23512fd077fb",
