@@ -667,7 +667,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "U1-7,Q1-10,Y1-2,R1-11,J1-4,#PWR1-2,MK1,C1-15,D1-2",
+    "used_designators": "U1-7,Q1-19,Y1-2,R1-34,J1-8,#PWR1-50,MK1,C1-20,D1-15,L1-10,TP1-4,CR1,P1",
     "variants": []
   },
   "sheets": [
@@ -678,6 +678,22 @@
     [
       "84a48d7e-c021-49be-a880-dece1bf2fa08",
       "MOSFET_driver"
+    ],
+    [
+      "308c07a2-455c-43b7-a833-4b2c3f558c11",
+      "Power_Monitoring"
+    ],
+    [
+      "a66e3e05-3f82-4c46-8531-6fdc7968dd66",
+      "Sensors_Telemetry"
+    ],
+    [
+      "b875d5fe-2b54-4be4-ba29-178f725d3d54",
+      "Voltage Conv-Protec"
+    ],
+    [
+      "5aebb1ae-5eca-4b0a-af28-23512fd077fb",
+      "Connector_Signals"
     ]
   ],
   "text_variables": {},
