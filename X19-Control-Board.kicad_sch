@@ -2718,6 +2718,29 @@
 		)
 		(uuid "023f7131-fd0b-4628-94cc-d986de0343b6")
 	)
+	(text "Resistor Values? - Nick"
+		(exclude_from_sim no)
+		(at 269.24 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "09edb44d-19aa-4f49-8376-448decebf5d5")
+	)
+	(text "General:\n- testpoints and debugging:\n	- break out CAN signals to a header for debugging\n	- break out SPI\n	- "
+		(exclude_from_sim no)
+		(at 114.3 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4a015460-1268-49c2-8dfd-a534db40d8c3")
+	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
 		(at 25.908 139.446 0)
@@ -2767,6 +2790,30 @@
 			)
 		)
 		(uuid "672b685d-7103-4b80-b216-d2f10f6e1b5f")
+	)
+	(text "MCU:\n- add debug LED to STM GPIO\n- break out a few GPIO STM pins to a pin header\n- why do gpio bitbang for PWM? Cant we just use the STM's timer channels?\n- add no connect (NC) to the unused STM pins"
+		(exclude_from_sim no)
+		(at 114.3 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6eb78be2-85f7-4fd5-b57f-976aeece4dfd")
+	)
+	(text "100nF Bypass cap \nfor VIO -Nick"
+		(exclude_from_sim no)
+		(at 72.39 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7cd8b52b-b6c0-4fb9-9fb0-5d38625ce6e5")
 	)
 	(text "Crystal Oscillator"
 		(exclude_from_sim no)
@@ -2848,12 +2895,23 @@
 		)
 		(uuid "bdbfac24-256f-4a1d-a8f9-300db70f9732")
 	)
-	(text "Do we need?"
+	(text "Place TVS close \nto connector -Nick"
 		(exclude_from_sim no)
-		(at 78.486 169.164 0)
+		(at 148.59 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcdd2d7b-2a88-48e8-afd7-2d3fc3e1d335")
+	)
+	(text "<-Tie to Ground -Nick"
+		(exclude_from_sim no)
+		(at 82.55 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 		)
 		(uuid "e6064cf4-13fc-4497-a070-3fdbdcdc17f9")
