@@ -1,0 +1,48 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins,Sim.Device,Sim.Type
+1,Unpolarized capacitor,C,C3 C4,27p,,2, ,,,,
+2,Unpolarized capacitor,C,C1 C2 C5 C6 C7 C10 C11 C12 C13 C16 C17 C18 C20,0.1u,,13, ,,,,
+3,Unpolarized capacitor,C,C8,4.7u,,1, ,,,,
+4,Unpolarized capacitor,C,C14 C15,C,,2, ,,,,
+5,,ESD2CAN24DBZRQ1,CR1,ESD2CAN24DBZRQ1,SOT-23_DBZ_TEX,1, ,ESD2CAN24DBZRQ1,,,
+6,Zener diode,D_Zener,D13,????????,MMSZ3V6T1G,1, ,,,,
+7,Diode,D,D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,D,,10, ,,1=K 2=A,D,
+8,Light emitting diode,LED,D1 D2 D15,LED,,3, ,,1=K 2=A,,
+9,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J3 J4,BN0_Side_1,,2, ,,,,
+10,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J2 J5 J6,Conn_01x05,,3, ,,,,
+11,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1,Depth_Sens_Header,,1, ,,,,
+12,"Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x16_Counter_Clockwise,J8,Mega Connector/Breakout (if we have space),,1, ,,,,
+13,Inductor,L,L1 L2 L3 L4 L5 L6 L7 L8 L9 L10,L_solenoid,,10, ,,,,
+14,USB 2.0-only Type-C Plug connector,USB_C_Plug_USB2.0,P1,USB_C_Plug_USB2.0,,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,
+15,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1,AO3400A,SOT-23-3L_AOS,1, ,,,,
+16,"N-MOSFET transistor, drain/source/gate",NMOS,Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19,AO3400A,,10, ,https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs,1=D 2=G 3=S,NMOS,VDMOS
+17,"Resistor, US symbol",R_US,R1,0,,1, ,,,,
+18,"Shunt resistor with Kelvin connections, US symbol",R_Shunt_US,R9,15m,,1, ,,,,
+19,"Shunt resistor with Kelvin connections, US symbol",R_Shunt_US,R11,120m,,1, ,,,,
+20,"Resistor, US symbol",R_US,R4 R7,60,,2, ,,,,
+21,"Resistor, US symbol",R_US,R5 R6 R8 R10 R12 R15 R17 R19 R22 R23 R26 R27 R29 R31,10k,,14, ,,,,
+22,"Resistor, US symbol",R_US,R32,100k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1, ,,,,
+23,"Resistor, US symbol",R_US,R13 R14 R16 R18 R20 R21 R24 R25 R28 R30,?????,,10, ,,,,
+24,"Resistor, US symbol",R_US,R2 R3 R34,R_US,,3, ,,,,
+25,,BMI270,U3,BMI270,BMI270_BOS,1, ,BMI270,,,
+26,,INA237AIDGSR,U5 U7,INA237AIDGSR,VSSOP_IDGSR_TEX,2, ,https://www.ti.com/lit/gpn/ina237,,,
+27,,MIC5504-3.3YM5-TR,U6,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,
+28,,STM32C542CCT6,U1,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,
+29,,TCAN1044VDRQ1,U2,TCAN1044VDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044-q1,,,
+30,,ECS-400-18-33-JGN-TR,Y2,ECS-400-18-33-JGN-TR,XTAL_ECS-400-18-33-JGN-TR,1, ,,,,
+
+
+
+
+
+Project info:
+Schematic:,X19-Control-Board
+Variant:,default
+Revision:,
+Date:,2026-09-20_06-57-08
+KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
+Statistics:
+Component Groups:,30
+Component Count:,102
+Fitted Components:,102
+Number of PCBs:,1
+Total Components:,102
