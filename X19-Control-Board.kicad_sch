@@ -2925,6 +2925,16 @@
 		)
 		(uuid "bdbfac24-256f-4a1d-a8f9-300db70f9732")
 	)
+	(text "also if possible, clean up some of the .kicad_sch files\nthere seem to be a bunch more than are actually used in the project"
+		(exclude_from_sim no)
+		(at 66.548 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c133dff7-f76c-4352-a470-9552ecb04c1e")
+	)
 	(text "Place TVS close \nto connector -Nick"
 		(exclude_from_sim no)
 		(at 148.59 167.64 0)
