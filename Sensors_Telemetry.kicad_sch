@@ -1249,6 +1249,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Make this match the connector pinout on bluerobotics site\nhttps://bluerobotics.com/store/sensors-cameras/sensors/bar-depth-pressure-sensor/\n\n- Nick"
+		(exclude_from_sim no)
+		(at 149.86 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "201286e4-3754-477c-86b0-24b8dbc3bbf9")
+	)
 	(text "3V0"
 		(exclude_from_sim no)
 		(at 55.88 77.978 0)
@@ -1259,6 +1270,17 @@
 		)
 		(uuid "6ef789a1-cd54-4e4c-bced-386937ea6e4f")
 	)
+	(text "Add note for layout to place near ROV's\ncenter of gravity as close as possible\n\n- Nick"
+		(exclude_from_sim no)
+		(at 66.04 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8100393f-771e-437d-94ef-93dde0e28b6e")
+	)
 	(text "Note: These are unconnected"
 		(exclude_from_sim no)
 		(at 81.28 73.152 0)
@@ -1268,6 +1290,18 @@
 			)
 		)
 		(uuid "8c0c33bb-375e-4367-a32f-f9059e762a2b")
+	)
+	(text "1. ^^^^^\n	Delete the image, its misleading \n	I thought it was an actual net\n\n2. Indicate which side is which for the BNO \n	(left / right) to help\n	for routing and placement\n\n- Nick\n"
+		(exclude_from_sim no)
+		(at 74.93 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "aaeff1f6-b0f2-4dec-94ee-63e53363ef36")
 	)
 	(text "Depth Sensor Header"
 		(exclude_from_sim no)

@@ -1012,6 +1012,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1. Where do Solenoids Connect to? \n2. Why is there a voltage divider for \n	the gate of the MOSFET?\n3. What interface do we have to connect \n	the solenoids to control board \n	to be driven by MOSFET?\n4. Find Flyback diode part and resistor value\n5. Break out connectors for each of the \n	solenoids like the net on the left\n- Nick"
+		(exclude_from_sim no)
+		(at 135.89 39.37 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "40168c18-6c00-473a-9f8f-c5266ca5679e")
+	)
 	(junction
 		(at 99.06 100.33)
 		(diameter 0)
@@ -1711,6 +1723,16 @@
 			(type default)
 		)
 		(uuid "a4e13c2b-55ac-4cc8-ae43-c9efcc8b6882")
+	)
+	(wire
+		(pts
+			(xy 99.06 34.29) (xy 128.27 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a965fc3c-6d33-4ee2-9197-f0e661886431")
 	)
 	(wire
 		(pts

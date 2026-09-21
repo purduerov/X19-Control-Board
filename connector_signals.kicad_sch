@@ -2025,6 +2025,17 @@
 		)
 		(uuid "0fcaec6f-5c80-4865-933c-d34ad2615b2b")
 	)
+	(text "We could add this as a pin header potentially since we have a lot of space.\nWorst case we can make a bunch of small circular pads we can solder to\n\n- Nick"
+		(exclude_from_sim no)
+		(at 195.58 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "18040bb2-27a9-4654-ab7b-e69e8f0b86d8")
+	)
 	(text "USB C 2.0 (Want to do it, but is useless here)"
 		(exclude_from_sim no)
 		(at 44.45 135.89 0)
@@ -2034,6 +2045,17 @@
 			)
 		)
 		(uuid "487c5304-2a80-409e-a542-68a67ade1b21")
+	)
+	(text "1. 5.2V and 12V nets should be\n	the pre sense versions right?\n	Since they're coming from power slab\n\n2. Label CS signal CS_Pi, since it serves\n	as the backup in case CAN fails\n\n- Nick"
+		(exclude_from_sim no)
+		(at 57.15 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "baf1ed98-d9cd-43ca-9802-2dfefe4d943c")
 	)
 	(text "Board Output Connectors"
 		(exclude_from_sim no)

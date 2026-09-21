@@ -1759,6 +1759,17 @@
 		)
 		(uuid "4e211720-f738-47e7-86c1-9f5b827f5667")
 	)
+	(text "1. Change address lines for one of them, currently they both have same I2C address\n2. U5's VBUS should be 5.2V, we trying to measure the voltage of 5.2V rail not 12V.\n	VBUS is the voltage measurement.\n3. Verify other I2C devices on ur board have different addresses. Write the address\n	for each I2C device as a text comment next to the schematic.\n4. Rename 12V_ALERT to 5.2V_ALERT for U5. I assume thats what u intended?\n5. How did you calculate shunt resistor values?\n	What current values did you use for the voltages?\n6. Set current sensing cap value to anything from 0.1uF to 1uF per the datasheet\n\n- Nick"
+		(exclude_from_sim no)
+		(at 184.15 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7f1adea3-fa90-4f9f-a0dc-6863a07977be")
+	)
 	(text "Said vias"
 		(exclude_from_sim no)
 		(at 58.42 90.678 0)
@@ -1768,6 +1779,17 @@
 			)
 		)
 		(uuid "96480afe-4e56-49c6-a174-83f9a296bec0")
+	)
+	(text "Change decoupling to 1uF \nas per the datasheet\n\n-Nick"
+		(exclude_from_sim no)
+		(at 58.42 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "bfb021c7-f338-43c8-9f1a-b6fe6034984e")
 	)
 	(text "Fade or keep RPP"
 		(exclude_from_sim no)
@@ -1808,6 +1830,17 @@
 			)
 		)
 		(uuid "dbb8bfdb-7f83-433c-bdf7-f1321fc1f311")
+	)
+	(text "Since we have a keyed connector to the control board\nwe wont need this. only power slab would need it\n\n- Nick"
+		(exclude_from_sim no)
+		(at 193.04 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f3d16aa8-26c1-428b-ab38-792e9fe6484c")
 	)
 	(junction
 		(at 100.33 90.17)

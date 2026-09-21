@@ -2729,7 +2729,7 @@
 		)
 		(uuid "09edb44d-19aa-4f49-8376-448decebf5d5")
 	)
-	(text "General:\n- testpoints and debugging:\n	- break out CAN signals to a header for debugging\n	- break out SPI\n	- "
+	(text "General:\n- testpoints and debugging:\n	- break out CAN signals to a header for debugging (2.54mm male pin header)\n	- break out SPI (SPI data lines as well as CS_PI)\n		- same header as CAN (2.54mm male pin header)\n\n- add no connect X to unused pins\n- fill unknown passive values (caps, resistors)\n"
 		(exclude_from_sim no)
 		(at 114.3 124.46 0)
 		(effects
