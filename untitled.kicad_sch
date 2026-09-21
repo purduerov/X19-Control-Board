@@ -1024,6 +1024,16 @@
 		)
 		(uuid "40168c18-6c00-473a-9f8f-c5266ca5679e")
 	)
+	(text "are L_solenoid the actual solenoids? so this is a low-side switch setup?\nthen those should be Conn_01x02 connectors, not inductor footprints"
+		(exclude_from_sim no)
+		(at 152.908 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7185804-091e-4101-afef-69046302faa0")
+	)
 	(junction
 		(at 99.06 100.33)
 		(diameter 0)

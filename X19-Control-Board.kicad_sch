@@ -2803,6 +2803,16 @@
 		)
 		(uuid "6eb78be2-85f7-4fd5-b57f-976aeece4dfd")
 	)
+	(text "they usually won't\nit's implied to use decoupling on ICs"
+		(exclude_from_sim no)
+		(at 38.1 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "770c6836-b083-45c6-8c52-73a9ef2e9ed3")
+	)
 	(text "100nF Bypass cap \nfor VIO -Nick"
 		(exclude_from_sim no)
 		(at 72.39 158.75 0)
@@ -2845,6 +2855,16 @@
 		)
 		(uuid "863515ce-5198-45ed-8bb8-4e78bb28aff2")
 	)
+	(text "10k pullups are a lil weak for i2c\nthey will work but 4k7 is typ"
+		(exclude_from_sim no)
+		(at 165.354 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89533a61-122d-4d0f-96d3-ace1419e9419")
+	)
 	(text "What val"
 		(exclude_from_sim no)
 		(at 124.46 166.37 0)
@@ -2884,6 +2904,16 @@
 			)
 		)
 		(uuid "aac12f50-34ea-4e26-b411-b942a2172530")
+	)
+	(text "load caps should be one on each output pin, not both on one"
+		(exclude_from_sim no)
+		(at 65.786 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab40ee7a-126f-49ab-8491-b905a8479ab1")
 	)
 	(text "GPIO"
 		(exclude_from_sim no)

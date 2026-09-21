@@ -1303,6 +1303,16 @@
 		)
 		(uuid "aaeff1f6-b0f2-4dec-94ee-63e53363ef36")
 	)
+	(text "you can also make a footprint for the BNO module\njust pretend it's an IC with a rlly weird footprint\nthen you can have one symbol and footprint for it instead of two disjoint headers"
+		(exclude_from_sim no)
+		(at 102.108 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb53541b-dbae-41cd-bce1-bc45cd9ca30c")
+	)
 	(text "Depth Sensor Header"
 		(exclude_from_sim no)
 		(at 124.46 50.038 0)

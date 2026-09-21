@@ -1770,6 +1770,16 @@
 		)
 		(uuid "7f1adea3-fa90-4f9f-a0dc-6863a07977be")
 	)
+	(text "would also recommend fading\nAO3400A is a tiny mosfet that prob can't carry enough current either, but i lowk didn't check"
+		(exclude_from_sim no)
+		(at 213.614 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85820dae-9cd9-4869-8f81-06718fef6579")
+	)
 	(text "Said vias"
 		(exclude_from_sim no)
 		(at 58.42 90.678 0)
