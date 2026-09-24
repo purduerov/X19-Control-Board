@@ -1789,6 +1789,16 @@
 		)
 		(uuid "dbb8bfdb-7f83-433c-bdf7-f1321fc1f311")
 	)
+	(text "Check inegrated pull down"
+		(exclude_from_sim no)
+		(at 49.53 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f73bc4fb-cac2-4000-898d-acd97f0b798c")
+	)
 	(junction
 		(at 100.33 90.17)
 		(diameter 0)
@@ -3914,6 +3924,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 137.16 49.53 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7044165f-743b-4361-8b50-644ddf840b8c")
+		(property "Reference" "Q11"
+			(at 137.16 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSM340N06CP ROG"
+			(at 137.16 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Remote_Footprints:SOT-23-3L_AOS"
+			(at 134.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0f4a436c-2446-4b56-a1a6-c508925506c9")
+		)
+		(pin "1"
+			(uuid "4ed8ee3b-96a8-41cf-a187-5264193d5b6a")
+		)
+		(pin "2"
+			(uuid "8e80f7ca-70f4-445a-853b-53a4ddb97d25")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 134.62 0)
 		(unit 1)
@@ -4121,7 +4214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "????????"
+		(property "Value" "DDZ15S-7"
 			(at 151.13 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,89 +4590,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 137.16 49.53 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f309de7-8df1-4b94-9333-a92bace19346")
-		(property "Reference" "Q11"
-			(at 137.16 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 137.16 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Remote_Footprints:SOT-23-3L_AOS"
-			(at 134.62 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 137.16 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f33b8731-c1c6-4026-b2bc-90d549ad0d4b")
-		)
-		(pin "1"
-			(uuid "76e676d5-0bc8-4045-aa81-c871dad223f3")
-		)
-		(pin "2"
-			(uuid "7506db0c-78b6-4a25-a4de-fd640f527329")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "Q11")
 					(unit 1)
 				)
 			)
