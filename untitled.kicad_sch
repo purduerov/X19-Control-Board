@@ -2528,7 +2528,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE2"
 		(shape input)
 		(at 25.4 81.28 180)
 		(fields_autoplaced yes)
@@ -2720,7 +2720,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE3"
 		(shape input)
 		(at 25.4 123.19 180)
 		(fields_autoplaced yes)
@@ -2888,7 +2888,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE7"
 		(shape input)
 		(at 116.84 124.46 180)
 		(fields_autoplaced yes)
@@ -2936,7 +2936,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE4"
 		(shape input)
 		(at 25.4 162.56 180)
 		(fields_autoplaced yes)
@@ -2960,7 +2960,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE10"
 		(shape input)
 		(at 204.47 83.82 180)
 		(fields_autoplaced yes)
@@ -2972,7 +2972,7 @@
 		)
 		(uuid "69d91351-f6a3-4c75-9a8c-ce3c2ec7a0a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8001 83.82 0)
+			(at 194.5906 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3440,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE6"
 		(shape input)
 		(at 116.84 82.55 180)
 		(fields_autoplaced yes)
@@ -3464,7 +3464,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE8"
 		(shape input)
 		(at 116.84 163.83 180)
 		(fields_autoplaced yes)
@@ -3824,7 +3824,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE5"
 		(shape input)
 		(at 116.84 43.18 180)
 		(fields_autoplaced yes)
@@ -3848,7 +3848,7 @@
 			)
 		)
 	)
-	(global_label "GATE1"
+	(global_label "GATE9"
 		(shape input)
 		(at 204.47 44.45 180)
 		(fields_autoplaced yes)
