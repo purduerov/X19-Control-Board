@@ -1,37 +1,37 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins,Sim.Device,Sim.Type
-1,Unpolarized capacitor,C,C6 C7,27p,,2, ,,,,
-2,Unpolarized capacitor,C,C1 C2 C3 C4 C8 C9 C10 C11 C12 C16 C18 C19,0.1u,,12, ,,,,
-3,Unpolarized capacitor,C,C15,0.2u,,1, ,,,,
-4,Unpolarized capacitor,C,C17,0.5u,,1, ,,,,
-5,Unpolarized capacitor,C,C13 C14,1u,,2, ,,,,
-6,Unpolarized capacitor,C,C5,4.7u,,1, ,,,,
-7,,ESD2CAN24DBZRQ1,CR1,ESD2CAN24DBZRQ1,SOT-23_DBZ_TEX,1, ,ESD2CAN24DBZRQ1,,,
-8,Light emitting diode,LED,D1,BLUE,,1, ,,1=K 2=A,,
-9,Diode,D,D4 D5 D6 D7 D8 D9 D10 D11 D12 D13,D,,10, ,,1=K 2=A,D,
-10,Light emitting diode,LED,D2,GREEN,,1, ,,1=K 2=A,,
-11,Light emitting diode,LED,D3 D15,RED,,2, ,,1=K 2=A,,
-12,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J2 J3,BN0_Bottom_Side,,2, ,,,,
-13,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8 J9 J10 J11 J12 J13 J14 J15 J16 J17,Conn_01x02,,10, ,,,,
-14,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J4 J5 J6,Conn_01x05,,3, ,,,,
-15,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J1,Conn_01x06,,1, ,,,,
-16,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J18,Depth_Sens_Header,,1, ,,,,
-17,"Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x16_Counter_Clockwise,J7,Mega Connector/Breakout (if we have space),,1, ,,,,
-18,"N-MOSFET transistor, drain/source/gate",NMOS,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10,AO3400A,,10, ,https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs,1=D 2=G 3=S,NMOS,VDMOS
-19,"Resistor, US symbol",R_US,R3,0,,1, ,,,,
-20,"Shunt resistor with Kelvin connections, US symbol",R_Shunt_US,R32,15m,,1, ,,,,
-21,"Shunt resistor with Kelvin connections, US symbol",R_Shunt_US,R30,120m,,1, ,,,,
-22,"Resistor, US symbol",R_US,R7 R8,60,,2, ,,,,
-23,"Resistor, US symbol",R_US,R6 R34,65,,2, ,,,,
-24,"Resistor, US symbol",R_US,R12 R14 R17 R18 R23 R24 R25 R26 R35 R36,220,,10, ,,,,
-25,"Resistor, US symbol",R_US,R5,310,,1, ,,,,
-26,"Resistor, US symbol",R_US,R4,440,,1, ,,,,
-27,"Resistor, US symbol",R_US,R1 R2 R11 R13 R15 R16 R19 R20 R21 R22 R27 R28 R31 R33 R37,10k,,15, ,,,,
-28,,BMI270,U3,BMI270,BMI270_BOS,1, ,BMI270,,,
-29,,INA237AIDGSR,U5 U6,INA237AIDGSR,VSSOP_IDGSR_TEX,2, ,https://www.ti.com/lit/gpn/ina237,,,
-30,,MIC5504-3.3YM5-TR,U4,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,
-31,,STM32C542CCT6,U1,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,
-32,,TCAN1044VDRQ1,U2,TCAN1044VDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044-q1,,,
-33,,ECS-400-18-33-JGN-TR,Y1,ECS-400-18-33-JGN-TR,XTAL_ECS-400-18-33-JGN-TR,1, ,,,,
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,KLC_S3.3,KLC_S4.1,Sim.Pins,Sim.Device
+1,Unpolarized capacitor,C,C6 C7,8p,,2, ,,,,,
+2,Unpolarized capacitor,C,C1 C2 C3 C4 C8 C9 C10 C11 C16 C18 C19,0.1u,,11, ,,,,,
+3,Unpolarized capacitor,C,C15,0.2u,,1, ,,,,,
+4,Unpolarized capacitor,C,C17,0.5u,,1, ,,,,,
+5,Unpolarized capacitor,C,C13 C14,1u,,2, ,,,,,
+6,Unpolarized capacitor,C,C20,2.2u,,1, ,,,,,
+7,Unpolarized capacitor,C,C5,4.7u,,1, ,,,,,
+8,,ESD2CAN24DBZRQ1,CR1,ESD2CAN24DBZRQ1,SOT-23_DBZ_TEX,1, ,ESD2CAN24DBZRQ1,,,,
+9,Light emitting diode,LED,D1,BLUE,,1, ,,,,1=K 2=A,
+10,Diode,D,D4 D5 D6 D7 D8 D9 D10 D11 D12 D13,D,,10, ,,,,1=K 2=A,D
+11,Light emitting diode,LED,D2,GREEN,,1, ,,,,1=K 2=A,
+12,Light emitting diode,LED,D3 D15,RED,,2, ,,,,1=K 2=A,
+13,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J2 J3,BN0_Bottom_Side,,2, ,,,,,
+14,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8 J9 J10 J11 J12 J13 J14 J15 J16 J17,Conn_01x02,,10, ,,,,,
+15,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J4 J5 J6,Conn_01x05,,3, ,,,,,
+16,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J1,Conn_01x06,,1, ,,,,,
+17,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J18,Depth_Sens_Header,,1, ,,,,,
+18,"Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x16_Counter_Clockwise,J7,Mega Connector/Breakout (if we have space),,1, ,,,,,
+19,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19 Q20,Q_NMOS_GSD,,10, ,,,,,
+20,"Resistor, US symbol",R_US,R3,0,,1, ,,,,,
+21,"Resistor, US symbol",R_US,R9 R10,120m,,2, ,,,,,
+22,"Resistor, US symbol",R_US,R7 R8,60,,2, ,,,,,
+23,"Resistor, US symbol",R_US,R6,65,,1, ,,,,,
+24,"Resistor, US symbol",R_US,R12 R14 R17 R18 R23 R24 R25 R26 R34 R35 R36,220,,11, ,,,,,
+25,"Resistor, US symbol",R_US,R5,310,,1, ,,,,,
+26,"Resistor, US symbol",R_US,R4,440,,1, ,,,,,
+27,"Resistor, US symbol",R_US,R1 R2 R11 R13 R15 R16 R19 R20 R21 R22 R27 R28 R29 R31 R33 R37,10k,,16, ,,,,,
+28,,BMI270,U3,BMI270,BMI270_BOS,1, ,BMI270,,,,
+29,,INA237AIDGSR,U5 U6,INA237AIDGSR,VSSOP_IDGSR_TEX,2, ,https://www.ti.com/lit/gpn/ina237,,,,
+30,,MIC5504-3.3YM5-TR,U4,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,,
+31,,STM32C542CCT6,U1,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,
+32,,TCAN1044VDRQ1,U2,TCAN1044VDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044-q1,,,,
+33,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y2,ECS-240-8-37B-CKY-TR,,1, ,,The rectangle is not a symbol body but a graphical element,Some pins are on 50mil grid to make the symbol small,,
 
 
 
@@ -41,11 +41,11 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-10-12_05-36-26
+Date:,2026-10-14_23-41-15
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,33
-Component Count:,103
-Fitted Components:,103
+Component Count:,104
+Fitted Components:,104
 Number of PCBs:,1
-Total Components:,103
+Total Components:,104
