@@ -1319,12 +1319,6 @@
 		(uuid "9d0fb6a9-0645-4f48-908f-878293a497a9")
 	)
 	(junction
-		(at 180.34 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5d5a50c-315a-40a0-892a-0decdda74b7c")
-	)
-	(junction
 		(at 30.48 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1357,16 +1351,6 @@
 	(no_connect
 		(at 46.99 36.83)
 		(uuid "a713503c-1486-40b3-8c58-e9ace45df1af")
-	)
-	(wire
-		(pts
-			(xy 180.34 55.88) (xy 180.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00399872-737f-46c3-aff8-c65f15722e4a")
 	)
 	(wire
 		(pts
@@ -1420,16 +1404,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a57dee-298c-41d0-9a9f-ad54e1e14964")
-	)
-	(wire
-		(pts
 			(xy 29.21 44.45) (xy 30.48 44.45)
 		)
 		(stroke
@@ -1437,16 +1411,6 @@
 			(type default)
 		)
 		(uuid "8a53ba81-2ec6-46c7-8127-6a1d82c1b7ce")
-	)
-	(wire
-		(pts
-			(xy 182.88 54.61) (xy 180.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a07a28db-be36-4e29-a20d-e6ee4a7cdb9c")
 	)
 	(wire
 		(pts
@@ -1579,17 +1543,17 @@
 	)
 	(global_label "nINT_BN0"
 		(shape input)
-		(at 182.88 54.61 0)
+		(at 180.34 49.53 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4c3264cc-c925-4331-8449-22d1c328fe84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.6947 54.61 0)
+			(at 180.34 61.3447 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1597,7 +1561,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -1987,88 +1951,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 180.34 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1807435f-d227-46d1-913a-62156d35f84a")
-		(property "Reference" "C12"
-			(at 184.15 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 184.15 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.3052 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adcc069c-939d-4bca-b713-03c6cfec4fc4")
-		)
-		(pin "2"
-			(uuid "fa06b207-9e76-4a6f-aaf4-2b96ac3a9507")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2847,85 +2729,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae509a0c-8c44-4cd1-b779-128d09aee2ab")
-		(property "Reference" "#PWR034"
-			(at 180.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c359c7c0-77e6-40c4-8cfd-c5a345472213")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

@@ -540,12 +540,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -553,7 +551,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -563,8 +561,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -585,18 +583,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -607,40 +594,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -651,7 +605,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -795,7 +760,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -818,11 +783,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -837,10 +802,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -856,9 +821,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1011,6 +976,18 @@
 		(uuid "11b70508-f32e-40f3-ac5d-3f833b5d9f8c")
 	)
 	(junction
+		(at 140.97 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12739317-5a20-4828-be62-e8406ef0fc1c")
+	)
+	(junction
+		(at 49.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16995178-0a46-4a96-900f-ad5b0ea2a11a")
+	)
+	(junction
 		(at 30.48 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1023,22 +1000,16 @@
 		(uuid "26f51729-cf45-49fc-bfd6-b6339a93cb40")
 	)
 	(junction
-		(at 49.53 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29eed3ec-e1f3-4f27-a187-b7f0603c3e96")
-	)
-	(junction
-		(at 140.97 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b51eb1b-54c8-4d35-a1b6-44958092bd44")
-	)
-	(junction
 		(at 49.53 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ce12441-32ee-4de5-bedf-0e09da9221b8")
+	)
+	(junction
+		(at 49.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38dbf8f8-5f43-46df-91d0-dcb866140c71")
 	)
 	(junction
 		(at 49.53 29.21)
@@ -1047,22 +1018,10 @@
 		(uuid "3c3241cf-358d-4a44-bd2d-a3a39e66f42c")
 	)
 	(junction
-		(at 140.97 158.75)
+		(at 49.53 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c46ed78-191c-4938-ba40-06e4b8895b17")
-	)
-	(junction
-		(at 49.53 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e3a11cb-8b78-48f0-9cb9-38a800b66f07")
-	)
-	(junction
-		(at 228.6 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4808f63c-2013-4913-a108-a36b66879f33")
+		(uuid "5819f46e-a865-4c21-a17d-dccc5925b3c5")
 	)
 	(junction
 		(at 217.17 54.61)
@@ -1083,10 +1042,10 @@
 		(uuid "5db485a2-4822-49ff-9e65-655f29bb3c96")
 	)
 	(junction
-		(at 228.6 39.37)
+		(at 228.6 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63f48324-c386-4669-a2fd-45cf4bd258dc")
+		(uuid "61c30602-988e-4b2e-8825-7e1655dab127")
 	)
 	(junction
 		(at 38.1 52.07)
@@ -1099,18 +1058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65313b7c-17b7-4359-8a73-ba3179f99d1b")
-	)
-	(junction
-		(at 49.53 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661669c8-954a-4d9e-a63a-8ce3cdd5eeda")
-	)
-	(junction
-		(at 140.97 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d1fbfc3-8a25-420c-a5ce-c08baf10accd")
 	)
 	(junction
 		(at 30.48 123.19)
@@ -1149,16 +1096,16 @@
 		(uuid "8ed79783-714d-4401-b06e-27e3b0f5dbb6")
 	)
 	(junction
-		(at 140.97 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9081daea-acee-420c-afa1-477602daac57")
-	)
-	(junction
 		(at 30.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91644cee-0329-44ae-86cc-6dc6cfb8a10c")
+	)
+	(junction
+		(at 140.97 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91658639-d653-4139-abaf-6e7620b37bf1")
 	)
 	(junction
 		(at 129.54 53.34)
@@ -1167,10 +1114,28 @@
 		(uuid "9184d121-bad4-44f6-aa85-31b2d29b336a")
 	)
 	(junction
+		(at 49.53 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "985c4ffb-38f0-48b7-9d82-71ec7a21aff9")
+	)
+	(junction
+		(at 228.6 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5ea78a-1821-4f5e-a3cb-4054f21cf1c7")
+	)
+	(junction
 		(at 209.55 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae3cff60-fd2f-4a2d-a705-43a316b61178")
+	)
+	(junction
+		(at 140.97 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65859bc-7549-457d-87ae-58490f6e8cba")
 	)
 	(junction
 		(at 228.6 31.75)
@@ -1189,12 +1154,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5642407-cd68-43b0-9061-59765a944d6d")
-	)
-	(junction
-		(at 49.53 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb4d70a5-a087-43e1-94ea-d36c72743897")
 	)
 	(junction
 		(at 228.6 71.12)
@@ -1231,6 +1190,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb62b926-8419-4ee5-a87b-6e4c256f8519")
+	)
+	(junction
+		(at 140.97 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe74d769-47d3-4caa-bf02-4f18c34b668b")
 	)
 	(wire
 		(pts
@@ -1414,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 157.48) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e17f3c0-560d-473e-aebd-63beda9611d0")
+	)
+	(wire
+		(pts
 			(xy 132.08 124.46) (xy 133.35 124.46)
 		)
 		(stroke
@@ -1464,16 +1439,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 118.11) (xy 57.15 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ca52a4-0963-42e6-be04-a1f83aed82f7")
-	)
-	(wire
-		(pts
 			(xy 41.91 110.49) (xy 49.53 110.49)
 		)
 		(stroke
@@ -1491,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "2aeb293e-f092-4092-84be-bb960f5f3d15")
+	)
+	(wire
+		(pts
+			(xy 140.97 119.38) (xy 148.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df85d04-0cfc-4a3b-9ff0-9dcfe2a4ad81")
 	)
 	(wire
 		(pts
@@ -1544,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 148.59 119.38)
+			(xy 133.35 119.38) (xy 140.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1594,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb3f464-cda3-454e-bd46-05b273c2eab3")
+	)
+	(wire
+		(pts
 			(xy 129.54 92.71) (xy 121.92 92.71)
 		)
 		(stroke
@@ -1601,16 +1586,6 @@
 			(type default)
 		)
 		(uuid "3f8898dc-c254-4cf3-add1-6042f432001a")
-	)
-	(wire
-		(pts
-			(xy 133.35 119.38) (xy 140.97 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc36f73-b4e4-455b-a480-1bb58604bab2")
 	)
 	(wire
 		(pts
@@ -1631,16 +1606,6 @@
 			(type default)
 		)
 		(uuid "420d23a0-4ade-44c6-8b9a-3c4a95a9dc1f")
-	)
-	(wire
-		(pts
-			(xy 140.97 38.1) (xy 148.59 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43771be9-103b-4b11-bd93-d29644848864")
 	)
 	(wire
 		(pts
@@ -1844,16 +1809,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 57.15 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6575fb1f-2e4e-4f3c-8dc4-220fe3872ba0")
-	)
-	(wire
-		(pts
 			(xy 228.6 88.9) (xy 228.6 93.98)
 		)
 		(stroke
@@ -1884,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 158.75) (xy 148.59 158.75)
+			(xy 133.35 158.75) (xy 140.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1901,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "703ebbf1-11fd-4e50-8456-7a40e351dcda")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ba3c36-6cf1-4643-aaf3-a2d35559c749")
 	)
 	(wire
 		(pts
@@ -1941,6 +1906,16 @@
 			(type default)
 		)
 		(uuid "7ad4d469-0ca0-41a1-b2c1-0e9f8883cb9d")
+	)
+	(wire
+		(pts
+			(xy 228.6 39.37) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe435ae-72e1-42ba-973e-3cd0b03989b1")
 	)
 	(wire
 		(pts
@@ -2014,16 +1989,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 157.48) (xy 49.53 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "943e4812-0c6e-473c-8918-880d4d97a58c")
-	)
-	(wire
-		(pts
 			(xy 38.1 91.44) (xy 30.48 91.44)
 		)
 		(stroke
@@ -2094,16 +2059,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 158.75) (xy 140.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fcb710-11cb-4627-8588-b76fa39f0dcc")
-	)
-	(wire
-		(pts
 			(xy 38.1 91.44) (xy 49.53 91.44)
 		)
 		(stroke
@@ -2144,23 +2099,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 236.22 78.74)
+			(xy 140.97 38.1) (xy 148.59 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7fd7a01-50ef-4fb6-9c1f-bc007e3696c4")
-	)
-	(wire
-		(pts
-			(xy 140.97 77.47) (xy 148.59 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9873c7b-ca7e-490f-8710-8c0910116300")
+		(uuid "ab70e754-bf9c-4bcd-bc21-34020a03b9cd")
 	)
 	(wire
 		(pts
@@ -2224,13 +2169,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 36.83) (xy 57.15 36.83)
+			(xy 228.6 78.74) (xy 236.22 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b948169f-91bf-423d-b9d5-27c748c8d2fd")
+		(uuid "b71b1fee-d601-4b90-80a4-81f369bfcad3")
 	)
 	(wire
 		(pts
@@ -2271,6 +2216,16 @@
 			(type default)
 		)
 		(uuid "c89b561b-ad6c-4622-81e6-5b463443d919")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5f3acf-ef37-449e-adae-888747ca2858")
 	)
 	(wire
 		(pts
@@ -2334,7 +2289,27 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 57.15 157.48)
+			(xy 49.53 118.11) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7b6d2e-9538-44c1-80d2-7e7c0d54724d")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.75) (xy 148.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5c1939-2e0d-4368-a24d-b524221e4ede")
+	)
+	(wire
+		(pts
+			(xy 41.91 157.48) (xy 49.53 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2361,16 +2336,6 @@
 			(type default)
 		)
 		(uuid "ee3d6e28-7cdc-4028-88c4-07d84d909d41")
-	)
-	(wire
-		(pts
-			(xy 228.6 39.37) (xy 236.22 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed09782-a153-4653-aba4-9e349ca007a8")
 	)
 	(wire
 		(pts
@@ -4113,124 +4078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 46.99 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "083b525d-a524-4881-ba08-a8d5dbb28792")
-		(property "Reference" "Q3"
-			(at 53.34 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 46.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 46.99 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 46.99 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 46.99 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "16fd370b-1568-43db-98f9-7c4bbe9ed758")
-		)
-		(pin "1"
-			(uuid "000e2190-8a00-4815-95e2-e8e4f1c607e4")
-		)
-		(pin "2"
-			(uuid "0b259d49-9719-41bc-b7e6-2e47f6d9b762")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 209.55 90.17 0)
 		(unit 1)
@@ -4474,6 +4321,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 226.06 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1265eead-c34f-4163-9d0a-a87905c6c783")
+		(property "Reference" "Q20"
+			(at 232.41 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 232.41 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "421a7765-faf5-4aa5-81a4-ef63e0f147e7")
+		)
+		(pin "2"
+			(uuid "78f7fb1d-b269-4531-a559-08600c118261")
+		)
+		(pin "3"
+			(uuid "953547e6-e789-44f6-986c-c1e98399a66a")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 173.99 0)
 		(unit 1)
@@ -4633,124 +4565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 138.43 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29977534-b7f5-4061-8d71-36013ba3ef96")
-		(property "Reference" "Q6"
-			(at 144.78 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 144.78 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 138.43 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "19142993-94e4-4b52-b86f-710fa30bff01")
-		)
-		(pin "1"
-			(uuid "1c61795f-9231-4f3d-91f8-0b26608a2903")
-		)
-		(pin "2"
-			(uuid "0de801cb-03a6-46ed-a5c5-d2d779db12a0")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 54.61 0)
 		(unit 1)
@@ -4824,124 +4638,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 226.06 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30a6285d-26c2-43b4-b11c-e7a78ec69615")
-		(property "Reference" "Q10"
-			(at 232.41 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 232.41 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 226.06 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 226.06 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 226.06 100.965 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 226.06 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 226.06 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "54024741-5ab8-4fe9-8d2e-396e99fb5855")
-		)
-		(pin "1"
-			(uuid "83915352-320a-46b5-b1b5-8362d29afb93")
-		)
-		(pin "2"
-			(uuid "be7a96be-814f-4fc1-877d-514da461e6ce")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5112,6 +4808,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 138.43 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eec5d8f-10c3-4ef8-bff3-d79096b5c62c")
+		(property "Reference" "Q16"
+			(at 144.78 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 144.78 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9db83d0e-6646-41aa-b0ca-9d016508ac50")
+		)
+		(pin "2"
+			(uuid "70672893-c64e-497f-992b-ed6cc581102c")
+		)
+		(pin "3"
+			(uuid "3a95ef55-9fe3-4168-8e41-4b73515bea9b")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 36.83 41.91 90)
 		(unit 1)
@@ -5186,6 +4967,91 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 46.99 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41883f80-a6f3-4d17-9951-a46463fa7f01")
+		(property "Reference" "Q14"
+			(at 53.34 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 53.34 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb0a7b45-7d7f-4015-8252-67d86bdbdcde")
+		)
+		(pin "2"
+			(uuid "811613e7-bb9d-4a66-a459-d4070a833ce2")
+		)
+		(pin "3"
+			(uuid "e2b699fc-7c4d-45bd-8670-01e81ff1ec4a")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -5454,6 +5320,91 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 138.43 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526bf8fb-afbe-42ed-9b77-0d4862b5dce5")
+		(property "Reference" "Q17"
+			(at 144.78 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 144.78 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9c6f349-1497-4995-92a3-0d6eace99423")
+		)
+		(pin "2"
+			(uuid "1ed8370f-82de-4cd8-997c-5f1e374fb2bb")
+		)
+		(pin "3"
+			(uuid "e55fae3b-6887-4c56-b5ed-f4f2253e83e7")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -5852,8 +5803,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 138.43 43.18 0)
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 138.43 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5862,9 +5813,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "628ea171-6ab5-4f00-ba82-a4267e615253")
-		(property "Reference" "Q5"
-			(at 144.78 41.9099 0)
+		(uuid "68943726-031d-48f3-a07e-381a192e5ce8")
+		(property "Reference" "Q18"
+			(at 144.78 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5874,8 +5825,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 144.78 44.4499 0)
+		(property "Value" "Q_NMOS_GSD"
+			(at 144.78 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5886,7 +5837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 40.64 0)
+			(at 143.51 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5896,8 +5847,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 55.88 0)
+		(property "Datasheet" ""
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,8 +5858,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 138.43 43.18 0)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5917,53 +5868,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 138.43 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "82afcf9e-9a4d-45f7-a83c-29159c405238")
 		)
 		(pin "1"
-			(uuid "7c069975-ceb4-4362-bde1-e21bf19cbb39")
+			(uuid "5735f9b0-0724-47a4-8d91-0ca430fdaf53")
 		)
 		(pin "2"
-			(uuid "b4034586-3284-4eb5-94d4-c65b3a74544d")
+			(uuid "825b9a18-cc50-4593-bf42-caa5b1ac93dc")
+		)
+		(pin "3"
+			(uuid "90738985-3b8c-4210-9bc7-534eaae9b02e")
 		)
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q5")
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -6074,6 +5992,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 46.99 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85138df8-e091-450d-b5a1-aa4e3f2fafc5")
+		(property "Reference" "Q11"
+			(at 53.34 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 53.34 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "886298d2-744f-49f0-9d14-6a08e1e55320")
+		)
+		(pin "2"
+			(uuid "b743aae1-6062-487a-9d58-07620641120b")
+		)
+		(pin "3"
+			(uuid "1a4c169e-6a94-40a2-8aec-b507a66e8373")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 133.35 73.66 270)
 		(unit 1)
@@ -6172,124 +6175,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 46.99 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b6a48ff-5414-494a-b889-4dffde906786")
-		(property "Reference" "Q4"
-			(at 53.34 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 46.99 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 46.99 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 46.99 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 46.99 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 46.99 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8f30d3c9-725b-4892-8834-246778b22f56")
-		)
-		(pin "1"
-			(uuid "a2b6339d-b73e-4c6a-af13-423d6ac469ad")
-		)
-		(pin "2"
-			(uuid "1df25055-c775-4279-98ee-685ce53a1455")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6562,124 +6447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 138.43 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95abc630-7022-4919-a76f-46471a0081b1")
-		(property "Reference" "Q8"
-			(at 144.78 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 144.78 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 138.43 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 138.43 180.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "75453acb-3d55-4521-8363-b1303589816f")
-		)
-		(pin "1"
-			(uuid "72dd7d52-3483-4130-b22e-c9ce9ede1a1a")
-		)
-		(pin "2"
-			(uuid "557c624e-85ec-4ad0-8d94-ec01059eb80c")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 30.48 48.26 0)
 		(unit 1)
@@ -6835,124 +6602,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 46.99 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b49666b-b401-4f42-b4da-d68d5def5ac0")
-		(property "Reference" "Q1"
-			(at 53.34 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 46.99 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 46.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 46.99 59.055 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "825081bc-c8ba-43c3-b815-41ed6d571049")
-		)
-		(pin "1"
-			(uuid "10fb8911-6bee-4c8f-9d88-f576fd6354bb")
-		)
-		(pin "2"
-			(uuid "2a42fa4c-a149-44e9-a7a3-062019bcd233")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7221,124 +6870,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 226.06 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a157b5fb-6aa2-435a-9033-151bfbad965a")
-		(property "Reference" "Q9"
-			(at 232.41 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 232.41 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 226.06 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 226.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 226.06 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 226.06 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 226.06 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "386c4569-30e1-45f6-94e0-0a913f305e5f")
-		)
-		(pin "1"
-			(uuid "ea144fa0-136c-410a-b529-ae75408e601d")
-		)
-		(pin "2"
-			(uuid "5ddb3c32-a5a7-47af-8d55-1d44c03d597b")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7773,6 +7304,261 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 138.43 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b73df167-8d01-4712-adf9-e1fed8724439")
+		(property "Reference" "Q15"
+			(at 144.78 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 144.78 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80c9286e-e3f1-466f-a516-f284507f7600")
+		)
+		(pin "2"
+			(uuid "f441733a-bf2f-48b9-bb68-eb898d05c751")
+		)
+		(pin "3"
+			(uuid "96f64c1d-63de-418d-9913-001f078a7613")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 46.99 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ef237f-9418-4773-89ca-6264145ca95c")
+		(property "Reference" "Q13"
+			(at 53.34 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 53.34 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca840c50-7240-4d1e-9edc-10ebf45a817a")
+		)
+		(pin "2"
+			(uuid "c3ec4c09-7fe6-41e6-bebd-9203bac85052")
+		)
+		(pin "3"
+			(uuid "2644d46e-1cba-40de-aca4-637718d3abf0")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 46.99 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d2ab52-7600-431a-8bbf-37f19f59e519")
+		(property "Reference" "Q12"
+			(at 53.34 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 53.34 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89393b83-9314-4cc0-bdf0-65128bff22ee")
+		)
+		(pin "2"
+			(uuid "b3af02f2-fbc6-45bf-a47b-aadbda9a3b08")
+		)
+		(pin "3"
+			(uuid "fadee6e8-095a-4b63-9035-c4bec2d8cfb6")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 179.07 33.02 0)
 		(unit 1)
@@ -8041,6 +7827,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 226.06 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce60fc37-76cd-446a-8138-113d0d3401e3")
+		(property "Reference" "Q19"
+			(at 232.41 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 232.41 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "669edf3f-588b-4f95-a164-00733a0d4b78")
+		)
+		(pin "2"
+			(uuid "98c0871e-d478-4722-bb84-2bc3538a4f36")
+		)
+		(pin "3"
+			(uuid "1448b5fe-be42-4cf2-aa01-1bad02ff1379")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 179.07 114.3 0)
 		(unit 1)
@@ -8285,124 +8156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 138.43 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5ae660a-4cc0-44b3-988f-55e4feb967fa")
-		(property "Reference" "Q7"
-			(at 144.78 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 144.78 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 138.43 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 138.43 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3016a2c3-4446-48fa-b3f8-7e681eca3cac")
-		)
-		(pin "1"
-			(uuid "5e370010-a6c9-4386-9258-908d79d0a5d6")
-		)
-		(pin "2"
-			(uuid "50e1c904-d11b-4010-ba84-8226a5b24e0c")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 36.83 162.56 90)
 		(unit 1)
@@ -8477,124 +8230,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 46.99 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc430720-2942-429c-8180-c54315bc181b")
-		(property "Reference" "Q2"
-			(at 53.34 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 53.34 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 46.99 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 46.99 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 46.99 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 46.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "538b7c43-d411-4be9-a1e8-cd857db41459")
-		)
-		(pin "1"
-			(uuid "c1dbc05a-6b18-43b3-9025-09b45d3d8d55")
-		)
-		(pin "2"
-			(uuid "b857a9ee-3fd9-4575-9c1a-5dccad860090")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
