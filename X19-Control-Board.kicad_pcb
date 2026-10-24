@@ -12,8 +12,10 @@
 		(company "Purdue ROV")
 	)
 	(layers
-		(0 "F.Cu" signal)
-		(2 "B.Cu" signal)
+		(0 "F.Cu" signal "SIG1")
+		(4 "In1.Cu" signal "GND")
+		(6 "In2.Cu" signal "3.3-12V SPLIT PWR")
+		(2 "B.Cu" signal "SIG2")
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
@@ -38,6 +40,67 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -54,6 +117,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -91,21 +155,28 @@
 			(outputdirectory "")
 		)
 	)
-	(gr_rect (start 0 0) (end 100 100)
-		(stroke (width 0.1) (type solid))
-		(fill none)
+	(gr_rect
+		(start 16.0234 14.9514)
+		(end 72.9234 134.4514)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "00000000-0000-0000-0000-000000000001")
+		(uuid "8cd71339-1aff-4a79-b442-08a8c3182448")
 	)
-	(gr_rect (start 0 0) (end 100 100)
-		(stroke (width 0.1) (type solid))
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "00000000-0000-0000-0000-000000000001")
+	(gr_text "Check board Dim"
+		(at -10.3378 76.708 0)
+		(layer "User.1")
+		(uuid "f8b38d75-220d-4dbe-8cf4-7e6e671a744e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(embedded_fonts no)
-	(gr_rect (start 0 0) (end 100 100) (layer "Edge.Cuts") (uuid "00000000-0000-0000-0000-000000000000")
-		(stroke (width 0.1) (type solid))
-		(fill none)
-	)
 )

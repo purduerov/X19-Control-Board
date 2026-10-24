@@ -1262,15 +1262,15 @@
 		)
 		(uuid "7a8608c4-8ab1-47b4-91a1-04e8be0c9ca1")
 	)
-	(text "Making a symbol for this next..."
+	(text "BN0085"
 		(exclude_from_sim no)
-		(at 172.466 102.616 0)
+		(at 188.976 40.132 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2b080641-2045-4385-860e-793521d04eae")
+		(uuid "19aec45b-e16c-4bb6-805c-f60426097a7a")
 	)
 	(text "3V0"
 		(exclude_from_sim no)
@@ -1541,7 +1541,7 @@
 			)
 		)
 	)
-	(global_label "nINT_BN0"
+	(global_label "INT1_BOTH_IMU"
 		(shape input)
 		(at 180.34 49.53 270)
 		(fields_autoplaced yes)
@@ -1551,9 +1551,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4c3264cc-c925-4331-8449-22d1c328fe84")
+		(uuid "5a1f8de0-d1ba-474c-ad52-d185faf535d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 61.3447 90)
+			(at 180.34 66.8481 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1733,30 +1733,6 @@
 			)
 		)
 	)
-	(global_label "INT1_BMI"
-		(shape input)
-		(at 46.99 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9fcc4e09-f789-45cb-8525-1c20116bbe32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5986 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CS_BN0"
 		(shape input)
 		(at 180.34 27.94 90)
@@ -1778,6 +1754,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "INT1_BOTH_IMU"
+		(shape input)
+		(at 46.99 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b05d7bd4-e647-47d8-8262-c126fdf9c8b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.6719 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1889,7 +1889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006d8a6c-84a1-4886-b77c-0082c87668a6")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR042"
 			(at 172.72 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1950,7 +1950,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR058")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c553d53-e837-4303-8038-827df1ec765e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 93.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2046,8 +2046,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28ec1489-a87c-4022-88c6-c03b915da575")
-		(property "Reference" "J3"
-			(at 173.228 40.894 90)
+		(property "Reference" "J8"
+			(at 154.94 29.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2057,8 +2057,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BN0_Top_Side_2"
-			(at 167.132 38.354 90)
+		(property "Value" "61300511821"
+			(at 147.066 32.512 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2068,7 +2068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x19_control_library:61300511821"
 			(at 172.72 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2140,7 +2140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f382776-14c7-4eb4-a27a-6bbe382e13f7")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 34.29 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.4452 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2204,7 +2204,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ceb4ba-cd26-469c-a824-b3f2f2c79ab4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR038"
 			(at 43.18 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2283,7 +2283,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR029")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "458bb88e-72fc-404c-b07b-c46235a42938")
-		(property "Reference" "J18"
+		(property "Reference" "J7"
 			(at 126.746 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2311,7 @@
 				)
 			)
 		)
-		(property "Value" "Depth_Sens_Header"
+		(property "Value" "SM04B-GHS-TB"
 			(at 126.238 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x19_control_library:CONN_BM04B-GHS-TBT_JST"
 			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2369,7 +2369,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J18")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2388,7 +2388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed82925-c4e1-4d98-8cf5-7f92b5dd290d")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 90.17 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.0148 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2452,7 +2452,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a7285b-bef8-4a07-acf9-62cde69f7b07")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR041"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2531,7 +2531,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR057")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMI270_BOS"
+		(property "Footprint" "x19_control_library:BMI270_BOS"
 			(at 46.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2667,7 +2667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0d29e9-c7ae-48d4-bb4e-73d5ba8f97cf")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR039"
 			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2728,7 +2728,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR030")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2746,8 +2746,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c8d183-d1bc-4bd9-989b-774ac89bac8f")
-		(property "Reference" "J2"
-			(at 153.416 46.228 90)
+		(property "Reference" "J9"
+			(at 155.956 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2756,8 +2756,8 @@
 				)
 			)
 		)
-		(property "Value" "BN0_Bottom_Side"
-			(at 154.178 48.26 90)
+		(property "Value" "61300511821"
+			(at 155.956 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2766,7 +2766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x19_control_library:61300511821"
 			(at 172.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2820,7 +2820,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J2")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2838,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4247a96-29eb-439e-8938-0ddb120e4b15")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2899,7 +2899,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

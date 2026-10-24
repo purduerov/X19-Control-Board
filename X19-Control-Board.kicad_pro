@@ -545,7 +545,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -697,7 +697,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "Y1-2,Q1-20,J1-19,C1-20,U1-7,MK1,D1-15,#PWR1-59,TP1-4,R1-37,L1-10,CR1,P1",
+    "used_designators": "Y1-2,Q1-20,J1-19,C1-20,U1-7,MK1,D1-15,#PWR1-59,TP1-4,#FLG1-13,R1-37,L1-10,CR1,P1",
     "variants": []
   },
   "sheets": [
@@ -708,10 +708,6 @@
     [
       "84a48d7e-c021-49be-a880-dece1bf2fa08",
       "MOSFET_driver"
-    ],
-    [
-      "681d31ab-9447-4c01-b10e-11ee96b7e6aa",
-      "temp_idea_555"
     ],
     [
       "a66e3e05-3f82-4c46-8531-6fdc7968dd66",
