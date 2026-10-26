@@ -819,6 +819,22 @@
 		)
 		(uuid "fe5cf56b-3d6c-44b0-9fa3-f6c606a7eb07")
 	)
+	(no_connect
+		(at 55.88 38.1)
+		(uuid "31e784a6-d7f9-494f-a28e-55ca182857c5")
+	)
+	(no_connect
+		(at 43.18 40.64)
+		(uuid "4563928e-e05b-422c-8d7f-a32c3f306154")
+	)
+	(no_connect
+		(at 43.18 38.1)
+		(uuid "5f8d33b5-996f-4473-b09a-40f30999310f")
+	)
+	(no_connect
+		(at 55.88 35.56)
+		(uuid "a6716b7e-8edd-4074-a4c6-5bf529d54f9c")
+	)
 	(wire
 		(pts
 			(xy 34.29 35.56) (xy 43.18 35.56)
