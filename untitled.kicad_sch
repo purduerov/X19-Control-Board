@@ -1231,6 +1231,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3 is the backup"
+		(exclude_from_sim no)
+		(at 99.568 6.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 254 90 255 1)
+			)
+		)
+		(uuid "90ab2843-ea38-463c-9cb6-a297542aab98")
+	)
 	(text "Signal\nGND\nPower\nSignal\n"
 		(exclude_from_sim no)
 		(at -3.302 55.626 0)
@@ -7929,7 +7940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 124.46 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
