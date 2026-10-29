@@ -3016,7 +3016,7 @@
 	)
 	(text "1206 package size"
 		(exclude_from_sim no)
-		(at -32.258 117.348 0)
+		(at 156.972 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3202,7 +3202,7 @@
 		(uuid "73162a33-7737-49f3-af4a-501975f21bd8")
 	)
 	(junction
-		(at -36.83 135.89)
+		(at 152.4 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98bc972e-f125-410b-aa43-bcb63eaee91d")
@@ -3273,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy -36.83 135.89) (xy -22.86 135.89)
+			(xy 152.4 123.19) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy -40.64 135.89) (xy -36.83 135.89)
+			(xy 148.59 123.19) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy -39.37 121.92) (xy -36.83 121.92)
+			(xy 149.86 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4043,7 +4043,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at -40.64 135.89 180)
+		(at 148.59 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4053,7 +4053,7 @@
 		)
 		(uuid "2a374dc0-787e-4616-9188-38580adb2c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -47.1328 135.89 0)
+			(at 142.0972 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +4691,7 @@
 	)
 	(global_label "5.2V"
 		(shape input)
-		(at -39.37 121.92 180)
+		(at 149.86 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4701,7 +4701,7 @@
 		)
 		(uuid "a43e18d0-4fc6-4a57-b7a2-cddbf0f1d6c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -46.4676 121.92 0)
+			(at 142.7624 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -36.83 129.54 0)
+		(at 152.4 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5643,8 +5643,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e91b5e-8735-46ec-82c0-1efa9c1451f2")
-		(property "Reference" "#PWR064"
-			(at -36.83 135.89 0)
+		(property "Reference" "#PWR020"
+			(at 152.4 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -36.83 134.62 0)
+			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -36.83 129.54 0)
+			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 129.54 0)
+			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +5688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -36.83 129.54 0)
+			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR064")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5712,7 +5712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -22.86 143.51 0)
+		(at 166.37 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5722,8 +5722,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df46e86-88b8-4076-bbaa-7df9c95ae2ac")
-		(property "Reference" "#PWR065"
-			(at -22.86 149.86 0)
+		(property "Reference" "#PWR023"
+			(at 166.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -22.86 148.59 0)
+			(at 166.37 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -22.86 143.51 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,7 +5756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -22.86 143.51 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -22.86 143.51 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5783,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR065")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5873,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at -36.83 125.73 0)
+		(at 152.4 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5883,8 +5883,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d278d5-fdcf-4f6e-ab7e-a36e3d86c830")
-		(property "Reference" "C20"
-			(at -31.75 124.4599 0)
+		(property "Reference" "C12"
+			(at 157.48 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5895,7 +5895,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at -31.75 126.9999 0)
+			(at 157.48 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5905,8 +5905,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at -35.8648 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 153.3652 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 125.73 0)
+			(at 152.4 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5928,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at -36.83 125.73 0)
+			(at 152.4 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,7 +5947,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C20")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b2c878-b4b9-45e6-beb4-c6b404563212")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 227.33 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6359,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39d54d9b-b3fa-4251-93bb-d2c8477ffb30")
-		(property "Reference" "R32"
+		(property "Reference" "R5"
 			(at 140.97 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6519,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R32")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7245,7 +7245,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at -22.86 139.7 0)
+		(at 166.37 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7255,8 +7255,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3d7501-3fc5-48d8-a40e-bee412b463d9")
-		(property "Reference" "C19"
-			(at -17.78 138.4299 0)
+		(property "Reference" "C14"
+			(at 171.45 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7267,7 +7267,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at -17.78 140.9699 0)
+			(at 171.45 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7277,8 +7277,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at -21.8948 143.51 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 167.3352 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -22.86 139.7 0)
+			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7300,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at -22.86 139.7 0)
+			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7319,7 +7319,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C19")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee6e7e8-2627-4a52-9bdf-62a0d6293bde")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 262.89 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7401,7 +7401,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "615be67e-e2ef-4399-bb22-964fca6680e8")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 241.3 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,7 +7576,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6160a2a6-8c84-4f69-a97e-cc3a0a26e5c8")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 229.87 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7658,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8166,7 +8166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "734c1331-e7e7-4bf7-9a2c-deb7e8b2c17e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 199.39 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8227,7 +8227,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8324,7 +8324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abc7f66-1f10-4d04-ab2f-0d964008ed71")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 248.92 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8385,7 +8385,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cfc13b6-80c0-4f23-a32f-f20bd3b83f50")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 260.35 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8626,7 +8626,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93fc07e8-10cb-42ef-8906-7ec7527e01c8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8786,7 +8786,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8804,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bd275cd-745e-4843-9f0f-565b9625d119")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR018"
 			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8865,7 +8865,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR062")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70cc495-2f54-4cab-b74f-0d3921beccbc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9187,7 +9187,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9366,7 +9366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8ac5ffe-7d3b-44f2-89e6-b658fa22925a")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 154.94 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +9430,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9609,7 +9609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59f8b5b-c967-4b7b-997e-0138ee2c635d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9670,7 +9670,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9925,7 +9925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3aee886-bf05-4aca-b436-5ab377f9431f")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 251.46 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +9989,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10468,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at -36.83 139.7 0)
+		(at 152.4 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10478,8 +10478,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01bf34e-bf72-4165-abc6-bb49e1fb1327")
-		(property "Reference" "C18"
-			(at -31.75 138.4299 0)
+		(property "Reference" "C13"
+			(at 157.48 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10490,7 +10490,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at -31.75 140.9699 0)
+			(at 157.48 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10500,8 +10500,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at -35.8648 143.51 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 153.3652 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 139.7 0)
+			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +10523,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at -36.83 139.7 0)
+			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,7 +10542,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C18")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10550,7 +10550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -36.83 143.51 0)
+		(at 152.4 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10560,8 +10560,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dbe95d-d73f-4892-945c-351aea0279ed")
-		(property "Reference" "#PWR063"
-			(at -36.83 149.86 0)
+		(property "Reference" "#PWR021"
+			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +10572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -36.83 148.59 0)
+			(at 152.4 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10583,7 +10583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -36.83 143.51 0)
+			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,7 +10594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -36.83 143.51 0)
+			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10605,7 +10605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -36.83 143.51 0)
+			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +10621,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR063")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
