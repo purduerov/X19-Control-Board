@@ -4041,7 +4041,7 @@
 			)
 		)
 	)
-	(global_label "12V"
+	(global_label "12V_pre_sense"
 		(shape input)
 		(at 148.59 123.19 180)
 		(fields_autoplaced yes)
@@ -4053,7 +4053,7 @@
 		)
 		(uuid "2a374dc0-787e-4616-9188-38580adb2c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.0972 123.19 0)
+			(at 131.7558 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4689,7 @@
 			)
 		)
 	)
-	(global_label "5.2V"
+	(global_label "5.2V_pre_sense"
 		(shape input)
 		(at 149.86 109.22 180)
 		(fields_autoplaced yes)
@@ -4701,7 +4701,7 @@
 		)
 		(uuid "a43e18d0-4fc6-4a57-b7a2-cddbf0f1d6c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.7624 109.22 0)
+			(at 132.421 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
