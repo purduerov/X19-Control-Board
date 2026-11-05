@@ -1,6 +1,6 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,KLC_S3.3,KLC_S4.1,Sim.Pins,PARTREV,STANDARD,MANUFACTURER,Sim.Device
 1,Unpolarized capacitor,C,C7 C8,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,
-2,Unpolarized capacitor,C,C2 C3 C4 C5 C9 C10 C11 C15 C16 C17 C18,0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,,,,,,,
+2,Unpolarized capacitor,C,C2 C3 C4 C5 C9 C10 C15 C16 C17 C18,0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,10, ,,,,,,,,
 3,Unpolarized capacitor,C,C19 C20,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,
 4,Unpolarized capacitor,C,C1,2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,
 5,Unpolarized capacitor,C,C6,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,
@@ -44,11 +44,11 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-11-05_20-38-01
+Date:,2026-11-05_23-29-06
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,36
-Component Count:,105
-Fitted Components:,105
+Component Count:,104
+Fitted Components:,104
 Number of PCBs:,1
-Total Components:,105
+Total Components:,104
