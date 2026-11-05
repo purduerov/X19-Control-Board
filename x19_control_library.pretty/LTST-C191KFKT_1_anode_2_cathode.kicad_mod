@@ -6,22 +6,22 @@
 	(property "Reference" "REF**"
 		(at 0.059 -1.1198 0)
 		(layer "F.SilkS")
-		(uuid "9ec80a6f-4afd-41e3-b291-a21290025fde")
+		(uuid "9ccb607f-a0da-4fcf-8c18-a02eb4d80bc8")
 		(effects
 			(font
 				(size 0.48 0.48)
-				(thickness 0.15)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "LEDC1608X55N"
 		(at 2.1926 1.1198 0)
 		(layer "F.Fab")
-		(uuid "cd7e11bc-4882-4ca2-acff-c529f57b40f6")
+		(uuid "62121587-d8cc-441c-9586-43e68f99b854")
 		(effects
 			(font
 				(size 0.48 0.48)
-				(thickness 0.15)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9aec49cf-bcef-478a-a964-a51a618feb29")
+		(uuid "894d97f3-377c-4588-903a-55331a7830b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a5a6a02f-5b77-4eab-a486-17aa39295f2a")
+		(uuid "7db2ab53-a524-44bd-b211-fb8206ef398d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "556f7816-9939-41fc-aa4a-bc6d2955e6bd")
+		(uuid "71959822-1f1a-46a1-99c6-07ced6ca8a05")
 	)
 	(fp_line
 		(start -1.465 -0.715)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2bc59bb1-b842-4a8b-a446-3f47e148fdc5")
+		(uuid "a1b3141c-0336-4ffa-943d-d289ec3abde8")
 	)
 	(fp_line
 		(start -1.465 0.715)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f25fe1b0-9b24-4011-9594-00ba3364d981")
+		(uuid "9fad1fdc-140a-4a3b-a845-08e7a450c5ba")
 	)
 	(fp_line
 		(start 1.465 -0.715)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a2da1117-bd3a-4dbb-ab38-64545e702122")
+		(uuid "89b25cc4-912b-4dcc-818a-6342266d78fa")
 	)
 	(fp_line
 		(start 1.465 0.715)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "83855d25-2063-4278-a486-c54e2172ffc5")
+		(uuid "8e8134c6-a717-465c-a4b9-2dce711005ca")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d5a2e706-e155-4e7e-b49f-91620b247354")
+		(uuid "d1d44cfa-4eab-43e1-8f7b-e3d2a6b5473e")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -118,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ce80ed4b-07b3-460a-a54f-daf76be0500a")
+		(uuid "4dd0abb3-9673-4b7d-92f8-1570b826fda0")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "19beaf54-796f-40b7-bd87-e948927c7154")
+		(uuid "b6666a7f-5100-42e7-9f78-317c6b8a088b")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b3bb684b-de73-40da-9c2e-46bd6414c5eb")
+		(uuid "db7c1cf7-bdf4-4dcc-847d-a8b6e523c0fc")
 	)
 	(fp_circle
 		(center -1.815 0)
@@ -149,21 +149,32 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f27ef01e-79ea-42ed-bc2e-9bf41d8ff0ef")
+		(uuid "72b303f7-dd14-4c1b-8624-bfae98aecd88")
 	)
 	(pad "1" smd rect
 		(at 0.76 0)
 		(size 0.91 0.93)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "1b6db278-f420-49d2-9e27-5de511675e5f")
+		(uuid "e3223f08-e023-477c-ad1f-df6605be767a")
 	)
 	(pad "2" smd rect
 		(at -0.76 0)
 		(size 0.91 0.93)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "e684de9c-e1f4-4abb-befe-65797a6f7118")
+		(uuid "fb2b968e-4710-4170-afb3-8b9015fe057a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/x19_control_library.pretty/3d models/LTST-C191KFKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
