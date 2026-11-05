@@ -3825,6 +3825,30 @@
 			)
 		)
 	)
+	(global_label "SOL1B"
+		(shape input)
+		(at 50.8 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05a1dfc5-81a6-4ee6-b166-f464acf16d64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7672 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PWM2"
 		(shape input)
 		(at 121.92 72.39 0)
@@ -3846,6 +3870,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SOL1A"
+		(shape input)
+		(at 50.8 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08e04fcb-8f0c-4fbf-a244-2db67214450c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.9486 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3969,30 +4017,6 @@
 			)
 		)
 	)
-	(global_label "SOL2B"
-		(shape input)
-		(at 50.8 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2335fd63-d0a4-4ac9-bd91-f9391cc66287")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 133.35 168.91 0)
@@ -4014,30 +4038,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SOL1A"
-		(shape input)
-		(at 50.8 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26528c67-942d-4c5a-b3ff-6c3c43518b4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.9486 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4425,30 +4425,6 @@
 			)
 		)
 	)
-	(global_label "SOL2A"
-		(shape input)
-		(at 50.8 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f9284f5-63fd-483e-aebd-f8c2e73fdea9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.9486 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "12V"
 		(shape input)
 		(at 198.12 152.4 0)
@@ -4713,6 +4689,30 @@
 			)
 		)
 	)
+	(global_label "SOL2B"
+		(shape input)
+		(at 50.8 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c713543-98b1-4906-b587-8885c6bb7238")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7672 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5.2V"
 		(shape input)
 		(at 199.39 137.16 270)
@@ -4905,6 +4905,30 @@
 			)
 		)
 	)
+	(global_label "SOL2A"
+		(shape input)
+		(at 50.8 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33ca4a7-cf07-424a-a2c4-279a97995868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.9486 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MISO"
 		(shape input)
 		(at 50.8 67.31 180)
@@ -5022,30 +5046,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SOL1B"
-		(shape input)
-		(at 50.8 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e76cef5c-bb5e-49c4-b589-5d20937f3806")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
