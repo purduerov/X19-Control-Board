@@ -66,7 +66,7 @@
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -246,8 +246,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.381,
-          "drill": 0.1905
+          "diameter": 0.35,
+          "drill": 0.2
         },
         {
           "diameter": 0.508,
@@ -724,7 +724,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "Y1-2,Q1-20,J1-21,C1-22,U1-7,MK1,D1-15,#PWR1-67,TP1-4,#FLG1-13,R1-37,L1-10,CR1,P1",
+    "used_designators": "Q1-20,J1-21,U1-7,C1-22,MK1,TP1-4,Y1-2,#PWR1-69,D1-15,R1-37,L1-10,CR1,#FLG1-13,P1",
     "variants": []
   },
   "sheets": [
