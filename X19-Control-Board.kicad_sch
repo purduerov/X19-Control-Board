@@ -3105,17 +3105,6 @@
 		)
 		(uuid "c1b7775c-00ee-4bed-bde8-40df0d5ccb9c")
 	)
-	(text "Footprint fix, it's backwand"
-		(exclude_from_sim no)
-		(at 254.508 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 43 221 1)
-			)
-		)
-		(uuid "da51af34-b127-45fe-99e5-78c311242c87")
-	)
 	(text "Place TVS close \nto connector"
 		(exclude_from_sim no)
 		(at 147.066 176.022 0)
@@ -6274,7 +6263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x19_control_library:LTST-C191KFKT_1_anode_2_cathode"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 227.33 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7571,7 +7560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x19_control_library:LTST-C191KFKT_1_anode_2_cathode"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 238.76 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7986,7 +7975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x19_control_library:LTST-C191KFKT_1_anode_2_cathode"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 248.92 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10377,7 +10366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x19_control_library:LTST-C191KFKT_1_anode_2_cathode"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 260.35 134.62 0)
 			(hide yes)
 			(show_name no)
