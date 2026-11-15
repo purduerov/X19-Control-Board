@@ -3236,14 +3236,6 @@
 		(color 0 0 0 0)
 		(uuid "fa9825e3-4a0e-4e54-9859-1b3a81b082d5")
 	)
-	(no_connect
-		(at 50.8 34.29)
-		(uuid "085362df-956d-42f0-8c02-15ff2f1a60f8")
-	)
-	(no_connect
-		(at 50.8 36.83)
-		(uuid "1e800aea-b1c2-4d03-909a-c7a0db480b56")
-	)
 	(wire
 		(pts
 			(xy 80.01 120.65) (xy 74.93 120.65)
@@ -4256,6 +4248,30 @@
 			)
 		)
 	)
+	(global_label "5.2V_ALERT"
+		(shape input)
+		(at 50.8 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "379a6c61-3fa0-49c5-bbec-503839e56a0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.2315 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PWM4"
 		(shape input)
 		(at 121.92 77.47 0)
@@ -5165,6 +5181,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "12V_ALERT"
+		(shape input)
+		(at 50.8 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea1bc5b0-6972-4940-b6b0-62e1d902e920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8363 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
