@@ -42,7 +42,7 @@ To browse parts, inspect footprints, edit properties, or add/delete components i
 
 ## Design Rules & Clearances
 
-- Clearance and isolation constraints are configured in `custom_rules.kicad_dru`.
+- Clearance constraints (JLCPCB 4-layer rules) are configured in `X19-Control-Board.kicad_dru`.
 - All symbols and footprints must comply with central library guidelines.
 
 ## Automated CI/CD & DevOps Preflight Checks
