@@ -156,12 +156,12 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 1.0,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.35,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -246,12 +246,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.2
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
           "diameter": 0.508,
-          "drill": 0.254
+          "drill": 0.3
         },
         {
           "diameter": 0.762,
@@ -724,7 +724,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "Y1-2,Q1-20,J1-21,U1-7,C1-22,TP1-4,MK1,#PWR1-69,D1-15,#FLG1-13,R1-37,L1-10,CR1,P1",
+    "used_designators": "J1-21,TP1-4,C1-22,U1-7,MK1,Q1-20,#PWR1-69,D1-15,Y1-2,R1-37,L1-10,CR1,#FLG1-13,P1",
     "variants": []
   },
   "sheets": [
