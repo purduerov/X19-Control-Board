@@ -224,6 +224,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85f7c6f5-80e8-4514-a83b-d864835e9edb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/96fe9144-61b3-4527-a1b2-0cc2e776aff6")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -375,6 +388,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "734b75aa-84dc-40ce-8cc9-34284e7e56d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4fe1fb5-fe54-4e8a-aa76-cba0a8036d36")
 			(effects
 				(font
 					(size 1 1)
@@ -4823,6 +4849,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaddaa31-71f4-4d43-8e01-61c8413d79e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3efc91bc-418b-495f-94f8-3c8dccc03af0")
 		(sheetname "/")
@@ -4974,6 +5013,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3ee13aca-d7b4-47e9-98f0-1f3930b84f93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50f604f5-20ee-4df1-9ea9-a69ff7dace87")
 			(effects
 				(font
 					(size 1 1)
@@ -5296,6 +5348,19 @@
 				)
 			)
 		)
+		(property "Part Number" "ECS-240-8-37B-CKY-TR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39f4ae98-ffbb-457a-b363-2c3215f20bec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/0f07fd2e-4434-4509-b44e-0c4931ce7021")
 		(sheetname "/")
@@ -5470,6 +5535,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "79db0d7f-6e40-460d-90a8-f43d62806e04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f06366-8811-457b-978a-6da54595ee11")
 			(effects
 				(font
 					(size 1 1)
@@ -7686,6 +7764,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "081fafe2-616b-4d8a-9187-75124bfcac37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4f33ff37-1466-456a-9e31-111db89eff86")
 		(sheetname "/")
@@ -7837,6 +7928,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3ba3a8e3-461a-4ccb-b770-2a66cde58335")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f660c1bc-882e-435a-8035-f369ec9c254a")
 			(effects
 				(font
 					(size 1 1)
@@ -8846,6 +8950,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2c4199b-a8b9-4771-8a5d-6eeb4c788afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aa899dc9-f4f1-4b9c-9ad4-385f222f8eb2")
 		(sheetname "/")
@@ -8997,6 +9114,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "142eec71-a7e8-44d3-8967-c66eac71ebaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "703f6e4e-2a14-4ce5-b98e-b43d58a7d324")
 			(effects
 				(font
 					(size 1 1)
@@ -9162,6 +9292,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59e14db1-09d1-4ebb-9233-e1ce324e3b83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/69ea9e92-7aed-47bd-b819-12ced184ecb2")
 		(sheetname "/")
@@ -9313,6 +9456,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2cc6d6b8-72cb-4eb3-85f3-305b8b5f2576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6711ba08-e719-41b7-b50e-180d21c40a06")
 			(effects
 				(font
 					(size 1 1)
@@ -9478,6 +9634,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e915e3e-63a3-4f1b-b691-0e828d329ec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/352dee39-f60e-42a3-a863-3cca5a70180a")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -9636,6 +9805,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eab95e85-d4e9-488e-881a-565f0cc7c9a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/490fea31-98ba-4e4a-9ca4-8e71efe996a7")
 		(sheetname "/MOSFET_driver/")
@@ -9787,6 +9969,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a27ebaaf-17c1-4d99-83d8-0d0f91a205eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5e4c084-cfe9-464e-bb20-663fcb1f0e16")
 			(effects
 				(font
 					(size 1 1)
@@ -10642,6 +10837,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "894dafbb-d285-49fd-858a-58b22808f086")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "177a764f-d01a-4d86-a589-024d949571ae")
 			(effects
 				(font
 					(size 1 1)
@@ -11915,6 +12123,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9499496-243f-41b6-8cb7-9313fc2c005f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/b6831ff6-ebd7-411b-be73-821da82054c6")
 		(sheetname "/MOSFET_driver/")
@@ -12066,6 +12287,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a230570e-df0a-4a70-a9f0-0cdd103e1822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38d83ddc-f452-4654-8721-df576ca8cd79")
 			(effects
 				(font
 					(size 1 1)
@@ -12231,6 +12465,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c15a0e33-6049-4ba9-a2e9-fe653a39caca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/f2cfef33-aecf-4110-ae61-d432bab0181b")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -12382,6 +12629,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "03017a74-64ec-4328-a503-c1204f64f099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53408aa7-07e9-4b58-b647-2b0887dd122c")
 			(effects
 				(font
 					(size 1 1)
@@ -13811,6 +14071,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB475"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4affe866-d2fe-4ec3-bc09-958d4d1f9668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24b166b2-9a61-45d4-8be8-d9c6e2d05c43")
 		(sheetname "/")
@@ -14676,6 +14949,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f6360f6-7408-4c17-be7f-2cf669d84ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/440d4a45-cc5b-4d85-82b7-eefc71d9b051")
 		(sheetname "/")
@@ -14827,6 +15113,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c69fcdf1-05d5-421e-b25f-c59d4c7adcf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d8a7665-b80f-4296-999a-5bcaf04d6bf3")
 			(effects
 				(font
 					(size 1 1)
@@ -14992,6 +15291,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f83de02d-41b2-4f3c-95ae-f510ccb8057c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/103a79fd-f84b-41ef-ba30-3bdfef2793cd")
 		(sheetname "/MOSFET_driver/")
@@ -15143,6 +15455,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b75ae0cf-cce8-42a2-bbe3-769e4959454d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07120RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75176cab-c4eb-4420-97ef-fded862665c0")
 			(effects
 				(font
 					(size 1 1)
@@ -16398,6 +16723,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de66fbbf-6f39-4e53-82aa-7b361420dc65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d39fcff9-5b6a-417f-8207-ac8b8740e608")
 		(sheetname "/")
@@ -16556,6 +16894,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9281ce7e-812b-4bf1-bf94-35c885695a52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/68904d4a-5dca-43cd-b118-906ef8b52f6f")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -16707,6 +17058,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "37d6a817-86dc-4bea-89d0-ef20c8c2c3fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89cfd312-9aba-4d33-9fc2-f92573400291")
 			(effects
 				(font
 					(size 1 1)
@@ -19547,6 +19911,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76efd235-ba0c-4001-bb45-5a9202f5d695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/28d278d5-fdcf-4f6e-ab7e-a36e3d86c830")
 		(sheetname "/")
@@ -20160,6 +20537,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29e0ef4b-b70d-4a94-bdee-2376dec612c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/2b3f952d-e2c4-47ff-94e8-f394ef00669c")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -20318,6 +20708,19 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603DRNPO9BN8R0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a61d4a37-768f-4c85-88ad-70716e3de70c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3e5d9c32-0019-4332-b7ca-02e2094d498e")
 		(sheetname "/")
@@ -20469,6 +20872,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3e1ef9b8-6b42-4893-b1c9-738d3a016ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38bddf5e-78d2-45ac-be83-86bca050fa2b")
 			(effects
 				(font
 					(size 1 1)
@@ -21175,6 +21591,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bea546ac-12ac-40da-a3ce-bf9857df21c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX5R6BB225"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5443593c-0222-49ec-a85b-59f3a1889d5b")
 			(effects
 				(font
 					(size 1 1)
@@ -22315,6 +22744,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5141bb-a5cb-4f52-bfce-35e4fe35045d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/3f07cf7b-a14c-4718-8c18-b5888cf4b1cc")
 		(sheetname "/MOSFET_driver/")
@@ -22624,6 +23066,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "623ac136-68c9-436b-bfbd-c17eee143dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603DRNPO9BN8R0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a8391fc-37b9-4084-9abc-1d9e7b28b470")
 			(effects
 				(font
 					(size 1 1)
@@ -23257,6 +23712,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0edfac18-56a5-40cb-8858-0733db555471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dd937b9-b7b5-42a6-b967-c4ceb7246d1e")
 			(effects
 				(font
 					(size 1 1)
@@ -25217,6 +25685,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d8be939-ebb1-403b-9319-e4a295ac6ae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/091a5b39-ce5a-4d9e-b1d9-f745cd65913a")
 		(sheetname "/MOSFET_driver/")
@@ -25526,6 +26007,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d6c0f75b-2ff4-43ae-81d1-cb3c413d6131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c05badba-e2d8-46e0-8472-a4703cb0c03c")
 			(effects
 				(font
 					(size 1 1)
@@ -26686,6 +27180,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9caace2b-57b4-43d8-8d9e-b128ac273b0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/b1a37986-525f-4798-b838-3b05f94e7d9e")
 		(sheetname "/MOSFET_driver/")
@@ -26837,6 +27344,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b94ed413-c3ef-4b0b-a1c8-987364855f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3168379-7329-4dd4-9e98-a42a8ce8c11b")
 			(effects
 				(font
 					(size 1 1)
@@ -27002,6 +27522,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ef33ece-a6bf-4537-9971-7af97e39461c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/34eb57d7-e3f5-40c2-bd4e-f7963532ab7f")
 		(sheetname "/MOSFET_driver/")
@@ -27160,6 +27693,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-071KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8efc0eb4-de50-464b-b157-ed0f7dd602e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/615be67e-e2ef-4399-bb22-964fca6680e8")
 		(sheetname "/")
@@ -27311,6 +27857,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "958e9964-26f9-42e1-9b19-ab84f520879a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a549ec02-4c03-4af9-8bd8-9bbf8fd3aead")
 			(effects
 				(font
 					(size 1 1)
@@ -27482,6 +28041,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9aca195-16aa-4bac-ad58-01c3e3d18e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f93529b8-d106-4660-bd89-c906867693e9")
 			(effects
 				(font
 					(size 1 1)
@@ -27691,6 +28263,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a33f4fc8-43a4-40ae-96f9-1857fabf30e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07120RL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbacfb0b-490b-4309-a79b-d417689c5ce2")
 			(effects
 				(font
 					(size 1 1)
@@ -30088,6 +30673,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13f60d9e-af80-4ac6-95a7-0a00a3769afd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/32fac871-d5e3-4edc-a388-52c697e7d835")
 		(sheetname "/MOSFET_driver/")
@@ -30239,6 +30837,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "59cfae37-4c12-4412-866b-a1137a054123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9536df5-909d-4686-b408-26bd7b74ede3")
 			(effects
 				(font
 					(size 1 1)
@@ -30859,6 +31470,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9422bcd-1674-4f46-9654-eba49c0f1a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/f2297766-f9e2-42e4-97fd-3e0ee555a1e3")
 		(sheetname "/MOSFET_driver/")
@@ -31017,6 +31641,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9665a28-6860-4dbb-a99f-bd0429371486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/9403c68d-072f-478a-99dd-d7142ef03fde")
 		(sheetname "/MOSFET_driver/")
@@ -31168,6 +31805,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "baa7144c-f899-4b06-aa54-f8a2fb04a863")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89d4e848-6d05-41ec-b99e-5a9515daa8d7")
 			(effects
 				(font
 					(size 1 1)
