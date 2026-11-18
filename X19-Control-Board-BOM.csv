@@ -23,10 +23,10 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 22,"Resistor, US symbol",R_US,R2,0,RC0603FR-070RL,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 23,"Resistor, US symbol",R_US,R34,5m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,,
 24,"Resistor, US symbol",R_US,R33,100m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,,
-25,"Resistor, US symbol",R_US,R3 R4,60,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,,,,,
+25,"Resistor, US symbol",R_US,R3 R4,62,RC0603FR-0762RL,2, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 26,"Resistor, US symbol",R_US,R7 R10,120,RC0603FR-07120RL,2, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 27,"Resistor, US symbol",R_US,R15 R16 R17 R18 R23 R24 R25 R26 R29 R30,220,RC0603FR-07220RL,10, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
-28,"Resistor, US symbol",R_US,R9,320,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,,
+28,"Resistor, US symbol",R_US,R9,330,RC0603FR-07330RL,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 29,"Resistor, US symbol",R_US,R8,1k,RC0603FR-071KL,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 30,"Resistor, US symbol",R_US,R20,4.7k,RC0603FR-074K7L,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
 31,"Resistor, US symbol",R_US,R1 R5 R6 R11 R12 R13 R14 R19 R21 R22 R27 R28 R31 R32,10k,RC0603FR-0710KL,14, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,
@@ -46,7 +46,7 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-11-18_02-09-42
+Date:,2026-11-18_02-18-41
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,38
