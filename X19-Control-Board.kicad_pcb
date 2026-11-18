@@ -5146,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b5c8b30b-2c3c-475d-9250-84349ac760ba")
@@ -5184,6 +5184,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6bea5ea3-6f79-405e-96be-59b47f0a8c1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63abcec3-c345-4eea-a247-53069dad6d0c")
 			(effects
 				(font
 					(size 1 1)
@@ -22289,7 +22302,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "acc6a9f8-61f3-43fa-adb3-3c397aad8acb")
@@ -22327,6 +22340,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2cc1a0c8-738a-4b49-b173-89a41a136504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ea0fbf5-7ede-4c43-8e7b-737b6687bbaa")
 			(effects
 				(font
 					(size 1 1)
@@ -22870,7 +22896,7 @@
 				)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "330"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d2978fc3-a0ca-4a1f-9627-d4cbfa2b064d")
@@ -22908,6 +22934,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aeee6b1a-f32d-4665-bdd1-fd5afe697c22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07330RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44bf7124-aff7-4be0-a226-7e7be35e0fa7")
 			(effects
 				(font
 					(size 1 1)
@@ -33439,7 +33478,7 @@
 		)
 	)
 	(gr_text "5.2Vp"
-		(at 139.45 101.65 90)
+		(at 139.126424 101.796967 90)
 		(layer "F.SilkS")
 		(uuid "31024207-348a-4fea-9ca9-5d326505ea93")
 		(effects
@@ -33451,7 +33490,7 @@
 		)
 	)
 	(gr_text "CAN"
-		(at 139.5 92.6 90)
+		(at 139.176424 92.746967 90)
 		(layer "F.SilkS")
 		(uuid "2bac2fae-4cff-40e8-9ffd-04c46789fa88")
 		(effects
@@ -33463,7 +33502,7 @@
 		)
 	)
 	(gr_text "12Vp"
-		(at 139.5 97.75 90)
+		(at 139.176424 97.896967 90)
 		(layer "F.SilkS")
 		(uuid "7a0a3a0e-2ba7-490c-9b64-da5dd6e446da")
 		(effects
@@ -33475,7 +33514,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 139.55 94.95 90)
+		(at 139.226424 95.096967 90)
 		(layer "F.SilkS")
 		(uuid "c72ae513-ff3c-4e4a-8d2c-6570c12d10ef")
 		(effects

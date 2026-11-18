@@ -9320,7 +9320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 116.84 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,6 +9329,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -10155,7 +10166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "330"
 			(at 251.46 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10164,6 +10175,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "RC0603FR-07330RL"
+			(at 248.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -10891,7 +10913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 116.84 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,6 +10922,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
