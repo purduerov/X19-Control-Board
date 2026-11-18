@@ -4403,6 +4403,17 @@
 				)
 			)
 		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e2e2c56-ea30-4d9c-beb1-a9e70df3af40")
 		)
@@ -4760,6 +4771,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
 			(at 180.34 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6460,6 +6482,17 @@
 				)
 			)
 		)
+		(property "Part Number" "BM06B-GHS-TBT"
+			(at 232.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "2dd56d3e-e2e1-48f6-87d2-fbe06ff57a8b")
 		)
@@ -7736,6 +7769,17 @@
 				)
 			)
 		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6914a144-db76-4690-95e9-385f03edfaf8")
 		)
@@ -8059,6 +8103,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9693,6 +9748,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
 			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)

@@ -2232,7 +2232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
+		(property "Value" "Conn_01x05_Pin"
 			(at 111.76 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,6 +2299,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 109.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
 			(at 109.22 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2419,7 +2430,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2470,6 +2481,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 149.86 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
 			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -2589,6 +2611,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 149.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
 			(at 149.86 40.64 0)
 			(hide yes)
 			(show_name no)
