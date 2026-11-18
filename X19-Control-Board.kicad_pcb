@@ -237,6 +237,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9a2c399-1c55-4549-a295-2c51b5ffb372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "888f1cd2-38df-4396-ac66-01eb69daf4e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc27365-e21e-4a15-aa14-997626e60659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/96fe9144-61b3-4527-a1b2-0cc2e776aff6")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -408,6 +447,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "517c2910-76b4-4b25-ab93-d36afce56808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a6b35d5-7e6f-4d88-abae-b32deb81e654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15219b57-7836-44a1-a58f-8d0b36655a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/a43043e5-2602-4bb1-83ba-c0f42e5914ce")
 		(sheetname "/MOSFET_driver/")
@@ -552,6 +630,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569a8ba0-9713-40e0-873a-f62aedccab2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01c35e45-6f17-49f7-aaa0-8180b74bc1bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5924e73d-8545-4a3c-b909-8aac84a94fcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "STM32C542CCT6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7249a793-9ece-4ede-a2da-8b8b795cbd34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3411,6 +3541,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4212b0-0e9b-4889-b975-beefadf74b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c4ccd19-186d-42f2-a35e-2b9097b13c38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a91dde01-63f5-44af-83ef-cded6a9c87be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/ed634c0f-4668-443b-b0d7-0ebc75486cc0")
 		(sheetname "/Sensors_Telemetry/")
@@ -3421,7 +3590,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -3656,6 +3825,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4999ef7f-e853-481d-86b3-265ceade0de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7d995e8-8baa-4557-b5d1-442c3ddb7a43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66ed483f-635b-4ab5-a778-e7058969e0ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2e3045e7-e325-45d2-bdd4-6882e041cd22")
 		(sheetname "/")
@@ -3666,6 +3874,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3781,6 +3990,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e004acc8-4600-4c79-8211-899dafd94a6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239ba1c2-7c86-4b57-a62d-3b1566505fff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e5d016-d97d-4ec3-97cc-d8df26897cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb883909-fde7-4fba-aa03-8f83ed896188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38d2e90f-906a-44f8-810b-6a27432f5ee7")
 			(effects
 				(font
 					(size 1 1)
@@ -4264,6 +4525,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cdf1573-003a-4c2f-83e8-03a151a50b54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e17a2aa5-eec3-497a-80df-bac5d11b63f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92c27768-f78f-401a-8df1-1f0c927c27bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ff3f3097-74e6-473a-97c9-ec3767d99b26")
 		(sheetname "/")
@@ -4274,6 +4574,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4334,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Value" "61300511821"
+		(property "Value" "Conn_01x05_Socket"
 			(at -14.295 0.665 180)
 			(layer "F.Fab")
 			(uuid "84dc58ec-7d66-4da1-9517-5ac7852b3aa4")
@@ -4367,6 +4668,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3150649a-785e-4cf8-9f71-055bac043d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "851212c8-d95d-475a-9848-b39a9e50508e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "102a8154-87ae-4f7a-b8ab-5b4b4832fe8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5aebb1ae-5eca-4b0a-af28-23512fd077fb/6bc24f5e-3d09-4779-8616-9ffee9ba629e")
 		(sheetname "/Connector_Signals/")
@@ -4377,7 +4717,7 @@
 				(pins "1" "2" "3" "4" "5")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.7 1.35)
@@ -4640,6 +4980,58 @@
 				)
 			)
 		)
+		(property "Part Number" "LTST-C190TBKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7f24ea3-99a3-4ebc-8c79-f7ef9f031939")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6737a8da-d218-48ae-94b0-9aac917bb2ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b3050c-1aa6-409f-bf53-9b9cdab06cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d24d2a6-f68c-4240-bad1-27be4ee7ca2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6078f1fd-bc62-4d89-85ba-d218ddfd3c1b")
 		(sheetname "/")
@@ -4862,6 +5254,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38f00ee8-7705-4ced-9c5d-4fddb2b25289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69c043c2-0166-483e-b227-18bc310d8221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c57692c-6fbf-4cc3-bf45-d82c10f77e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3efc91bc-418b-495f-94f8-3c8dccc03af0")
 		(sheetname "/")
@@ -5026,6 +5457,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50f604f5-20ee-4df1-9ea9-a69ff7dace87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a9028f3-62e2-4b4f-aa1f-829982e55377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4394062-58be-4f1b-8529-77325f36786a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84b43f23-4f1e-4a2e-98a8-87b901f3c160")
 			(effects
 				(font
 					(size 1 1)
@@ -5204,6 +5674,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6b96abe-d89d-4228-8fcb-47bf6b83ecfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4d04c7-8fe8-4652-b92f-f910eee11e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f0a5c9c-15ca-464b-9d77-d6a233f8e692")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a6528cc8-41f2-41ad-8f8e-c99d5a25465f")
 		(sheetname "/")
@@ -5367,6 +5876,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39f4ae98-ffbb-457a-b363-2c3215f20bec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8333f20-f849-454a-b565-19dcfc5a798d")
 			(effects
 				(font
 					(size 1 1)
@@ -5568,6 +6090,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "713b43dd-2408-45bb-a459-d1e2dca68e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2149fb9-9bb1-42c0-b34f-2957314e9c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f5e4acf-5baf-42a9-9a83-256c0d5bc2a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f01bf34e-bf72-4165-abc6-bb49e1fb1327")
 		(sheetname "/")
@@ -5712,6 +6273,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca65151-a7cf-4e5a-bb7c-4de0a1c8c331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69f2d620-a0fa-436c-b530-296ebc329df4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d797bff-1358-496c-91fc-0c5af04d455a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91df13be-918c-4e36-958f-7c20b200624e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6196,6 +6809,58 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e09bb84-2998-4cea-b7a9-f51f2f6f91e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dba3b7ff-8a71-430a-bcff-72736e8f700b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3aa587f-507e-4246-934f-d900bfca7037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e30efc51-a8c5-4e64-8f5d-479edb2d89f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/caeaf70c-51a8-4c7b-9baf-ff1b677b7220")
 		(sheetname "/MOSFET_driver/")
@@ -6609,7 +7274,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BNO085 Module"
 			(at -5.965 13.315 270)
 			(layer "F.Fab")
 			(uuid "a082d40f-ac22-496f-8eb6-add71f4d7191")
@@ -6826,6 +7491,58 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0147124d-6ad2-49fe-a159-4e4f4bec7094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0685ac18-0089-4bea-baf1-a549c8e689b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15ed331d-d794-43d5-949c-cb3c6955c590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "BNO085 Module"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "229f5e6a-668f-4996-87d5-b65c9a9045c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/fab6c4cd-df5e-4bc0-b99e-6c525d602438")
 		(sheetname "/Sensors_Telemetry/")
 		(sheetfile "Sensors_Telemetry.kicad_sch")
@@ -6835,7 +7552,7 @@
 				(pins "12" "1" "11" "2" "10" "3" "9" "4" "8" "5" "7" "6")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.16 -11.43)
@@ -7308,6 +8025,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5168f473-58fa-4038-8bd2-ab3489d607ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ce92183-5aee-49e4-a987-d6a15f5ef256")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6de4c50f-3ea6-4b04-b8f2-68bbf609242c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6097f0ef-6439-4f96-a4b8-0be82da38ee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7790,6 +8559,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd98fa67-41c1-4097-a78a-69a665ca84ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5ebe7fb-7a33-4a24-8a92-a63d3741bbf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60dec81f-35a3-4ed7-9b62-3c211bce6bcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4f33ff37-1466-456a-9e31-111db89eff86")
 		(sheetname "/")
@@ -7961,6 +8769,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c70824c-c7b5-4a3b-8886-2fe991f22867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eca4ec0-a423-4982-9248-9ab14a16ecd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b7f2298-09b4-44a2-8e92-a231d3c15037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/91150d5f-14e5-40f1-947e-5b86c8eb7c1a")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -8105,6 +8952,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4455ee8a-1145-42ec-acaf-65cc8d449027")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "340cf4be-3ea1-4d79-bfee-347c49c93dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3f39eb5-4974-4540-91c7-123aed2559d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "INA237AIDGSR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48d898ae-9928-4155-9f05-7251cc8dbf27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8976,6 +9875,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91230a6c-51af-49e3-9655-51e4653af496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32d06f88-3d72-48a0-ad0b-95bf9db385ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4d37b29-f134-4d12-9b68-cf3c66f7874e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aa899dc9-f4f1-4b9c-9ad4-385f222f8eb2")
 		(sheetname "/")
@@ -9140,6 +10078,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "703f6e4e-2a14-4ce5-b98e-b43d58a7d324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7b31830-a779-4720-b048-5b290cebe17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97767a7e-df99-47e1-9f6e-c16ee7d7830f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9952c7e9-df3f-4289-b700-4f0157b2e2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -9318,6 +10295,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60de9e33-73cd-4384-8041-82e0c0ca0be4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e0e66c0-d3cf-4003-8574-6baadd6f9ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5491de85-94a1-4ef8-8e6e-1dc596c12bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/69ea9e92-7aed-47bd-b819-12ced184ecb2")
 		(sheetname "/")
@@ -9482,6 +10498,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6711ba08-e719-41b7-b50e-180d21c40a06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed439c20-b677-4f4d-adce-9d90ab2d38ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5394f85-47ce-48f5-bb27-42cb54fa35b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3acfdca7-b035-4f6a-97cc-33341bde8864")
 			(effects
 				(font
 					(size 1 1)
@@ -9660,6 +10715,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dd812a8-1c38-4f3f-88c4-9d5c915846ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5977db65-a546-4e49-a528-cc639487887c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358e6596-09a5-4601-96d2-99bf306fa11e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/352dee39-f60e-42a3-a863-3cca5a70180a")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -9824,6 +10918,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eab95e85-d4e9-488e-881a-565f0cc7c9a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe47eb0-1116-41b4-8402-dd8d99b122a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9b98c49-7f5a-4386-8ba9-2da7b278f7f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fef87414-cf8d-41c5-a81a-18d177ee7d94")
 			(effects
 				(font
 					(size 1 1)
@@ -10002,6 +11135,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22fd29ca-0bbd-42eb-93cf-04b9ea0ccb18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eadebff-2729-4e8c-92a9-5a42bdd771d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0648025-85c2-467b-aa5b-b64b7af73652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/f8c40d9b-7383-4584-9e86-bfac60f6fd2b")
 		(sheetname "/MOSFET_driver/")
@@ -10166,6 +11338,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77fba2de-1863-4728-aa7f-4ef5c52c591e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190AKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd9ddfc9-9f03-49c1-9cfa-b46ca6c73712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41ab419d-d6cc-4497-8c6d-f989a7781a72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2c60bf-9e46-4044-b06b-dd7d039a7a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08d495bd-3877-4b69-83f3-7cbfa453c0e7")
 			(effects
 				(font
 					(size 1 1)
@@ -10390,6 +11614,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f128e3ff-32e0-44a6-92a3-a03dbe39b8da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e8655a-0b54-41fc-ac07-42a3df08321b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc706df-6185-4b07-b4de-f58d96b5db0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51dbab81-f1b2-4d8f-b160-55d55f8029be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82097e99-a616-4dfc-bdf0-fd393c20c9ef")
 			(effects
 				(font
 					(size 1 1)
@@ -10870,6 +12146,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ecd62b-3fe9-4593-8d6d-4c63773f2ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "078b3c21-3d0f-42b4-a858-a95a152d294f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69aa8bc8-be55-4178-af12-07c3acff3851")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/1f4cc4dd-d760-4ee1-a15f-8a5f8564aba7")
 		(sheetname "/MOSFET_driver/")
@@ -11014,6 +12329,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8f04ef-9fff-4c84-933b-6408193e926a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b39c36-a8fb-4b20-adf9-ad5ff24b5749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ba13aae-2fe4-4fb4-9c8e-923a27d90b8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "INA237AIDGSR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c41447d-d259-4030-9870-ff79cb5c784f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11861,6 +13228,58 @@
 				)
 			)
 		)
+		(property "Part Number" "SM02B-GHS-TB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df43d43-1e25-4417-88e2-d203e7f20c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a15c6755-62b7-42ed-a284-0463658530e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd802237-720c-40fd-a6a6-ea246ed242a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0e8cb2-7b75-47b0-8c1f-c3906db48990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/882ccb07-f783-4b34-9400-1dfd225aca26")
 		(sheetname "/MOSFET_driver/")
@@ -12149,6 +13568,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75551ec0-41ea-4c75-89b4-599afde43bf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb8bfa62-6fd0-482c-81e8-25ef4a7a9448")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "182f1eda-12a2-4d99-bd14-22b95bd198a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/b6831ff6-ebd7-411b-be73-821da82054c6")
 		(sheetname "/MOSFET_driver/")
@@ -12313,6 +13771,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38d83ddc-f452-4654-8721-df576ca8cd79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96dc63c5-a32b-44d3-8800-9f51b677a763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5113fe31-19dd-43c5-9964-2f5e70041f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61332341-2176-4139-bd8c-04ba8942d068")
 			(effects
 				(font
 					(size 1 1)
@@ -12491,6 +13988,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53f91094-8549-4ce8-940b-5366bf4b6eeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ee90167-5cd7-463b-8073-6df837520840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "184ed39f-79ce-4ed8-90e1-504f87540eae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/f2cfef33-aecf-4110-ae61-d432bab0181b")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -12662,6 +14198,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d155d78-6a52-48d8-8d6e-615e1790eb27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdc823d3-f2af-48d2-82b4-aa7485f6dcc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbe93808-8a4b-47c0-9453-1ea6b02fb3dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/cbcc79ed-8b12-4754-99c8-f4eb5e1acd0f")
 		(sheetname "/MOSFET_driver/")
@@ -12806,6 +14381,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad78be76-7232-42b9-bc50-0ecef492cdb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "327a65b2-288e-46f6-a5b2-1f8f83c325ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04bc308a-61b1-45b6-9ecc-58c82712652b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "MIC5504-3.3YM5-TR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1fc4989-930e-42cd-92e7-242c9267e79e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13366,6 +14993,58 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f532c6be-16f8-45fe-8050-875cbd73fca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee8199d-8a1b-42ae-8c53-faf1c0b3304f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f52fdd0-b345-45c7-b827-fb4f5ad09923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcfade73-d588-44fc-b107-ca8d25395804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/68943726-031d-48f3-a07e-381a192e5ce8")
 		(sheetname "/MOSFET_driver/")
 		(sheetfile "untitled.kicad_sch")
@@ -13832,6 +15511,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d286831-6a4c-479a-96a4-eaf94f3d1100")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67a8e38c-d124-4ac7-b054-4768a65bcdf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "028fc758-6067-4be7-afc3-54f72717a2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/fea41abe-c704-4171-a438-ef1c30638226")
 		(sheetname "/Sensors_Telemetry/")
@@ -13842,7 +15560,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -14097,6 +15815,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be7e78f3-2223-4a04-8677-66d5a93b85ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a817c129-fef1-4d2e-b06a-7f6142640b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e1e276e-d27d-4e3f-8a20-7c1439a1716d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24b166b2-9a61-45d4-8be8-d9c6e2d05c43")
 		(sheetname "/")
@@ -14241,6 +15998,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633f0a7a-e50a-4e93-8795-3279862754d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0b96bc9-c24c-4e0d-9c75-a2ad140081a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777dacbf-5cc3-4dfa-9295-9ba0a1509e86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e5b9c73-0bbb-49a6-ba6b-bb4653269a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14710,6 +16519,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd94bba-c088-4496-a49a-6632a09f4740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e7f865-1c59-48ec-a2e0-ba9a370676ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe646638-cf0e-4d49-a1bd-372eb1706b80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/5bdc9fe5-edcb-443d-a81b-863bef770eeb")
 		(sheetname "/Sensors_Telemetry/")
@@ -14720,7 +16568,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -14975,6 +16823,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "272db99c-8766-454c-954b-bbc074deb185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e52cbc7-be31-48ee-9c85-227029d1b24a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46c9886c-9fa9-4b2b-a5e8-1ee23c39c9ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/440d4a45-cc5b-4d85-82b7-eefc71d9b051")
 		(sheetname "/")
@@ -15139,6 +17026,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d8a7665-b80f-4296-999a-5bcaf04d6bf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c1fc3ba-e508-48fe-bcb4-b92d9950d4c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a685201-ec2c-42d0-baff-a40068caed7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f422411d-dd4d-4148-ab46-cc50ed97df99")
 			(effects
 				(font
 					(size 1 1)
@@ -15317,6 +17243,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdd9476a-2187-42b6-b339-d3773e7eb7ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1df2454-4126-4334-86f7-ee6f9fda5003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f2716a9-0713-45b2-8bd9-828632184669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/103a79fd-f84b-41ef-ba30-3bdfef2793cd")
 		(sheetname "/MOSFET_driver/")
@@ -15488,6 +17453,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43fed454-652d-44e4-a24f-b83e4ab3f4ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "691993b0-e517-4f1e-bede-1f29fc7d0a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce76b3bf-ba6e-4798-8d84-b04629861120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5ee6e7e8-2627-4a52-9bdf-62a0d6293bde")
 		(sheetname "/")
@@ -15639,6 +17643,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10ab481b-5ae3-459c-a734-48d208bff917")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9573d4-1aec-4664-8956-d10f2e30f351")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "362b32ca-6c4f-410f-8d1a-7adf6c8ae45a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/68b90c97-337e-47d5-ae5a-96290d9a13b9")
 		(sheetname "/")
@@ -15649,6 +17692,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15742,6 +17786,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SM04B-GHS-TB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77e8bf9f-86dd-4e3e-9f5a-fd2c66276ab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffd60eaf-f05c-4afe-949d-6c9a713829b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1204f370-7a79-42c1-8fa0-8bf36d9e7dc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8467c777-8150-4ba2-9e54-ee0e759b0e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16008,6 +18104,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a5a6d5a-ddc4-4fc3-a1df-a7c67cd02c45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87cf64b9-1db5-4840-9306-f79d0c1d930f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a62fdf6-e02b-4bf1-9c81-8cbeb087853f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TCAN1044AEVDRQ1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6259e523-a546-4a4a-b417-78312ad6cb6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16749,6 +18897,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b2a1254-80c1-4b34-8a86-8bd962b0d563")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d703aa0e-08a2-40e2-8167-3db7bf09d4ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "409aeb01-59da-4011-80b5-50b9eea25c6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d39fcff9-5b6a-417f-8207-ac8b8740e608")
 		(sheetname "/")
@@ -16913,6 +19100,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9281ce7e-812b-4bf1-bf94-35c885695a52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10ac9387-4db5-4fed-acec-3a0561b40d4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b187fff5-8094-4074-bf37-c535cca6f3f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee231e64-cd4f-4bb7-9c8e-551e905c11fa")
 			(effects
 				(font
 					(size 1 1)
@@ -17091,6 +19317,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "176c227f-ba7f-4b3f-9712-a6115b20a4a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47013da5-6475-435a-90cd-69bd870ad7b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7d9accd-f730-4a26-9303-86c6744af26c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/2f382776-14c7-4eb4-a27a-6bbe382e13f7")
 		(sheetname "/Sensors_Telemetry/")
@@ -17235,6 +19500,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3922d45-87aa-411a-bccc-d86a7aa733b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8af9d5a7-b246-4d9c-bcc3-6235088c8800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a5428b9-6c45-4d77-a311-f96ec183402c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0ef1d17-887e-4f94-bae0-04cff04ed09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17690,6 +20007,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ace397a6-0f70-4760-917d-13a033c3c626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c9d07b-5fc4-432f-97ad-20c63ad02023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b470a5c7-4bc1-4aae-a793-16eeb0c8b6fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "BMI270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47a0e6ea-429d-496f-a9b1-44ab1c951724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18694,6 +21063,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5555f8c8-54b7-4d6b-839a-4bbb6066120f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e640cea5-8ce4-497a-8c32-a3f50af00d51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49e1a67f-bbd9-4bc2-8884-5d314bed432b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/7772792a-2d97-4551-8238-cc97610fb260")
 		(sheetname "/Sensors_Telemetry/")
@@ -18704,7 +21112,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -18959,6 +21367,58 @@
 				)
 			)
 		)
+		(property "Part Number" "LTST-C190KRKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dab4fbb-1cdb-4eed-8105-990c50f9a885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19194221-76ee-4dc0-8726-ea7f9f494fb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f6e993-30db-48ac-9e26-14978985247f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0b7c21d-af2f-4f94-b0f6-bedf64c99f56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef4cacd3-edbb-4139-b894-7db7dba8616d")
 		(sheetname "/")
@@ -19176,6 +21636,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca0d64df-18f4-4156-b418-a75bdc7786d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51684b56-3108-4ba2-8d65-c7340aa644f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e70ba6d-94ca-4bcb-8963-96e58da66c97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "186eb029-f670-46dd-b764-879788a4016f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4bfe457-ad9e-4ebe-a136-de761f75ad23")
 			(effects
 				(font
 					(size 1 1)
@@ -19643,6 +22155,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "205db98f-f93a-413f-9723-230f6d8cbc41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0e86d05-a514-4c5b-91fa-dd3210f6f62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71ccff8b-30f9-4c13-8ac2-7122187a5e67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5aebb1ae-5eca-4b0a-af28-23512fd077fb/a9ad7b52-3f9e-4850-abff-3010a6ed34d2")
 		(sheetname "/Connector_Signals/")
@@ -19653,7 +22204,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.33 6.41)
@@ -19937,6 +22488,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092da794-add7-4533-bec3-52dadde5ce16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17635633-dc70-4696-a134-196caa70776c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337139aa-4fd1-48b8-b6f6-aa16003c8923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/28d278d5-fdcf-4f6e-ab7e-a36e3d86c830")
 		(sheetname "/")
@@ -20081,6 +22671,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "690ae687-5d9b-4326-96ab-57c1bd613b5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9768e5c-0593-4837-8f3c-bfbd12ea1465")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc6c12c3-d53a-44ae-9f3e-97d5bb48111e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d1905fd-4571-4123-8b93-755c2144ce84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20563,6 +23205,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6899625-d695-44d1-9e7b-e89ce52bbb54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73e5c2d5-1fd1-4110-bd11-d3fe0ca3929e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74698586-1c8b-423b-bac5-0b18803c0fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/2b3f952d-e2c4-47ff-94e8-f394ef00669c")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -20727,6 +23408,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a61d4a37-768f-4c85-88ad-70716e3de70c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a62805d4-ec75-4f49-911b-2226d021438a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c34578e-6b28-487b-96bc-66da2ddeaab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2822610-729a-4e0b-a6c1-2581503c3055")
 			(effects
 				(font
 					(size 1 1)
@@ -20905,6 +23625,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2b99063-7dd5-4af6-a649-ec3528df539d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99bfbd2d-f01e-4bb0-a70a-77e4f0b01f5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7c23b8f-3830-439b-a10a-6cd8d814394b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/5ed82925-c4e1-4d98-8cf5-7f92b5dd290d")
 		(sheetname "/Sensors_Telemetry/")
@@ -21049,6 +23808,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SM02B-GHS-TB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ec02bc4-7e37-42d1-9535-3bc11474026e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca35bd89-3f1d-4469-b428-cc1127bfb232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1897187c-a0d3-4682-b621-5e0ad4056df8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26d20ac7-ff51-4063-817b-d7f4e59357f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21313,6 +24124,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SM06B-GHS-TB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c41f91d-e54e-4b84-a7d9-46ef0fb786ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd5c9474-2c71-4525-be31-bed6a0248746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fcbfa5c-74f3-43ed-994a-afb857adc25c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b5b4904-5c4a-4a72-a97e-cf0957dc3c09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21624,6 +24487,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71857ecc-ff04-4abc-9962-a830cafb506c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2488c99-84ed-495e-9dd6-a38bce0d7efa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "521d3ace-28b0-414c-a1df-05073bfcb131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/818d3c3d-572d-493e-836f-b588ca8ea0d3")
 		(sheetname "/")
@@ -21775,6 +24677,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ab51627-12eb-4c3d-8c56-890c7d3b59ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23ecadc4-9e81-4e7c-a78a-bb91f8bf7b8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47224388-e578-43e5-ab5a-4172652c2b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d961acaa-24eb-4484-bb57-9348731d3791")
 		(sheetname "/")
@@ -21785,6 +24726,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21878,6 +24820,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8fb7a02-f784-451f-ad48-e74bc3eecf3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f918eac-77ee-4952-b478-adb3afb9e29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34fa1ebc-be34-40ce-adc7-28142d88af57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d35500a5-6b2c-4f81-be9f-8397517c1353")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22360,6 +25354,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52f9c360-aea7-48f1-bbd6-f754ba54b516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa1b044-f4dc-4cec-9b16-f4efead32e4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d95062-1282-478c-98a8-434c49f11062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fa76091d-00c7-4265-a503-0f0fda650950")
 		(sheetname "/")
@@ -22518,6 +25551,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67204edd-e074-437f-9685-b961ef9b3b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b92bfb8-9dd2-4b13-8ce8-4f26fa135b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48f25386-f07e-408b-820b-1ebeadb2be49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/09bf9e97-bf17-4ae2-a418-14abf9c56745")
 		(sheetname "/Sensors_Telemetry/")
@@ -22528,7 +25600,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -22783,6 +25855,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d3156d0-4e12-4906-9e16-5dbfb30d1980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7e280b8-af06-4608-9a2b-c65b95cc6ac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f25334f1-c598-4970-93e9-04fe42da6631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/3f07cf7b-a14c-4718-8c18-b5888cf4b1cc")
 		(sheetname "/MOSFET_driver/")
@@ -22947,6 +26058,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44bf7124-aff7-4be0-a226-7e7be35e0fa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f33fa86-f909-48a1-8ac2-a9025b2416b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcf97876-7b78-4d69-9cd2-6b19d2022f8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e884d641-87e7-4add-a3a4-3f64f771858b")
 			(effects
 				(font
 					(size 1 1)
@@ -23125,6 +26275,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee8fc4ae-3449-4f4b-a54d-365bb35feaac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "403fb57d-0bd2-480f-b51d-cc385b35bd18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f11d950f-a392-4aa5-ad2f-4ccad35c7ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a23b1016-1941-4c47-b21b-7ec0beeab36e")
 		(sheetname "/")
@@ -23291,6 +26480,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1064138e-08a8-4a8a-a3e7-c42c58e25301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e33dfaa0-5c2a-4aaf-a917-fafd43cdc8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b762a53-955a-4300-aa4d-9ef13748c1e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba3fbf2c-595c-4c3d-9966-40d91907c1ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df09e83e-b5bb-4bf3-b418-3622646d2b27")
 			(effects
 				(font
 					(size 1 1)
@@ -23771,6 +27012,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "687c4b20-a469-4459-ac07-144ba5ecee1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95b4ba4a-9035-443a-979b-d239cfa2e196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea064372-944c-4673-be8d-fb477b4f96fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/dacf96ed-6d48-4845-820f-d29d2e6278ab")
 		(sheetname "/MOSFET_driver/")
@@ -23915,6 +27195,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56441a09-3522-421f-abb7-26e68b2f8acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7d71d3f-3a66-4505-a6f9-e4ddbf3aa772")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef73977-ed35-4ab1-8e3c-0b8725f32e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "656a3ed1-f3a8-4c53-bbe3-3dc4fe7cc0b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24384,6 +27716,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "891df145-03f5-4ed6-bf60-db85562f2647")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e08d86-54a0-4c8f-a3b7-1f5168d29890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6bfb819-3d55-406d-b330-10456117fcf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/83d13614-32b4-4b28-9a44-a10ca56aa121")
 		(sheetname "/Sensors_Telemetry/")
@@ -24394,7 +27765,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -24622,6 +27993,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad27380d-d079-463e-bcb6-9f5d9d1ac70f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a753ff6c-c950-466b-96b5-318faca5e09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bff26429-3d20-464e-a030-16e2008e4d45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8abd87fb-86e5-4848-9460-f11c8ef3324a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25091,6 +28514,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ab54192-40e9-4b39-8cab-2a1a26ca97aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ebcf2f1-4ca4-4e40-b038-1b01d43ccb5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44f10d0-17d9-4811-9a64-bb7358049c97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b875d5fe-2b54-4be4-ba29-178f725d3d54/120c5fe0-43d5-4b33-bc64-19d8f0b3bf62")
 		(sheetname "/Voltage Conv-Protec-Monitoring/")
@@ -25257,6 +28719,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d6cf308-4fa8-424f-8a86-3bce4c666ee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a08aaa0-a229-451b-a0d4-8dd0932421f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde9cb37-6ea6-4ee8-9657-812b11046911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0ee5700-e353-4094-af5e-893a60eb319a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b7be18-eb9f-4ce2-8f15-ab7586f19144")
 			(effects
 				(font
 					(size 1 1)
@@ -25737,6 +29251,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a18442-f0c1-4386-bf2f-b75ce1f032c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e4d1076-93c7-4fe3-8813-39b3dbdc5bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10054cae-6125-47b6-9720-8e950944dc4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/091a5b39-ce5a-4d9e-b1d9-f745cd65913a")
 		(sheetname "/MOSFET_driver/")
@@ -25888,6 +29441,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d1e44410-a663-4b37-996a-d9e8c46c327c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dd43942-6734-4826-bb8f-6f8419278dcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7847b1b-8c6a-4dce-a75d-50c79a19d32d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab16bdf3-11c6-4657-b524-d47390d21ac0")
 			(effects
 				(font
 					(size 1 1)
@@ -26066,6 +29658,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b48fb3d0-21d9-45dd-8462-0d9f95d2a7ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd7e3b32-e4ec-4c00-85d4-9927c443fe07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9dc4b5a-4986-4208-b0b4-c1c88d2902ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/ec069c56-99fe-40b6-b9dc-1e6f0c935aaf")
 		(sheetname "/MOSFET_driver/")
@@ -26191,7 +29822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ESD2CAN24DBZRQ1"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26210,6 +29841,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD2CAN24DBZRQ1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "344cbc13-7c98-4cdb-b9d1-bc99b6a52374")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2779a6bd-c9a9-4aee-9e65-92072c2e7492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dad04858-9eaa-453d-a38a-1f512b98b4c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0adda0f1-d942-486e-aea5-21fbcae66f03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26680,6 +30363,58 @@
 				)
 			)
 		)
+		(property "Part Number" "SM02B-GHS-TB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "502e9fa4-f1d4-46b9-9cff-181259b328b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "574338cd-7a8d-4b23-a91d-95a381a2bdd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46ab0b46-a7ed-4326-a782-e8a70c630cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97395e5d-1220-45d8-920e-cca47da5f53d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/19d96920-6545-4dfd-8a97-5eeea2b6dae8")
 		(sheetname "/MOSFET_driver/")
@@ -26941,6 +30676,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SM02B-GHS-TB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea47c77c-9da0-4892-9479-0d9461c15663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d35eade5-de9c-4b9d-bf33-2bc5213cd907")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec975b0-e74e-43e0-a89e-910b6cf03daa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4f5b3fe-57d3-481a-afe7-dbad022419c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27232,6 +31019,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c7d3e07-dfc8-4d43-ac70-cc0fda9bf3f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f66eab5-5b77-4974-9889-4ef0ff37f2bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23580fa8-7d1a-4dbb-8b26-45d1de2c5565")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/b1a37986-525f-4798-b838-3b05f94e7d9e")
 		(sheetname "/MOSFET_driver/")
@@ -27396,6 +31222,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3168379-7329-4dd4-9e98-a42a8ce8c11b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de199942-dd9e-44f0-8972-1ad80372e144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63507be2-4833-49c9-bd9a-fcd8c326b0c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb388515-bc1a-4169-bedb-fffd375b4cb5")
 			(effects
 				(font
 					(size 1 1)
@@ -27574,6 +31439,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df1836f1-46e8-4b3a-8c37-5d961eb8a65d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13bdf698-0da3-40ca-80e8-256c079f3d4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6442274-b090-44bb-84d3-be0c8d94d99c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/34eb57d7-e3f5-40c2-bd4e-f7963532ab7f")
 		(sheetname "/MOSFET_driver/")
@@ -27745,6 +31649,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04ef3c75-92f4-4991-ab53-53a86ebdcd2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5f73f01-2c70-4cef-af6b-e4eb7607a123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925a5099-b8fa-4222-91fc-78357d5d0822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/615be67e-e2ef-4399-bb22-964fca6680e8")
 		(sheetname "/")
@@ -27909,6 +31852,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a549ec02-4c03-4af9-8bd8-9bbf8fd3aead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efd7ccd5-3f8c-44c2-bafe-085b3882042f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "530042f1-b2c7-4913-bd21-01d764ab71f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7d8be1d-c1d6-4bd8-b48b-db14df1d2ca1")
 			(effects
 				(font
 					(size 1 1)
@@ -28093,6 +32075,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f93529b8-d106-4660-bd89-c906867693e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9ff7a27-f4d2-41a1-9edb-1bf72144ebc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068c2829-0d7d-4faa-a3eb-8df344e11f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "404ff45d-e222-4fbb-8f35-3dc5afa23dbb")
 			(effects
 				(font
 					(size 1 1)
@@ -28322,6 +32343,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3b044b-09fb-422e-a700-484b5833fe81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69614306-4e86-4887-a83b-0cc0dcbee1da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40529d2f-c9f8-422b-8d22-e2a4807fe9ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6160a2a6-8c84-4f69-a97e-cc3a0a26e5c8")
 		(sheetname "/")
@@ -28488,6 +32548,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ae743eb-6c68-41bf-b6ba-27f33d313bdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "005acb61-f6b8-4c81-b32f-bb4d0a6592b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2bd4e94-6764-4215-9b3d-abb1a49e503f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "626b91d4-9e82-4c73-8c1e-42a06fe372c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "568d1fad-6a80-421b-931a-d57de11b2f8c")
 			(effects
 				(font
 					(size 1 1)
@@ -28966,6 +33078,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa59386e-00c9-4954-ab4b-68b02c4edce9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "719f7b4a-61a0-4373-a47e-37a5275e37b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea830cac-c122-46ad-9ecf-2d4be8cd8f5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/17c57060-0703-4b40-81e4-cc09dd56ae50")
 		(sheetname "/Sensors_Telemetry/")
@@ -28976,7 +33127,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -29218,6 +33369,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaf060cf-fce6-4a09-a2c9-930cff32453b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c49ad83f-0d14-4e64-b8c9-d8982ea03af6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1b1cf49-c030-46dc-9d78-be923fa0ba8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a66e3e05-3f82-4c46-8531-6fdc7968dd66/b4c82ff8-aab9-45ee-a1e0-3747b23c9f17")
 		(sheetname "/Sensors_Telemetry/")
@@ -29228,7 +33418,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -29470,6 +33660,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a8a6d7-c646-446c-9e0f-91f29b2d28f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bad64e68-943e-43bf-8335-676104883d99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a198122-9ae6-41ad-910e-0022c4656bcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5aebb1ae-5eca-4b0a-af28-23512fd077fb/b90d7d83-1da9-4e8d-b1cc-2a9b62c768fe")
 		(sheetname "/Connector_Signals/")
@@ -29480,7 +33709,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.33 1.27)
@@ -29770,6 +33999,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c2d6d4d-a807-4397-9d19-ceded1175507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0914ab-cdce-4abf-b55e-b9639c47bfb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e15f3615-c73b-4258-8e71-0a6f8fdf1816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b87eafe7-4c7f-4185-a5ea-4f8ec3d48120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4526f13-b69d-43a1-9c65-b84f853b723e")
 			(effects
 				(font
 					(size 1 1)
@@ -30252,6 +34533,58 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06b69d1c-4a1f-4162-87b4-b9e1d9bcaca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "544d532f-d4df-4d09-a8db-78b49aa893d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b2993d-4d4c-4182-9c42-55217b0613bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e735ee20-4445-41bf-b6f4-7903fd5b4242")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/8b9c9fca-3252-43a2-921c-d0da765b0516")
 		(sheetname "/MOSFET_driver/")
@@ -30725,6 +35058,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21a1221e-8cea-4dbb-abc8-066e5934f4c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76b9aa13-f6f6-4cc1-8a57-844258cbfe27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d165c2b2-ccfb-4076-8ef9-53113c8acb9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/32fac871-d5e3-4edc-a388-52c697e7d835")
 		(sheetname "/MOSFET_driver/")
@@ -30896,6 +35268,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65bd616f-40e5-486e-937a-ec0d21946087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60e22965-9afb-4375-a59d-5e69f916c596")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d37f2c-ccdd-4a78-8e9f-297b7561992c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/ed1a2a57-f265-4717-9723-6e33848182aa")
 		(sheetname "/MOSFET_driver/")
@@ -31040,6 +35451,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e844e7e-e40b-48ff-9a6b-b6ecbf20512a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3e89065-ebfc-4727-b5b9-4b586ebdccb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeb4a667-fecd-41a6-85d2-db4dc3cca89c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "AO3400"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45effacc-f08c-4094-a0b7-bc9a9109365a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31522,6 +35985,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32d7474-a20f-4859-9163-9afe3b12b22b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b99bb03-6892-4498-92ad-8107eb0f1ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a96cf7a-1c2a-4cc3-be7f-d7c26c59bc89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/f2297766-f9e2-42e4-97fd-3e0ee555a1e3")
 		(sheetname "/MOSFET_driver/")
@@ -31686,6 +36188,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9665a28-6860-4dbb-a99f-bd0429371486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b37f1b8-d75e-43ae-80ab-a463b4e9fa35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8de56cf-7102-467c-be51-3526ace26bfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e588977-4c7a-4c8d-94d6-86e60852cc90")
 			(effects
 				(font
 					(size 1 1)
@@ -31864,6 +36405,45 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93d70fa3-7204-4ae4-9d37-cf56dd8e0a07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4270662-94d5-4bc2-9b1e-b92dd1d2fe29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f181f84-03fe-4aec-a3c3-33fd49198d65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/35018e7d-27cc-4a2b-b8c2-8d6ab91d4e3b")
 		(sheetname "/")
@@ -32030,6 +36610,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2069de00-1334-423a-b330-2e2c476e9683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb19bddd-b474-4f49-9815-230faeed1074")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea724e4-ed9b-42bf-88cc-5b2878ebe338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f561dad2-f3fb-4315-b61d-6e46f3929c8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c2f9cd-2b0e-4f90-9e8c-7a25dc65694b")
 			(effects
 				(font
 					(size 1 1)
@@ -32498,6 +37130,58 @@
 				)
 			)
 		)
+		(property "Part Number" "SM02B-GHS-TB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26fdb3ff-6919-433b-8fbb-85a2cb78f582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27b648fe-758f-469e-ae4a-d9e088ca61c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "660e4d69-8a8f-413e-b80a-6f0c506e9120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9de959-6f81-4117-ab28-076d1230dbb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84a48d7e-c021-49be-a880-dece1bf2fa08/9a66b0f2-0ee1-499f-9702-0bf2d3a303fa")
 		(sheetname "/MOSFET_driver/")
@@ -32797,6 +37481,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ba43a55a-3780-4921-baf9-b4c93289c07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5c26b28-5aff-48cd-940f-96ca7de92547")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8db8276-d32e-4053-8c5e-a015081d9b9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3f14b7b1-9cac-407b-8b58-80ae33396c71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "IPS1-105-01-L-D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e58f0f5f-cc88-449c-8758-05048b3fd124")
 			(effects
 				(font
 					(size 1 1)
