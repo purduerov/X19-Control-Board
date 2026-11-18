@@ -2180,7 +2180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5ed7e8-404b-4570-9361-110f9fb4e455")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 101.6 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2241,7 +2241,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2374,7 +2374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f8babb7-a938-4991-b6c7-ff2b9a099207")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2435,7 +2435,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3f952d-e2c4-47ff-94e8-f394ef00669c")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 97.79 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +2562,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2580,7 +2580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152efed-bb91-4351-89d9-34e801ae651c")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 77.47 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:INA237AIDGSR"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 57.15 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2712,7 +2712,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352dee39-f60e-42a3-a863-3cca5a70180a")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 97.79 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +2839,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50210cbe-b8e2-479b-afff-add67bb7c507")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 217.17 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2918,7 +2918,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3051,7 +3051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65810808-65db-4fd1-91e7-07aea98d15a9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3112,7 +3112,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d642326-5cf9-47f6-b089-09e4a67eac06")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 157.48 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3317,7 +3317,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73112d22-f0e5-4180-9946-2e69398c0df2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 46.99 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3396,7 +3396,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3415,7 +3415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748e9fdc-38a0-48c3-979c-72c1f1ab4afb")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 77.47 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:INA237AIDGSR"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3547,7 +3547,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b0d7250-bf68-4b98-9775-56a9f63ed95e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3626,7 +3626,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3644,7 +3644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91150d5f-14e5-40f1-947e-5b86c8eb7c1a")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 153.67 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,7 +3752,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3895,7 +3895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99ba1198-b82f-4bfd-abce-45c57c32e702")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +3956,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf570879-b3ad-464c-95a7-c28995a6265c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4035,7 +4035,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2cfef33-aecf-4110-ae61-d432bab0181b")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 220.98 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4161,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4179,7 +4179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d8b665-275c-4197-b083-3e5cadc3b9af")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4240,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6550f78-1101-412a-8192-8256edc4b173")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 186.69 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4278,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:MIC5504_3_3YM5_TR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4375,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
