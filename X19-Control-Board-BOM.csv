@@ -1,37 +1,37 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Type,KLC_S3.3,KLC_S4.1,Part Number,Sim.Pins,PARTREV,STANDARD,MANUFACTURER,Sim.Device
-1,Unpolarized capacitor,C,C7 C8,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,CC0603DRNPO9BN8R0,,,,,
-2,Unpolarized capacitor,C,C2 C3 C4 C5 C9 C10 C14 C15 C16 C17,0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,10, ,,,,,CC0603KRX7R8BB104,,,,,
-3,Unpolarized capacitor,C,C18 C19,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,CC0603KRX5R6BB105,,,,,
-4,Unpolarized capacitor,C,C1,2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,CC0603KRX5R6BB225,,,,,
-5,Unpolarized capacitor,C,C6,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,CC0603KRX5R6BB475,,,,,
-6,Unpolarized capacitor,C,C11 C12 C13,22u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,3, ,,,,,CC1206KKX5R8BB226,,,,,
-7,Diode,D,D6 D7 D8 D9 D10 D11 D12 D13 D14 D15,1N5819HW-7-F,D_SOD-123,10, ,,,,,1N5819HW-7-F,1=K 2=A,,,,D
-8,Light emitting diode,LED,D3,BLUE,LED_0603_1608Metric,1, ,,,,,LTST-C190TBKT,1=K 2=A,,,,
-9,,ESD2CAN24DBZRQ1,D1,ESD2CAN24DBZRQ1,SOT-23-3,1, ,,,,,ESD2CAN24DBZRQ1,,,,,
-10,Light emitting diode,LED,D4,GREEN,LED_0603_1608Metric,1, ,,,,,LTST-C190GKT,1=K 2=A,,,,
-11,Light emitting diode,LED,D2,ORANGE,LED_0603_1608Metric,1, ,,,,,LTST-C190AKT,1=K 2=A,,,,
-12,Light emitting diode,LED,D5,RED,LED_0603_1608Metric,1, ,,,,,LTST-C190KRKT,1=K 2=A,,,,
-13,"Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_MountingPin,J1 J2 J3 J4 J6,BM02B-GHS-TBT,JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,5, ,,,,,BM02B-GHS-TBT,,,,,
-14,"Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_MountingPin,J7,BM04B-GHS-TBT,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,1, ,,,,,BM04B-GHS-TBT,,,,,
-15,"Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_MountingPin,J5,BM06B-GHS-TBT,JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical,1, ,,,,,BM06B-GHS-TBT,,,,,
-16,,IPS1-105-01-L-D,J16,IPS1-105-01-L-D,SAMTEC_IPS1-105-01-S-D,1, ,,,,,IPS1-105-01-L-D,,R,Manufacturer Recommendations,Samtec,
-17,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10,AO3400A,SOT-23-3,10, ,,,,,AO3400A,,,,,
-18,"Resistor, US symbol",R_US,R2,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,RC0603FR-070RL,,,,,
-19,"Resistor, US symbol",R_US,R34,5m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,ERJ-3LWFR005V,,,,,
-20,"Resistor, US symbol",R_US,R33,100m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,ERJ-3BWFR100V,,,,,
-21,"Resistor, US symbol",R_US,R3 R4,62,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,RC0603FR-0762RL,,,,,
-22,"Resistor, US symbol",R_US,R7 R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,RC0603FR-07120RL,,,,,
-23,"Resistor, US symbol",R_US,R15 R16 R17 R18 R23 R24 R25 R26 R29 R30,220,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,10, ,,,,,RC0603FR-07220RL,,,,,
-24,"Resistor, US symbol",R_US,R9,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,RC0603FR-07330RL,,,,,
-25,"Resistor, US symbol",R_US,R8,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,RC0603FR-071KL,,,,,
-26,"Resistor, US symbol",R_US,R20,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,RC0603FR-074K7L,,,,,
-27,"Resistor, US symbol",R_US,R1 R5 R6 R11 R12 R13 R14 R19 R21 R22 R27 R28 R31 R32,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,14, ,,,,,RC0603FR-0710KL,,,,,
-28,,BMI270,U3,BMI270,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1, ,BMI270,,,,BMI270,,,,,
-29,,INA237AIDGSR,U5 U6,INA237AIDGSR,TSSOP-10_3x3mm_P0.5mm,2, ,https://www.ti.com/lit/gpn/ina237,,,,INA237AIDGSR,,,,,
-30,,MIC5504-3.3YM5-TR,U7,MIC5504-3.3YM5-TR,SOT-23-5,1, ,MIC5504-3.3YM5-TR,,,,MIC5504-3.3YM5-TR,,,,,
-31,,STM32C542CCT6,U2,STM32C542CCT6,LQFP-48_7x7mm_P0.5mm,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,STM32C542CCT6,,,,,
-32,,TCAN1044VDRQ1,U1,TCAN1044AEVDRQ1,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.ti.com/lit/gpn/tcan1044-q1,,,,TCAN1044AEVDRQ1,,,,,
-33,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,,,The rectangle is not a symbol body but a graphical element,Some pins are on 50mil grid to make the symbol small,ECS-240-8-37B-CKY-TR,,,,,
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Part Number,Sim.Type,KLC_S3.3,KLC_S4.1,Sim.Pins,PARTREV,STANDARD,MANUFACTURER,Sim.Device
+1,Unpolarized capacitor,C,C7 C8,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,CC0603DRNPO9BN8R0,,,,,,,,
+2,Unpolarized capacitor,C,C2 C3 C4 C5 C9 C10 C14 C15 C16 C17 C20,0.1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,CC0603KRX7R8BB104,,,,,,,,
+3,Unpolarized capacitor,C,C18 C19,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,CC0603KRX5R6BB105,,,,,,,,
+4,Unpolarized capacitor,C,C1,2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,CC0603KRX5R6BB225,,,,,,,,
+5,Unpolarized capacitor,C,C6,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,CC0603KRX5R6BB475,,,,,,,,
+6,Unpolarized capacitor,C,C11 C12 C13,22u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,3, ,,CC1206KKX5R8BB226,,,,,,,,
+7,Diode,D,D6 D7 D8 D9 D10 D11 D12 D13 D14 D15,1N5819HW-7-F,D_SOD-123,10, ,,1N5819HW-7-F,,,,1=K 2=A,,,,D
+8,Light emitting diode,LED,D3,BLUE,LED_0603_1608Metric,1, ,,LTST-C190TBKT,,,,1=K 2=A,,,,
+9,,ESD2CAN24DBZRQ1,D1,ESD2CAN24DBZRQ1,SOT-23-3,1, ,,ESD2CAN24DBZRQ1,,,,,,,,
+10,Light emitting diode,LED,D4,GREEN,LED_0603_1608Metric,1, ,,LTST-C190GKT,,,,1=K 2=A,,,,
+11,Light emitting diode,LED,D2,ORANGE,LED_0603_1608Metric,1, ,,LTST-C190AKT,,,,1=K 2=A,,,,
+12,Light emitting diode,LED,D5,RED,LED_0603_1608Metric,1, ,,LTST-C190KRKT,,,,1=K 2=A,,,,
+13,"Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_MountingPin,J1 J2 J3 J4 J6,BM02B-GHS-TBT,JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,5, ,,BM02B-GHS-TBT,,,,,,,,
+14,"Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_MountingPin,J7,BM04B-GHS-TBT,JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,1, ,,BM04B-GHS-TBT,,,,,,,,
+15,"Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_MountingPin,J5,BM06B-GHS-TBT,JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical,1, ,,BM06B-GHS-TBT,,,,,,,,
+16,,IPS1-105-01-L-D,J16,IPS1-105-01-L-D,SAMTEC_IPS1-105-01-S-D,1, ,,IPS1-105-01-L-D,,,,,R,Manufacturer Recommendations,Samtec,
+17,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10,AO3400A,SOT-23-3,10, ,,AO3400A,,,,,,,,
+18,"Resistor, US symbol",R_US,R2,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-070RL,,,,,,,,
+19,"Resistor, US symbol",R_US,R34,5m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,ERJ-3LWFR005V,,,,,,,,
+20,"Resistor, US symbol",R_US,R33,100m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,ERJ-3BWFR100V,,,,,,,,
+21,"Resistor, US symbol",R_US,R3 R4,62,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,RC0603FR-0762RL,,,,,,,,
+22,"Resistor, US symbol",R_US,R7 R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,RC0603FR-07120RL,,,,,,,,
+23,"Resistor, US symbol",R_US,R15 R16 R17 R18 R23 R24 R25 R26 R29 R30,220,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,10, ,,RC0603FR-07220RL,,,,,,,,
+24,"Resistor, US symbol",R_US,R9,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-07330RL,,,,,,,,
+25,"Resistor, US symbol",R_US,R8,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-071KL,,,,,,,,
+26,"Resistor, US symbol",R_US,R20,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-074K7L,,,,,,,,
+27,"Resistor, US symbol",R_US,R1 R5 R6 R11 R12 R13 R14 R19 R21 R22 R27 R28 R31 R32,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,14, ,,RC0603FR-0710KL,,,,,,,,
+28,,BMI270,U3,BMI270,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1, ,BMI270,BMI270,,,,,,,,
+29,,INA237AIDGSR,U5 U6,INA237AIDGSR,TSSOP-10_3x3mm_P0.5mm,2, ,https://www.ti.com/lit/gpn/ina237,INA237AIDGSR,,,,,,,,
+30,,MIC5504-3.3YM5-TR,U7,MIC5504-3.3YM5-TR,SOT-23-5,1, ,MIC5504-3.3YM5-TR,MIC5504-3.3YM5-TR,,,,,,,,
+31,,STM32C542CCT6,U2,STM32C542CCT6,LQFP-48_7x7mm_P0.5mm,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,STM32C542CCT6,,,,,,,,
+32,,TCAN1044VDRQ1,U1,TCAN1044AEVDRQ1,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.ti.com/lit/gpn/tcan1044-q1,TCAN1044AEVDRQ1,,,,,,,,
+33,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,,ECS-240-8-37B-CKY-TR,,The rectangle is not a symbol body but a graphical element,Some pins are on 50mil grid to make the symbol small,,,,,
 
 
 
@@ -41,11 +41,11 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_21-57-47
+Date:,2026-11-19_22-23-34
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,33
-Component Count:,93
-Fitted Components:,93
+Component Count:,94
+Fitted Components:,94
 Number of PCBs:,1
-Total Components:,93
+Total Components:,94
