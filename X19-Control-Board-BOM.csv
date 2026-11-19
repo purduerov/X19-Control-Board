@@ -17,8 +17,8 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 16,,IPS1-105-01-L-D,J16,IPS1-105-01-L-D,SAMTEC_IPS1-105-01-S-D,1, ,,,,,IPS1-105-01-L-D,,R,Manufacturer Recommendations,Samtec,
 17,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10,AO3400A,SOT-23-3,10, ,,,,,AO3400A,,,,,
 18,"Resistor, US symbol",R_US,R2,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,RC0603FR-070RL,,,,,
-19,"Resistor, US symbol",R_US,R34,5m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,,,
-20,"Resistor, US symbol",R_US,R33,100m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,,,
+19,"Resistor, US symbol",R_US,R34,5m,ERJ-3LWFR005V,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,,
+20,"Resistor, US symbol",R_US,R33,100m,ERJ-3BWFR100V,1, ,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,,,,,
 21,"Resistor, US symbol",R_US,R3 R4,62,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,RC0603FR-0762RL,,,,,
 22,"Resistor, US symbol",R_US,R7 R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,RC0603FR-07120RL,,,,,
 23,"Resistor, US symbol",R_US,R15 R16 R17 R18 R23 R24 R25 R26 R29 R30,220,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,10, ,,,,,RC0603FR-07220RL,,,,,
@@ -41,7 +41,7 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-11-18_20-26-44
+Date:,2026-11-19_00-41-22
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,33
