@@ -1,6 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 C1,0603,1,2.2u,
-"C10, C14, C15, C16, C17, C2, C3, C4, C5, C9",0603,10,0.1u,
+"C10, C14, C15, C16, C17, C2, C20, C3, C4, C5, C9",0603,11,0.1u,
 "C11, C12, C13",1206,3,22u,
 "C18, C19",0603,2,1u,
 C6,0603,1,4.7u,
