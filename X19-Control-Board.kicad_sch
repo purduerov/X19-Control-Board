@@ -5,7 +5,7 @@
 	(uuid "00000000-0000-0000-0000-000060e6118b")
 	(paper "A4")
 	(title_block
-		(title "Purdue ROV Subsystem Board")
+		(title "X19-Control-Board")
 		(company "Purdue ROV")
 	)
 	(lib_symbols
@@ -950,6 +950,129 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2994,16 +3117,6 @@
 		)
 		(uuid "161abaa4-e577-4143-8212-de68afdf436a")
 	)
-	(text "I removed this but it will be okay because I routed it to another decouple"
-		(exclude_from_sim no)
-		(at 163.576 -11.938 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2da91242-8d52-4bd1-8f74-a77de742c906")
-	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
 		(at 25.908 139.446 0)
@@ -3064,16 +3177,6 @@
 			)
 		)
 		(uuid "9860260c-9339-42c8-b9c8-963b26cc8347")
-	)
-	(text "Check TX and RX pins for CANFD"
-		(exclude_from_sim no)
-		(at 82.296 -4.572 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aa47f729-7147-483e-9e65-624680d9623e")
 	)
 	(text "MCU Connections"
 		(exclude_from_sim no)
@@ -3236,6 +3339,14 @@
 		(color 0 0 0 0)
 		(uuid "fa9825e3-4a0e-4e54-9859-1b3a81b082d5")
 	)
+	(no_connect
+		(at 113.03 191.77)
+		(uuid "89bf3a88-bf98-4b6c-a71d-892e58d51545")
+	)
+	(no_connect
+		(at 104.14 191.77)
+		(uuid "a2cdd7aa-c32b-44d4-b755-f44a30828512")
+	)
 	(wire
 		(pts
 			(xy 80.01 120.65) (xy 74.93 120.65)
@@ -3278,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 125.73) (xy 238.76 130.81)
+			(xy 241.3 125.73) (xy 241.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3355,16 +3466,6 @@
 			(type default)
 		)
 		(uuid "3b01cd62-fff0-4c40-8a79-3d404297e1ba")
-	)
-	(polyline
-		(pts
-			(xy 159.004 2.794) (xy 159.512 2.794)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b4d77d2-d5ed-4f3e-aef7-0b5a09f5f052")
 	)
 	(wire
 		(pts
@@ -3528,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 125.73) (xy 248.92 130.81)
+			(xy 251.46 125.73) (xy 251.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 149.86) (xy 227.33 146.05)
+			(xy 229.87 149.86) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3606,16 +3707,6 @@
 		)
 		(uuid "9dfdc563-60f9-40d4-a2f6-e98ef041bf8d")
 	)
-	(polyline
-		(pts
-			(xy 159.004 24.13) (xy 159.004 2.794)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3cc0d8d-03f5-4997-b799-8786b464b46e")
-	)
 	(wire
 		(pts
 			(xy 121.92 59.69) (xy 139.7 59.69)
@@ -3628,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 149.86) (xy 238.76 146.05)
+			(xy 241.3 149.86) (xy 241.3 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 146.05) (xy 248.92 149.86)
+			(xy 251.46 146.05) (xy 251.46 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3678,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 128.27) (xy 227.33 130.81)
+			(xy 229.87 128.27) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 260.35 146.05)
+			(xy 262.89 149.86) (xy 262.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3788,129 +3879,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 260.35 130.81)
+			(xy 262.89 125.73) (xy 262.89 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f84248bd-e3b5-4002-a325-84e59bb6dc33")
-	)
-	(image
-		(at 163.068 -2.286)
-		(scale 0.288757)
-		(uuid "15ed2e90-d088-430b-bc45-fdde8f6758cf")
-		(data "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"
-			"UR5TpgAAAABJRU5ErkJggg=="
-		)
 	)
 	(global_label "PWM6"
 		(shape input)
@@ -4058,7 +4033,7 @@
 	)
 	(global_label "5.2V"
 		(shape input)
-		(at 248.92 125.73 90)
+		(at 251.46 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4068,7 +4043,7 @@
 		)
 		(uuid "1b9a5f51-13c6-4f41-8f5b-89e7dda03b8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 118.6324 90)
+			(at 251.46 118.6324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4297,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 260.35 125.73 90)
+		(at 262.89 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4332,7 +4307,7 @@
 		)
 		(uuid "446734d9-7514-4717-86ac-fda40819a25b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.35 118.6324 90)
+			(at 262.89 118.6324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4633,7 @@
 	)
 	(global_label "DEBUG"
 		(shape input)
-		(at 227.33 128.27 90)
+		(at 229.87 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4668,7 +4643,7 @@
 		)
 		(uuid "7b1ad38a-90cc-4437-9d56-92f8676e0aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 118.9953 90)
+			(at 229.87 118.9953 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4969,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 238.76 125.73 90)
+		(at 241.3 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5004,7 +4979,7 @@
 		)
 		(uuid "be5da2c6-0be3-410e-8992-440316c0dfb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.76 119.2372 90)
+			(at 241.3 119.2372 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:TCAN1044AEVDRQ1"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 63.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5481,6 +5456,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TCAN1044AEVDRQ1"
 			(at 63.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5668,6 +5687,17 @@
 				)
 			)
 		)
+		(property "Part Number" "ECS-240-8-37B-CKY-TR"
+			(at 71.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
 			(at 71.12 133.35 0)
 			(hide yes)
@@ -5683,6 +5713,17 @@
 			(at 71.12 135.89 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 120.65 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5802,7 +5843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e91b5e-8735-46ec-82c0-1efa9c1451f2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 152.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5863,7 +5904,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df46e86-88b8-4076-bbaa-7df9c95ae2ac")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 166.37 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5942,7 +5983,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6015,6 +6056,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB475"
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35e176f6-f8aa-45b7-a54f-77679bb4b750")
 		)
@@ -6042,7 +6127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d278d5-fdcf-4f6e-ab7e-a36e3d86c830")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 157.48 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,6 +6182,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9656783-ff7e-4cf8-a6ab-87fda92482f7")
 		)
@@ -6106,7 +6235,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6247,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6134,7 +6263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V_TP"
+		(property "Value" "12V"
 			(at 217.678 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6168,6 +6297,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 215.9 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6433,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 227.33 134.62 90)
+		(at 229.87 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6281,8 +6443,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "347766c9-0397-4010-8bd4-99a16847de58")
-		(property "Reference" "D1"
-			(at 231.14 134.9374 90)
+		(property "Reference" "D2"
+			(at 233.68 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6293,7 +6455,7 @@
 			)
 		)
 		(property "Value" "ORANGE"
-			(at 231.14 137.4774 90)
+			(at 233.68 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6304,7 +6466,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 227.33 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6488,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 227.33 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6499,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 134.62 0)
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190AKT"
+			(at 229.87 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 229.87 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 229.87 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 229.87 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6356,7 +6562,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6430,6 +6636,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 32.512 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 32.512 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 32.512 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 32.512 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3d5f67c-db42-4f55-8731-8f90abbc18ce")
 		)
@@ -6447,7 +6697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 149.86 0)
+		(at 229.87 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6457,8 +6707,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b2c878-b4b9-45e6-beb4-c6b404563212")
-		(property "Reference" "#PWR025"
-			(at 227.33 156.21 0)
+		(property "Reference" "#PWR024"
+			(at 229.87 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 154.94 0)
+			(at 229.87 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +6730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 149.86 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,7 +6741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 149.86 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,7 +6752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 149.86 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6768,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6534,7 +6784,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35f5f00f-d784-4f43-90eb-5f8961e6c89b")
 		(property "Reference" "#FLG03"
 			(at 215.9 150.495 0)
@@ -6548,7 +6797,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 215.9 147.32 0)
+			(at 216.154 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6659,6 +6908,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6909,6 +7202,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603DRNPO9BN8R0"
+			(at 80.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 80.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "262899f5-c7ff-4913-b3a7-2ae1bf0e7cf4")
 		)
@@ -6989,6 +7326,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-070RL"
+			(at 88.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c30d6840-c8cc-4b2a-bea0-c80ac044713c")
 		)
@@ -7060,6 +7441,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 139.7 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7151,6 +7576,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 24.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 24.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 24.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 24.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab571828-0281-45f2-be2a-e3a006217bcd")
 		)
@@ -7176,7 +7645,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "509bd9bb-0f5f-4106-836d-0af4dafb733a")
 		(property "Reference" "#FLG01"
 			(at 195.58 150.495 0)
@@ -7190,7 +7658,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 195.58 147.32 0)
+			(at 195.834 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7414,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3d7501-3fc5-48d8-a40e-bee412b463d9")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 171.45 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,6 +7937,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 166.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 166.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 166.37 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3463781-1723-410f-b0a9-aca770cc1233")
 		)
@@ -7478,7 +7990,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7998,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 260.35 142.24 0)
+		(at 262.89 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7497,7 +8009,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee6e7e8-2627-4a52-9bdf-62a0d6293bde")
 		(property "Reference" "R10"
-			(at 262.89 140.9699 0)
+			(at 265.43 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7508,7 +8020,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 262.89 143.5099 0)
+			(at 265.43 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7519,7 +8031,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 261.366 142.494 90)
+			(at 263.906 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +8042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 142.24 0)
+			(at 262.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +8053,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 260.35 142.24 0)
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07120RL"
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 262.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +8124,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 238.76 134.62 90)
+		(at 241.3 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7578,8 +8134,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6078f1fd-bc62-4d89-85ba-d218ddfd3c1b")
-		(property "Reference" "D2"
-			(at 242.57 134.9374 90)
+		(property "Reference" "D3"
+			(at 245.11 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7590,7 +8146,7 @@
 			)
 		)
 		(property "Value" "BLUE"
-			(at 242.57 137.4774 90)
+			(at 245.11 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7601,7 +8157,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 238.76 134.62 0)
+			(at 241.3 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +8168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 134.62 0)
+			(at 241.3 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +8179,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 238.76 134.62 0)
+			(at 241.3 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +8190,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 134.62 0)
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190TBKT"
+			(at 241.3 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 241.3 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7653,7 +8253,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7661,7 +8261,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 238.76 142.24 0)
+		(at 241.3 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7672,7 +8272,7 @@
 		(fields_autoplaced yes)
 		(uuid "615be67e-e2ef-4399-bb22-964fca6680e8")
 		(property "Reference" "R8"
-			(at 241.3 140.9699 0)
+			(at 243.84 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7683,7 +8283,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 241.3 143.5099 0)
+			(at 243.84 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7694,7 +8294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 239.776 142.494 90)
+			(at 242.316 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7705,7 +8305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 142.24 0)
+			(at 241.3 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +8316,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 238.76 142.24 0)
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-071KL"
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +8387,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 227.33 142.24 0)
+		(at 229.87 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7754,7 +8398,7 @@
 		(fields_autoplaced yes)
 		(uuid "6160a2a6-8c84-4f69-a97e-cc3a0a26e5c8")
 		(property "Reference" "R7"
-			(at 229.87 140.9699 0)
+			(at 232.41 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7765,7 +8409,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 229.87 143.5099 0)
+			(at 232.41 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7776,7 +8420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 228.346 142.494 90)
+			(at 230.886 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +8431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 142.24 0)
+			(at 229.87 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7798,7 +8442,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 227.33 142.24 0)
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07120RL"
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 229.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 229.87 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,6 +8506,86 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 113.03 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f310e3-65f7-45da-9dff-3fda3c47c690")
+		(property "Reference" "H2"
+			(at 115.57 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 115.57 189.2299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 113.03 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 113.03 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ff40e2b-1107-4865-b05d-e20bdbd4afcc")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7983,7 +8751,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 248.92 134.62 90)
+		(at 251.46 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7993,8 +8761,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b607e7-9fbb-4c3c-9aa0-ed6f3f4551ec")
-		(property "Reference" "D3"
-			(at 252.73 134.9374 90)
+		(property "Reference" "D4"
+			(at 255.27 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8005,7 +8773,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 252.73 137.4774 90)
+			(at 255.27 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8016,7 +8784,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 248.92 134.62 0)
+			(at 251.46 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,7 +8795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 134.62 0)
+			(at 251.46 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,7 +8806,18 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 248.92 134.62 0)
+			(at 251.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT"
+			(at 251.46 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8828,40 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 248.92 134.62 0)
+			(at 251.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 251.46 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,7 +8880,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8080,14 +8892,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68b90c97-337e-47d5-ae5a-96290d9a13b9")
 		(property "Reference" "TP1"
-			(at 203.2 121.1579 0)
+			(at 201.422 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8097,8 +8908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND_TP"
-			(at 203.2 123.6979 0)
+		(property "Value" "GND"
+			(at 201.422 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8108,7 +8919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 204.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8131,6 +8942,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 199.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 199.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 199.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8220,6 +9064,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 26.67 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 26.67 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 26.67 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 26.67 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbc90dde-9903-49fc-9b2f-9f60f560e288")
 		)
@@ -8245,7 +9133,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "712f75f6-4c90-47ac-9d64-056d35ba1cc6")
 		(property "Reference" "#FLG02"
 			(at 205.74 150.495 0)
@@ -8259,7 +9146,7 @@
 			)
 		)
 		(property "Value" "5.2V"
-			(at 205.74 147.32 0)
+			(at 205.994 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8325,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "734c1331-e7e7-4bf7-9a2c-deb7e8b2c17e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 199.39 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8386,7 +9273,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8473,7 +9360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 149.86 0)
+		(at 251.46 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8483,8 +9370,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abc7f66-1f10-4d04-ab2f-0d964008ed71")
-		(property "Reference" "#PWR027"
-			(at 248.92 156.21 0)
+		(property "Reference" "#PWR026"
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +9382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 154.94 0)
+			(at 251.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +9393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 149.86 0)
+			(at 251.46 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +9404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 149.86 0)
+			(at 251.46 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +9415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 149.86 0)
+			(at 251.46 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +9431,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8697,6 +9584,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB225"
+			(at 21.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 21.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 21.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ffb4589-b819-407b-a388-c56dcae022af")
 		)
@@ -8714,7 +9645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 149.86 0)
+		(at 262.89 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8724,8 +9655,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cfc13b6-80c0-4f23-a32f-f20bd3b83f50")
-		(property "Reference" "#PWR028"
-			(at 260.35 156.21 0)
+		(property "Reference" "#PWR027"
+			(at 262.89 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,7 +9667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 154.94 0)
+			(at 262.89 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,7 +9678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 149.86 0)
+			(at 262.89 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,7 +9689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 149.86 0)
+			(at 262.89 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8769,7 +9700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 149.86 0)
+			(at 262.89 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +9716,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8793,7 +9724,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 149.86 0)
+		(at 241.3 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8803,8 +9734,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93fc07e8-10cb-42ef-8906-7ec7527e01c8")
-		(property "Reference" "#PWR026"
-			(at 238.76 156.21 0)
+		(property "Reference" "#PWR025"
+			(at 241.3 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +9746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 154.94 0)
+			(at 241.3 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +9757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 149.86 0)
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +9768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 149.86 0)
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8848,7 +9779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 149.86 0)
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8864,7 +9795,87 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR026")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975db770-4b6f-44f2-af7c-1761480ae6f2")
+		(property "Reference" "H1"
+			(at 106.68 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 189.2299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6980908d-e979-4beb-8644-b5a018c2b507")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9016,6 +10027,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603DRNPO9BN8R0"
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a63da77-3db9-4f28-a784-c1c4de68e6b5")
 		)
@@ -9133,7 +10188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 116.84 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,6 +10222,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 114.3 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9249,6 +10348,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 36.83 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9420,6 +10563,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af310581-96c1-40f2-a935-bb2d940d2fa4")
 		)
@@ -9581,6 +10768,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41be965b-af1b-420d-bc5b-81ed565aca93")
 		)
@@ -9608,7 +10839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59f8b5b-c967-4b7b-997e-0138ee2c635d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +10900,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9681,14 +10912,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d961acaa-24eb-4484-bb57-9348731d3791")
 		(property "Reference" "TP2"
-			(at 203.2 132.5879 0)
+			(at 201.422 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9698,8 +10928,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.2V_TP"
-			(at 203.2 135.1279 0)
+		(property "Value" "5V2"
+			(at 201.422 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9709,7 +10939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 204.47 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9732,6 +10962,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 199.39 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 199.39 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 199.39 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9914,7 +11177,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 248.92 142.24 0)
+		(at 251.46 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9925,7 +11188,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3aee886-bf05-4aca-b436-5ab377f9431f")
 		(property "Reference" "R9"
-			(at 251.46 140.9699 0)
+			(at 254 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9935,8 +11198,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320"
-			(at 251.46 143.5099 0)
+		(property "Value" "330"
+			(at 254 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9947,7 +11210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 249.936 142.494 90)
+			(at 252.476 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9958,7 +11221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 142.24 0)
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9969,7 +11232,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 248.92 142.24 0)
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07330RL"
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +11333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:STM32C542CCT6"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 50.8 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10052,6 +11359,50 @@
 		)
 		(property "Description" ""
 			(at 50.8 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 86.36 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 86.36 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "STM32C542CCT6"
+			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,6 +11629,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 123.19 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f6e364c9-66c7-4ecf-8538-1187c8ad72a6")
 		)
@@ -10374,7 +11769,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 260.35 134.62 90)
+		(at 262.89 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10384,8 +11779,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef4cacd3-edbb-4139-b894-7db7dba8616d")
-		(property "Reference" "D4"
-			(at 264.16 134.9374 90)
+		(property "Reference" "D5"
+			(at 266.7 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10396,7 +11791,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 264.16 137.4774 90)
+			(at 266.7 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10407,7 +11802,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 260.35 134.62 0)
+			(at 262.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10418,7 +11813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 134.62 0)
+			(at 262.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +11824,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 260.35 134.62 0)
+			(at 262.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +11835,51 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 260.35 134.62 0)
+			(at 262.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190KRKT"
+			(at 262.89 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 262.89 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 262.89 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10459,7 +11898,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10477,7 +11916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01bf34e-bf72-4165-abc6-bb49e1fb1327")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 157.48 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,6 +11971,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 152.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6724c05-13c7-454a-b473-245aec5f620f")
 		)
@@ -10541,7 +12024,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10559,7 +12042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3dbe95d-d73f-4892-945c-351aea0279ed")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10620,7 +12103,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10649,7 +12132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 116.84 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10693,6 +12176,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0762RL"
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a7f8a04-49fe-4003-9cfa-5a04890c4e57")
 		)
@@ -10719,7 +12246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcc1ca72-7739-4110-9233-b115f9aea654")
-		(property "Reference" "CR1"
+		(property "Reference" "D1"
 			(at 145.796 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10739,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:ESD2CAN24DBZRQ1"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 130.556 152.654 0)
 			(hide yes)
 			(show_name no)
@@ -10751,7 +12278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ESD2CAN24DBZRQ1"
+		(property "Datasheet" ""
 			(at 132.588 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10774,6 +12301,50 @@
 				)
 			)
 		)
+		(property "Part Number" "ESD2CAN24DBZRQ1"
+			(at 134.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 134.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 134.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 134.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3d28049c-ac37-48df-8b3a-f071fc4cac3d")
 		)
@@ -10786,7 +12357,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "CR1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10798,7 +12369,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10814,7 +12385,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3VTP"
+		(property "Value" "3V3"
 			(at 217.678 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +12396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 220.98 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10848,6 +12419,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 215.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 215.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 215.9 137.16 0)
 			(hide yes)
 			(show_name no)

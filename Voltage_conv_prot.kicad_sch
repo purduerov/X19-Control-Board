@@ -2180,7 +2180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5ed7e8-404b-4570-9361-110f9fb4e455")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 101.6 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2241,7 +2241,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2314,6 +2314,50 @@
 				)
 			)
 		)
+		(property "Part Number" "ERJ-3LWFR005V"
+			(at 115.57 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "051d9144-c5a5-4f96-a23c-9cabde163766")
 		)
@@ -2341,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f8babb7-a938-4991-b6c7-ff2b9a099207")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2402,7 +2446,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3f952d-e2c4-47ff-94e8-f394ef00669c")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 97.79 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,6 +2520,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 101.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4bc88226-51d3-40a4-b0b1-d16685a173d1")
 		)
@@ -2485,7 +2573,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152efed-bb91-4351-89d9-34e801ae651c")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 77.47 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:INA237AIDGSR"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 57.15 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2548,6 +2636,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "INA237AIDGSR"
 			(at 57.15 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2591,7 +2723,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352dee39-f60e-42a3-a863-3cca5a70180a")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 97.79 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,6 +2797,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b81a8bf2-e86e-4309-b2cb-0b4857d67315")
 		)
@@ -2674,7 +2850,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50210cbe-b8e2-479b-afff-add67bb7c507")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 217.17 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2753,7 +2929,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2826,6 +3002,50 @@
 				)
 			)
 		)
+		(property "Part Number" "ERJ-3BWFR100V"
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "494a8d12-1334-42d0-aa26-b7789a545629")
 		)
@@ -2853,7 +3073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65810808-65db-4fd1-91e7-07aea98d15a9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2914,7 +3134,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2987,6 +3207,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94284462-9fac-4785-9be8-655337d63df8")
 		)
@@ -3014,7 +3278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d642326-5cf9-47f6-b089-09e4a67eac06")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 157.48 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3075,7 +3339,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73112d22-f0e5-4180-9946-2e69398c0df2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 46.99 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3154,7 +3418,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3173,7 +3437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748e9fdc-38a0-48c3-979c-72c1f1ab4afb")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 77.47 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +3457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:INA237AIDGSR"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3218,6 +3482,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 57.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "INA237AIDGSR"
 			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3569,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b0d7250-bf68-4b98-9775-56a9f63ed95e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3340,7 +3648,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91150d5f-14e5-40f1-947e-5b86c8eb7c1a")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 153.67 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,6 +3721,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3815672d-e9ed-4aa1-a9d9-e5fbc976caf6")
 		)
@@ -3422,7 +3774,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3494,6 +3846,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 40.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffa62c57-97ab-41b3-a4f8-5e42a4a9ce9e")
 		)
@@ -3521,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99ba1198-b82f-4bfd-abce-45c57c32e702")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3978,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf570879-b3ad-464c-95a7-c28995a6265c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -3661,7 +4057,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3679,7 +4075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2cfef33-aecf-4110-ae61-d432bab0181b")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 220.98 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,6 +4130,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 217.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 217.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 217.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 217.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f6487af-b4e4-43c1-af49-de93d01fffea")
 		)
@@ -3743,7 +4183,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3761,7 +4201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d8b665-275c-4197-b083-3e5cadc3b9af")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3822,7 +4262,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3840,7 +4280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6550f78-1101-412a-8192-8256edc4b173")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 186.69 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,7 +4300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:MIC5504_3_3YM5_TR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -3895,6 +4335,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MIC5504-3.3YM5-TR"
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f008125-54a9-4d29-ab04-7916159887a7")
 		)
@@ -3913,7 +4397,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/b875d5fe-2b54-4be4-ba29-178f725d3d54"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)

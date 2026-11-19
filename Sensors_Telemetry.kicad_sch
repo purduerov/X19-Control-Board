@@ -230,7 +230,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -250,14 +250,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -282,21 +283,11 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -314,7 +305,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -325,54 +316,65 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x04_MountingPin_1_1"
 				(rectangle
-					(start 0.8636 2.667)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
 					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -4.953)
+					(start -1.27 -4.953)
 					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
 					)
 					(stroke
 						(width 0.1524)
@@ -382,44 +384,16 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -437,7 +411,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -455,7 +429,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -473,7 +447,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -483,6 +457,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,7 +1424,7 @@
 	)
 	(text "Depth Sensor Header"
 		(exclude_from_sim no)
-		(at 124.46 50.038 0)
+		(at 124.714 33.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1509,6 +1501,10 @@
 		(uuid "dea99a2f-37e0-428a-a700-0d0eb1ed4e0f")
 	)
 	(no_connect
+		(at 129.54 50.8)
+		(uuid "f3d8efc1-a6c0-45d4-8e21-f4c54257a490")
+	)
+	(no_connect
 		(at 245.11 97.79)
 		(uuid "f72ed6c6-0b14-40c1-bf0c-2943a26e5fee")
 	)
@@ -1531,16 +1527,6 @@
 			(type default)
 		)
 		(uuid "32ceef76-f65c-4b3b-a398-43277cf029bd")
-	)
-	(wire
-		(pts
-			(xy 113.03 38.1) (xy 124.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538cf7e3-0a15-48cb-8072-3201691b8500")
 	)
 	(wire
 		(pts
@@ -1581,6 +1567,26 @@
 			(type default)
 		)
 		(uuid "bd3da08e-137c-4409-8350-6d8b6c302659")
+	)
+	(wire
+		(pts
+			(xy 118.11 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58d7eef-311c-4859-8827-776b477b160e")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea037218-90d8-43c2-b4fa-c6c8bced9e05")
 	)
 	(global_label "CS_BN0"
 		(shape input)
@@ -1701,6 +1707,30 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 118.11 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4578e623-b918-414b-98da-217034ec272a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0124 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PWM2"
 		(shape input)
 		(at 245.11 54.61 180)
@@ -1810,30 +1840,6 @@
 		(uuid "8b15a697-716c-45d5-8efe-a74da33aef59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.96 57.1114 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 124.46 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9024fbd6-c9d5-4b28-ac3f-ec456a6aabbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3624 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,7 +2247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006d8a6c-84a1-4886-b77c-0082c87668a6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 180.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2302,7 +2308,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0641054e-8909-4ed7-b415-84b4e4560197")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2381,7 +2387,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2393,13 +2399,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09bf9e97-bf17-4ae2-a418-14abf9c56745")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 251.46 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,6 +2460,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4ef1e925-e93b-4c4f-8ba7-e2f2cc3afb5e")
 		)
@@ -2466,7 +2516,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa93896-4c43-47c0-8f7b-06081f6c563b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 238.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2545,7 +2595,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2557,13 +2607,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c57060-0703-4b40-81e4-cc09dd56ae50")
-		(property "Reference" "J13"
+		(property "Reference" "J11"
 			(at 251.46 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,6 +2668,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0203878e-679e-486e-9e1e-aa1b81ba208f")
 		)
@@ -2630,7 +2724,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c553d53-e837-4303-8038-827df1ec765e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 93.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2709,6 +2803,85 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206a2b79-2a49-4512-b585-4c40bfce981c")
+		(property "Reference" "#PWR042"
+			(at 113.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ba92136-0803-478c-8584-51bfe1e4033e")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -2727,7 +2900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9b1dfb-efc4-4049-8f56-bd6781c6aeaf")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 238.76 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2788,7 +2961,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f382776-14c7-4eb4-a27a-6bbe382e13f7")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 34.29 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,6 +3034,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c443d1a8-562c-458e-a572-d759b0d81001")
 		)
@@ -2870,7 +3087,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2888,7 +3105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3233c31b-c28d-46f6-9f8f-464ba5f02325")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 238.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +3166,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2967,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ceb4ba-cd26-469c-a824-b3f2f2c79ab4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 43.18 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3028,7 +3245,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c908c9d-f82b-4790-a82d-3538519a735a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 238.76 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3107,93 +3324,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 129.54 40.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "458bb88e-72fc-404c-b07b-c46235a42938")
-		(property "Reference" "J7"
-			(at 126.746 30.988 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM04B-GHS-TB"
-			(at 126.238 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "x19_control_library:vertical_CONN_BM04B-GHS-TBT_JST"
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17459bca-9200-47e8-a9ec-f9ddce6ef6fa")
-		)
-		(pin "2"
-			(uuid "c1e1c7f1-4d21-4182-9329-3bb704792e1b")
-		)
-		(pin "3"
-			(uuid "445d53e8-620a-49e8-b882-12b01b1b1998")
-		)
-		(pin "4"
-			(uuid "af496d6e-71b0-4181-8d6e-ca0dfd9d9148")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J7")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3205,13 +3336,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bdc9fe5-edcb-443d-a81b-863bef770eeb")
-		(property "Reference" "J15"
+		(property "Reference" "J13"
 			(at 251.46 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,7 +3353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,6 +3397,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7a4ba9ab-c667-44a8-a00e-d1e5b56e4641")
 		)
@@ -3278,7 +3453,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J15")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -3297,7 +3472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed82925-c4e1-4d98-8cf5-7f92b5dd290d")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 90.17 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,6 +3527,50 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 93.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 93.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 93.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c688e488-27db-4128-bf8e-508c555aaadc")
 		)
@@ -3361,86 +3580,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73a7285b-bef8-4a07-acf9-62cde69f7b07")
-		(property "Reference" "#PWR043"
-			(at 113.03 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4c75591-f8a4-4357-9c81-3ed06d593972")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR043")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3452,13 +3592,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7772792a-2d97-4551-8238-cc97610fb260")
-		(property "Reference" "J14"
+		(property "Reference" "J12"
 			(at 251.46 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3469,7 +3609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,6 +3653,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "45f82560-06d8-49cf-ad15-588d77158609")
 		)
@@ -3525,7 +3709,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J14")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77926cd1-3cdb-4e0d-a956-8bbdea5cd78c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 238.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3604,7 +3788,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3622,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824e822d-269e-4f83-9e77-43400851b611")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 238.76 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3683,7 +3867,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3695,13 +3879,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d13614-32b4-4b28-9a44-a10ca56aa121")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 251.46 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +3896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,6 +3940,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a69988e5-7c11-4b3b-b629-d6fb70edacf4")
 		)
@@ -3768,7 +3996,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3806,7 +4034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x19_control_library:BMI270_BOS"
+		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 46.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3831,6 +4059,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BMI270"
 			(at 46.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3893,6 +4165,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 129.54 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96765a50-1bfe-45d5-8cd9-54931833eba3")
+		(property "Reference" "J7"
+			(at 132.08 40.9955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM04B-GHS-TBT"
+			(at 132.08 43.5355 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM04B-GHS-TBT"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad37b06d-6091-4635-b173-7f8597ef4814")
+		)
+		(pin "3"
+			(uuid "d07c4665-e4fd-45cb-aca7-19e925b540dc")
+		)
+		(pin "4"
+			(uuid "84942322-0897-463c-bd02-ad6fce97c12b")
+		)
+		(pin "MP"
+			(uuid "151f3bd9-1ba9-4f53-a01a-41bdbb0aa870")
+		)
+		(pin "1"
+			(uuid "95722803-5019-4aa4-a5db-ad60e3294895")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 49.53 0)
 		(unit 1)
@@ -3904,7 +4278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0d29e9-c7ae-48d4-bb4e-73d5ba8f97cf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 46.99 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3965,7 +4339,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3977,13 +4351,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4c82ff8-aab9-45ee-a1e0-3747b23c9f17")
-		(property "Reference" "J12"
+		(property "Reference" "J10"
 			(at 251.46 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,7 +4368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,6 +4412,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "90b24bcf-22a1-4619-b696-a3326e69ffdf")
 		)
@@ -4050,7 +4468,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J12")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe96e9e-6237-44ba-82a5-8571b385e4a4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 238.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4547,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4147,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4247a96-29eb-439e-8938-0ddb120e4b15")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4208,7 +4626,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4220,13 +4638,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed634c0f-4668-443b-b0d7-0ebc75486cc0")
-		(property "Reference" "J16"
+		(property "Reference" "J14"
 			(at 251.46 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,6 +4699,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3f8dad52-2525-4f40-b21d-73d83fd8c160")
 		)
@@ -4293,7 +4755,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J16")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4305,13 +4767,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fab6c4cd-df5e-4bc0-b99e-6c525d602438")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 195.58 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,8 +4783,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 180.34 41.91 0)
+		(property "Value" "BNO085 Module"
+			(at 181.61 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4355,6 +4816,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BNO085 Module"
 			(at 180.34 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4909,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4416,13 +4921,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea41abe-c704-4171-a438-ef1c30638226")
-		(property "Reference" "J17"
+		(property "Reference" "J15"
 			(at 251.46 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4433,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
+		(property "Value" "Conn_01x03_Pin"
 			(at 251.46 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,6 +4982,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Generic"
+			(at 250.19 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3eb10c7b-fb86-4501-b80e-2efd2ab27605")
 		)
@@ -4489,7 +5038,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/a66e3e05-3f82-4c46-8531-6fdc7968dd66"
-					(reference "J17")
+					(reference "J15")
 					(unit 1)
 				)
 			)

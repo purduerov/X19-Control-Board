@@ -5,7 +5,7 @@
 	(uuid "c4adcaa7-1a33-4906-a61e-edd6aeb47847")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,14 +25,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x02_MountingPin"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -57,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +80,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +91,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x02_MountingPin_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -122,6 +123,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -160,10 +181,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -183,14 +222,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -215,7 +255,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -237,7 +277,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -248,7 +288,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x06_MountingPin_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -8.89)
@@ -324,6 +364,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -427,6 +487,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1253,6 +1331,18 @@
 		(uuid "dff8db3c-7e8c-42e0-b4a7-16041bbd1a00")
 	)
 	(junction
+		(at 226.06 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bf37ae1-7559-426b-b1f2-d462b9fb93ba")
+	)
+	(junction
+		(at 226.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e01a620-1b8f-4c7c-b448-2f1a823ed1bf")
+	)
+	(junction
 		(at 38.1 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1271,12 +1361,6 @@
 		(uuid "16995178-0a46-4a96-900f-ad5b0ea2a11a")
 	)
 	(junction
-		(at 226.06 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a9078c1-f5b3-4533-93b6-0537570bf06f")
-	)
-	(junction
 		(at 30.48 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1293,6 +1377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38dbf8f8-5f43-46df-91d0-dcb866140c71")
+	)
+	(junction
+		(at 226.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d4ac6f-1639-4de2-9f18-34177a69ae30")
 	)
 	(junction
 		(at 49.53 118.11)
@@ -1325,12 +1415,6 @@
 		(uuid "64b5e267-b301-436f-9349-9b775d027a72")
 	)
 	(junction
-		(at 226.06 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64d98c9e-a50a-48e3-bb98-9070ef634edc")
-	)
-	(junction
 		(at 129.54 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1349,12 +1433,6 @@
 		(uuid "6e8533c7-41c7-4df1-b9ff-732f82f6e86f")
 	)
 	(junction
-		(at 226.06 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f743047-c5f5-4091-b930-a640fb0de952")
-	)
-	(junction
 		(at 121.92 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1365,12 +1443,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8afabf05-c5a2-4be4-963f-70f66f1ac41d")
-	)
-	(junction
-		(at 226.06 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d24e5cd-8c33-45e4-81a8-3dbbca21f1d7")
 	)
 	(junction
 		(at 38.1 133.35)
@@ -1397,6 +1469,12 @@
 		(uuid "9184d121-bad4-44f6-aa85-31b2d29b336a")
 	)
 	(junction
+		(at 226.06 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9725fbb0-5d69-4077-b6ce-2c7d89ecdec6")
+	)
+	(junction
 		(at 49.53 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1421,16 +1499,22 @@
 		(uuid "b65859bc-7549-457d-87ae-58490f6e8cba")
 	)
 	(junction
-		(at 226.06 130.81)
+		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbbe5342-5776-4aff-9bd0-02f99c831034")
+		(uuid "c13bdf27-b866-4c7e-8fad-c3bc38e461d0")
 	)
 	(junction
 		(at 121.92 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3271c9a-8076-4856-8457-81c1dfd3b1e2")
+	)
+	(junction
+		(at 226.06 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7ef2086-fe5a-4eeb-ab16-96105ac371ea")
 	)
 	(junction
 		(at 121.92 124.46)
@@ -1461,6 +1545,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe74d769-47d3-4caa-bf02-4f18c34b668b")
+	)
+	(no_connect
+		(at 90.17 143.51)
+		(uuid "0f37ad30-c20f-480d-8fd1-195fd7ee122f")
+	)
+	(no_connect
+		(at 265.43 66.04)
+		(uuid "1f366620-1262-494a-acef-42d65fc0701c")
+	)
+	(no_connect
+		(at 91.44 66.04)
+		(uuid "5a1d4222-cd28-4ebe-996c-bd7cd88bef3b")
+	)
+	(no_connect
+		(at 186.69 140.97)
+		(uuid "7db5992d-a743-46a1-88fc-cdfac2dc29ac")
+	)
+	(no_connect
+		(at 180.34 59.69)
+		(uuid "7fb68362-fb5b-42a9-a0d8-71c28a110504")
+	)
+	(no_connect
+		(at 232.41 138.43)
+		(uuid "f17fd0cf-f3fc-4ab2-99d6-2ec6ddd12077")
 	)
 	(wire
 		(pts
@@ -1524,6 +1632,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 120.65) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b506b74-ca72-4157-b547-27bd9322cf4c")
+	)
+	(wire
+		(pts
 			(xy 209.55 44.45) (xy 212.09 44.45)
 		)
 		(stroke
@@ -1551,6 +1669,16 @@
 			(type default)
 		)
 		(uuid "0e7df2cf-6f4f-4415-b917-b889d016f7a6")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 226.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcd05a6-e015-4a64-bc05-d207c380e75e")
 	)
 	(wire
 		(pts
@@ -1674,13 +1802,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 130.81) (xy 226.06 133.35)
+			(xy 226.06 128.27) (xy 226.06 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27790a97-fe42-4770-9cda-863f3004a099")
+		(uuid "285bed8b-2313-495c-bab7-6da93cb67b3d")
 	)
 	(wire
 		(pts
@@ -1874,6 +2002,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 115.57) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8c38cb-20c6-4dde-b3dd-ac312a480e84")
+	)
+	(wire
+		(pts
 			(xy 49.53 128.27) (xy 49.53 133.35)
 		)
 		(stroke
@@ -1931,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "56703bbc-e116-44e0-9c41-5529f8eae7f5")
+	)
+	(wire
+		(pts
+			(xy 227.33 133.35) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c276366-2449-4e5f-89d5-15d78d2dc0f1")
 	)
 	(wire
 		(pts
@@ -2054,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c1a41d-ad08-401b-87dc-edf61a3b59fd")
+	)
+	(wire
+		(pts
 			(xy 140.97 168.91) (xy 140.97 173.99)
 		)
 		(stroke
@@ -2071,6 +2229,16 @@
 			(type default)
 		)
 		(uuid "7ad4d469-0ca0-41a1-b2c1-0e9f8883cb9d")
+	)
+	(wire
+		(pts
+			(xy 227.33 125.73) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3d8752-83cd-4e1e-9b21-3995dad9580d")
 	)
 	(wire
 		(pts
@@ -2124,6 +2292,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 115.57) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9146bf6f-4760-456c-a057-f068de37f424")
+	)
+	(wire
+		(pts
 			(xy 41.91 118.11) (xy 49.53 118.11)
 		)
 		(stroke
@@ -2131,6 +2309,26 @@
 			(type default)
 		)
 		(uuid "9203f3ec-238d-4fa6-ab96-23b6706cc388")
+	)
+	(wire
+		(pts
+			(xy 227.33 120.65) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a56807-74db-457f-a81d-180c4c04538a")
+	)
+	(wire
+		(pts
+			(xy 227.33 123.19) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e21d32-0960-42d5-a39a-608842882d33")
 	)
 	(wire
 		(pts
@@ -2151,16 +2349,6 @@
 			(type default)
 		)
 		(uuid "9985f3a2-0138-40f9-8d8c-8b85eded9def")
-	)
-	(wire
-		(pts
-			(xy 226.06 120.65) (xy 226.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a863134-47c7-43d0-9291-0e39274a69ce")
 	)
 	(wire
 		(pts
@@ -2224,16 +2412,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 226.06 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b2f904-3367-40be-b81d-97b73b9e215f")
-	)
-	(wire
-		(pts
 			(xy 140.97 38.1) (xy 148.59 38.1)
 		)
 		(stroke
@@ -2274,6 +2452,36 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 133.35) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd7cec5-3c64-42c4-9d59-6bf62319a5c3")
+	)
+	(wire
+		(pts
+			(xy 226.06 115.57) (xy 227.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09026df-31ad-4445-909a-42ba153b5159")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e996c3-fd4b-4ed0-b32f-5b545c0a15a1")
+	)
+	(wire
+		(pts
 			(xy 30.48 165.1) (xy 30.48 162.56)
 		)
 		(stroke
@@ -2304,16 +2512,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 125.73) (xy 226.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beed12e5-3117-469a-ba54-0b07d26cea7a")
-	)
-	(wire
-		(pts
 			(xy 140.97 87.63) (xy 140.97 92.71)
 		)
 		(stroke
@@ -2334,16 +2532,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 115.57) (xy 226.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c290d9f4-5370-4b9d-8467-b29538fe7497")
-	)
-	(wire
-		(pts
 			(xy 30.48 44.45) (xy 30.48 41.91)
 		)
 		(stroke
@@ -2351,6 +2539,16 @@
 			(type default)
 		)
 		(uuid "c89b561b-ad6c-4622-81e6-5b463443d919")
+	)
+	(wire
+		(pts
+			(xy 227.33 128.27) (xy 226.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce7dc64-3049-4f24-9dc7-4a467c35fcf9")
 	)
 	(wire
 		(pts
@@ -2451,16 +2649,6 @@
 			(type default)
 		)
 		(uuid "e3869a07-41f3-4fa5-a001-d08d30ab7bdb")
-	)
-	(wire
-		(pts
-			(xy 226.06 128.27) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c989ec-cfdc-440e-8d2d-048d0748fae1")
 	)
 	(wire
 		(pts
@@ -2882,6 +3070,30 @@
 			)
 		)
 	)
+	(global_label "SOL_PWR"
+		(shape input)
+		(at 227.33 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65305a97-0b3b-4b43-bc63-9175a3bcf998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.8423 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SOL2B"
 		(shape input)
 		(at 25.4 162.56 180)
@@ -3047,30 +3259,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 226.06 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "743b5d72-c93f-4659-b040-942e822b9641")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5672 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3386,30 +3574,6 @@
 			)
 		)
 	)
-	(global_label "SOL_PWR"
-		(shape input)
-		(at 226.06 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbfb7492-24e3-4302-871a-4f5848e80293")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.5723 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SOL1B-"
 		(shape input)
 		(at 86.36 60.96 180)
@@ -3482,6 +3646,30 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 224.79 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed30efee-6215-496e-b778-07e9013212fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.2972 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SOL3A"
 		(shape input)
 		(at 116.84 43.18 180)
@@ -3542,7 +3730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00024747-653e-4f48-ab2e-c76f21ca485a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3603,7 +3791,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "020f2b8e-bec6-4965-8bf9-a601b7ef838b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 129.54 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3682,7 +3870,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3755,6 +3943,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5861d261-f92c-4b0f-90bd-47c3c19c22d3")
 		)
@@ -3782,7 +4014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f85114c-a0d5-401e-b683-aac2791fd045")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 129.54 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3843,7 +4075,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3916,6 +4148,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f2c1fd0-d61d-4dce-93e1-ccf17d6d063e")
 		)
@@ -3954,7 +4230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 232.41 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +4241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3998,6 +4274,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "421a7765-faf5-4aa5-81a4-ef63e0f147e7")
 		)
@@ -4017,6 +4337,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 186.69 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144e795b-56f6-4cf7-9d7f-ce7a5d6d5f3f")
+		(property "Reference" "J4"
+			(at 189.23 133.7055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-GHS-TBT"
+			(at 189.23 136.2455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e2e2c56-ea30-4d9c-beb1-a9e70df3af40")
+		)
+		(pin "2"
+			(uuid "4572aaa8-1ba4-4e2f-b13d-d0a6ee56b844")
+		)
+		(pin "MP"
+			(uuid "07c77509-b7b6-4ccb-b494-bb1de3b59461")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 173.99 0)
 		(unit 1)
@@ -4028,7 +4444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14557297-0ab3-4be3-b09a-ba295e1ed3e3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 129.54 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4089,89 +4505,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19d96920-6545-4dfd-8a97-5eeea2b6dae8")
-		(property "Reference" "J2"
-			(at 93.98 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 93.98 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:Vertical_CONN_BM02B-GHS-TBT_JST"
-			(at 91.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f38c4351-1ca3-4b5f-8652-1d1f7d28b63e")
-		)
-		(pin "1"
-			(uuid "8304c6c8-3c31-4695-a8c6-83523e5bf7e5")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J2")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4242,6 +4576,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 128.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d27e3f63-2de4-4c0c-bf29-f98ade7f55cc")
 		)
@@ -4269,7 +4647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff19628-7da0-412b-b618-4ee876a8b672")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4330,7 +4708,103 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR037")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 180.34 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31f3f43f-a233-4044-b32f-488d999e122e")
+		(property "Reference" "J3"
+			(at 182.88 52.4255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-GHS-TBT"
+			(at 182.88 54.9655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4637e28b-5964-4178-a087-c846a57e2711")
+		)
+		(pin "2"
+			(uuid "9194b4ae-1f86-4e5f-a2bf-5c49ad547c70")
+		)
+		(pin "MP"
+			(uuid "2b8f76d4-1ae5-4fd3-980b-b34c2db61a8b")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4393,6 +4867,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 209.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 209.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 209.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 209.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4485,6 +5003,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1005afc-4a0c-4935-ae84-1200cb298153")
 		)
@@ -4523,7 +5085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 144.78 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4534,7 +5096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4557,6 +5119,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4650,6 +5256,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 36.83 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 36.83 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09a97e68-d09b-43c4-969f-229ff2312eb8")
 		)
@@ -4688,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 53.34 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +5349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4722,6 +5372,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 46.99 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4762,7 +5456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4293c8d3-a7c1-4b9b-a5c7-0a7007818787")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 135.89 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +5478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4839,6 +5533,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 133.35 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73a9830d-c994-4dca-8bf5-feb01e50405f")
 		)
@@ -4848,7 +5586,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4921,6 +5659,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e327fd55-d308-4601-9b14-ff8b8144bd2d")
 		)
@@ -4931,88 +5713,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eff3f24-8c6f-4a0d-b258-aa25edd5f016")
-		(property "Reference" "J6"
-			(at 267.97 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 267.97 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:Vertical_CONN_BM02B-GHS-TBT_JST"
-			(at 265.43 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4cfc1fe-74d6-476d-bef2-dc848ff85689")
-		)
-		(pin "1"
-			(uuid "4cc6b57b-c540-46d7-8d88-5075f61bcd21")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5041,7 +5741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 144.78 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5052,7 +5752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 143.51 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5075,6 +5775,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 138.43 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5168,6 +5912,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 215.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8971600a-d291-45ab-b51b-db2caea3ddcb")
 		)
@@ -5195,7 +5983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59e0e82f-27e3-4263-948e-ca4c3e39b9f6")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 135.89 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +6005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5272,6 +6060,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 133.35 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1588dedf-1bc3-4669-969d-0aa56891e1a8")
 		)
@@ -5281,7 +6113,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5299,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c00ffab-e42a-489c-a807-6aaf49aeaf13")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 44.45 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +6153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 41.91 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5376,6 +6208,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 41.91 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "760cd4e9-a42f-471d-a41b-cee372d3669a")
 		)
@@ -5385,7 +6261,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5403,7 +6279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e795ea7-85a6-4414-9921-bebb3811bf4e")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 223.52 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5425,7 +6301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 220.98 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5480,6 +6356,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 220.98 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 220.98 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "851f9dd7-9043-4fb6-84fa-5ca2bca137a5")
 		)
@@ -5489,7 +6409,115 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D14")
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 232.41 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ef6dfe7-26f4-4219-8ad2-4a032b15e8ef")
+		(property "Reference" "J5"
+			(at 234.95 126.0855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM06B-GHS-TBT"
+			(at 234.95 128.6255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+			(at 232.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM06B-GHS-TBT"
+			(at 232.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2dd56d3e-e2e1-48f6-87d2-fbe06ff57a8b")
+		)
+		(pin "MP"
+			(uuid "ba2eac6d-1415-4184-98c3-a7379b82b9a8")
+		)
+		(pin "6"
+			(uuid "3f0497be-5f75-4d08-bbe5-fe545ca9d3a0")
+		)
+		(pin "3"
+			(uuid "8ae530b5-411a-4be8-b6a0-0bb4a1276dc3")
+		)
+		(pin "4"
+			(uuid "11faec6b-cdcc-4b22-9c88-51bcecb8e77d")
+		)
+		(pin "2"
+			(uuid "8a6a67a2-c39b-4c1b-9202-1d7d4f53817c")
+		)
+		(pin "1"
+			(uuid "45e286f5-cedb-4a27-b2ff-7ce8e2b54460")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5518,7 +6546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 144.78 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +6557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 143.51 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -5552,6 +6580,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5592,7 +6664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1e4a6f-66c9-4688-bb46-332da1fc5ed4")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 44.45 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,7 +6686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 41.91 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5669,6 +6741,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 41.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9eb3a771-14b4-44a3-902c-c44ca873f404")
 		)
@@ -5678,7 +6794,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5707,7 +6823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 53.34 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +6834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5751,6 +6867,50 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "886298d2-744f-49f0-9d14-6a08e1e55320")
 		)
@@ -5770,88 +6930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 186.69 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "882ccb07-f783-4b34-9400-1dfd225aca26")
-		(property "Reference" "J4"
-			(at 189.23 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 189.23 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:Vertical_CONN_BM02B-GHS-TBT_JST"
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5c6670a0-0dd2-4ab1-b9d8-5a5839a5d448")
-		)
-		(pin "1"
-			(uuid "7cff3172-23da-4ee8-9c98-606ebd693434")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 133.35 73.66 270)
 		(unit 1)
@@ -5863,7 +6941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e46122-7418-4771-ab1a-71a5c0250664")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 135.89 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +6963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5940,6 +7018,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 133.35 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54f4f49b-e134-459e-afde-ea3f2e004001")
 		)
@@ -5949,7 +7071,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5967,7 +7089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b9c9fca-3252-43a2-921c-d0da765b0516")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 44.45 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +7111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 41.91 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6044,6 +7166,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 41.91 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a76633c-84fc-4e67-b071-3a665a539a80")
 		)
@@ -6053,7 +7219,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6115,6 +7281,50 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6206,6 +7416,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6abcb0a-eeae-4167-8542-45801f258a11")
 		)
@@ -6233,7 +7487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98bb34ea-14b1-4783-843f-3bf76708c7e4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 38.1 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6294,89 +7548,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 180.34 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a66b0f2-0ee1-499f-9702-0bf2d3a303fa")
-		(property "Reference" "J3"
-			(at 182.88 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 182.88 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:Vertical_CONN_BM02B-GHS-TBT_JST"
-			(at 180.34 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db8f2529-f238-4bf6-909a-8442ac1b1aae")
-		)
-		(pin "1"
-			(uuid "d9b32904-635d-49a8-9ed6-be29de40174b")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J3")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6394,7 +7566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bdc2121-13e3-4b3b-bc52-4f46ab212d02")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 135.89 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +7588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6471,6 +7643,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 133.35 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81e420db-60af-471b-9895-4eab22d3cf05")
 		)
@@ -6480,7 +7696,103 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D9")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 90.17 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ce3d3b4-42fd-4d15-b042-4e62c31f9fc2")
+		(property "Reference" "J1"
+			(at 92.71 136.2455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-GHS-TBT"
+			(at 92.71 138.7855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6914a144-db76-4690-95e9-385f03edfaf8")
+		)
+		(pin "2"
+			(uuid "0c876911-b5aa-4dd1-818e-1d87720fbc42")
+		)
+		(pin "MP"
+			(uuid "e433691d-694d-4e20-9932-7620f9c22373")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6542,6 +7854,50 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 128.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 128.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,6 +7987,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 36.83 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 36.83 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 36.83 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60fdd19f-c468-4978-88b0-e1cedd1761db")
 		)
@@ -6641,6 +8041,102 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 265.43 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3c5820d-f461-4218-a101-d193b08becf1")
+		(property "Reference" "J6"
+			(at 267.97 58.7755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-GHS-TBT"
+			(at 267.97 61.3155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+			(at 265.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 265.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcedb9a0-0867-4a5c-bf2c-39e29c1c5cd8")
+		)
+		(pin "2"
+			(uuid "aebc2e85-f662-4fd8-8346-dcbaafa5cfd4")
+		)
+		(pin "MP"
+			(uuid "5d44cdd9-bf16-4b47-bd94-8ac6d7fb3cff")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6658,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53d6e1c-4377-4239-a03e-4ce99ff95e79")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 223.52 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +8176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6735,6 +8231,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 220.98 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 220.98 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9947b600-c970-4312-ac65-582eb9508b75")
 		)
@@ -6744,7 +8284,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6817,6 +8357,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea8e8999-826b-48ec-b317-c347486c34b1")
 		)
@@ -6855,7 +8439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 144.78 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +8450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6889,6 +8473,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 138.43 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6940,7 +8568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 53.34 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 52.07 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6974,6 +8602,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 46.99 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7025,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 53.34 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +8708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7059,6 +8731,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 46.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 46.99 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +8815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caeaf70c-51a8-4c7b-9baf-ff1b677b7220")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 44.45 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7121,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:1N5819HW-7-F_DIO"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7176,6 +8892,50 @@
 				)
 			)
 		)
+		(property "Part Number" "1N5819HW-7-F"
+			(at 41.91 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b30f9017-9d2a-42f7-a040-6101dc1ddf5c")
 		)
@@ -7185,7 +8945,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7258,6 +9018,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f907897b-565c-4dee-a8ea-f21c495f9903")
 		)
@@ -7296,7 +9100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 232.41 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +9111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x19_control_library:SOT-23-3L_AOS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 231.14 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7330,6 +9134,50 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7423,6 +9271,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 215.9 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 215.9 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 215.9 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68210539-285a-452a-b5fd-afff2a23bb06")
 		)
@@ -7503,6 +9395,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 36.83 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 36.83 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 36.83 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e3e5a35-ef0c-419a-b329-9b49b2bd78a3")
 		)
@@ -7530,7 +9466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd114320-a06e-4288-a5aa-a62f6d1abc57")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7591,89 +9527,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 90.17 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e42d6816-bed5-400d-8581-d5d75a5b4aee")
-		(property "Reference" "J1"
-			(at 92.71 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 92.71 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:Vertical_CONN_BM02B-GHS-TBT_JST"
-			(at 90.17 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ddc3581e-0d95-4c87-931a-57be59d1fc26")
-		)
-		(pin "1"
-			(uuid "90468fb3-fdb7-4891-a85e-a921b5ef2404")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J1")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7691,7 +9545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e64dee46-d55e-439d-b8f9-3e3d91cfcc30")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 38.1 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7752,7 +9606,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7770,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e4bb0d-0f2d-4bfd-b4d3-4fd655c33537")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7831,7 +9685,103 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR032")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 91.44 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e0ffd8-facb-4df3-8e45-7722e44c626e")
+		(property "Reference" "J2"
+			(at 93.98 58.7755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-GHS-TBT"
+			(at 93.98 61.3155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BM02B-GHS-TBT"
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbfb2c24-f329-4bf6-b77a-83b790dd524b")
+		)
+		(pin "2"
+			(uuid "e2c796ec-2438-4ad6-9017-c8a048830214")
+		)
+		(pin "MP"
+			(uuid "a7080db4-346f-43a8-a624-8faef4650def")
+		)
+		(instances
+			(project "X19-Control-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7893,6 +9843,50 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 128.27 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 128.27 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 128.27 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,6 +9978,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-074K7L"
+			(at 121.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "469e1415-576a-4472-bb3b-b1d9d5e79f3b")
 		)
@@ -7994,100 +10032,6 @@
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 231.14 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f06cd207-9634-44db-8f7f-a9a653f47c7b")
-		(property "Reference" "J5"
-			(at 233.68 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM06B-GHS-TB"
-			(at 233.68 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x19_control_library:vertical_CONN_BM06B-GHS-TBT_JST"
-			(at 231.14 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "2693c32b-58b7-4e11-a911-2d83de087414")
-		)
-		(pin "5"
-			(uuid "5df8e45b-b355-4602-83c3-fdaf4189dbf7")
-		)
-		(pin "1"
-			(uuid "b30156d9-42c8-436d-857a-9c4aa80afa28")
-		)
-		(pin "4"
-			(uuid "1d9a5b39-1ad0-4f12-b485-f24a5f51643f")
-		)
-		(pin "2"
-			(uuid "4bc60f7a-72c9-42a6-84d6-089fdf04d560")
-		)
-		(pin "3"
-			(uuid "e39b464e-28cf-4405-aaf4-daa653c0cad2")
-		)
-		(instances
-			(project "X19-Control-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8150,6 +10094,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 30.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 30.48 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8240,6 +10228,50 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 36.83 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 36.83 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 36.83 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffe0637a-98ad-4b74-b891-a8e9b3a35446")
 		)
@@ -8267,7 +10299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb524e6-2062-4b63-a787-67b05b70d943")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 129.54 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +10360,7 @@
 		(instances
 			(project "X19-Control-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/84a48d7e-c021-49be-a880-dece1bf2fa08"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
