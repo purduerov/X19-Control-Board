@@ -29028,7 +29028,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "05a3e157-701c-44a4-93b1-687627ea6fdc")
@@ -29073,7 +29073,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-071KL"
+		(property "Part Number" "RC0603FR-072K2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
