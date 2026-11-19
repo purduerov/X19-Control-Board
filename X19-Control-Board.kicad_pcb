@@ -33026,8 +33026,8 @@
 		(layer "Edge.Cuts")
 		(uuid "d0b98a6d-245f-46bd-8673-e056725a8171")
 	)
-	(gr_text "X19 Control Board\nColin Mattson\nLeads: Sam Nadol, Nick Zhang\nFrancis Hasin, Lucas Mauser"
-		(at 111.32 133.73 0)
+	(gr_text "X19 Control Board\nColin Mattson\nLeads: Nick Zhang, Sam Nadol\nFrancis Hasin, Lucas Mauser"
+		(at 112.35 133.6 0)
 		(layer "F.SilkS")
 		(uuid "3983d3d3-13e4-4c92-aa70-1a99d1925fc4")
 		(effects
@@ -33867,6 +33867,14 @@
 		(layer "F.Cu")
 		(net "3.3V")
 		(uuid "b023df1a-4034-4ed6-9e85-fc6c3fdd1375")
+	)
+	(segment
+		(start 136.5 124.9)
+		(end 135.55 123.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "3.3V")
+		(uuid "b5213b46-136d-4aa1-8a6d-2705e6f7e06d")
 	)
 	(segment
 		(start 103.489658 96.088489)
@@ -48258,13 +48266,5 @@
 			)
 			(checksum "F2853869D94C03D7740497A08B7A83DC")
 		)
-	)
-	(segment
-		(start 136.5 124.9)
-		(end 135.55 123.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "3.3V")
-		(uuid "b5213b46-136d-4aa1-8a6d-2705e6f7e06d")
 	)
 )
