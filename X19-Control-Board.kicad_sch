@@ -10928,7 +10928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V2"
+		(property "Value" "5V1"
 			(at 201.422 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
