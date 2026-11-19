@@ -21234,7 +21234,7 @@
 				)
 			)
 		)
-		(property "Value" "5V2"
+		(property "Value" "5V1"
 			(at 0.614476 1.992628 180)
 			(layer "F.SilkS")
 			(uuid "933df546-5635-45f4-89ba-2f4f34f4ecf4")
@@ -42258,6 +42258,7 @@
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "616eb80c-0950-4d89-9a49-73e567859ee1")
 			(effects
 				(font
@@ -46588,19 +46589,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d0b98a6d-245f-46bd-8673-e056725a8171")
 	)
-	(gr_text "X19 Control Board\nColin Mattson\nLeads: Sam Nadol, Nick Zhang\nFrancis Hasin, Lucas Mauser"
-		(at 111.32 133.73 0)
-		(layer "F.SilkS")
-		(uuid "3983d3d3-13e4-4c92-aa70-1a99d1925fc4")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Backup"
 		(at 84.071903 79.833989 0)
 		(layer "F.SilkS")
@@ -46770,6 +46758,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "X19 Control Board\nDesigner: Colin Mattson\nLeads: Nick Zhang, Sam Nadol,\nLucas Mauser, Francis Hasin"
+		(at 110.95 134.5 0)
+		(layer "F.SilkS")
+		(uuid "f0a50a2d-c140-4efd-bd53-ab16efd2f93d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MISO"
 		(at 111.11 123.31 0)
 		(layer "F.SilkS")
@@ -46926,10 +46927,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V2"
-		(at 132.08 119.38 0)
+	(gr_text "CH2"
+		(at 121.3 49.45 0)
 		(layer "F.SilkS")
-		(uuid "9ae40f09-75f6-42b6-9502-2dd9c0daeadb")
+		(uuid "9d6177e6-1ea6-44a2-b0e3-8d5157bab5c0")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -46969,19 +46970,6 @@
 		(at 129.320076 118.85 0)
 		(layer "F.SilkS")
 		(uuid "3be244c5-f870-432e-a26c-2a3ce40475a4")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "X19 Control Board\nDesigner: Colin Mattson\nElectrical Leads: Sam Nadol, \nFrancis Hasin, Nick Zhang"
-		(at 114.3 134.112 0)
-		(layer "F.SilkS")
-		(uuid "f0a50a2d-c140-4efd-bd53-ab16efd2f93d")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -47095,7 +47083,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V2"
+	(gr_text "5V1"
 		(at 139 101.8 90)
 		(layer "F.SilkS")
 		(uuid "31024207-348a-4fea-9ca9-5d326505ea93")
