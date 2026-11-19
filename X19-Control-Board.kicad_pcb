@@ -29447,13 +29447,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "da33aabc-426e-457f-a16a-f1fd5d358cd2")
-		(at 109.547903 121.415989)
+		(at 109.507903 120.175989)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J19"
 			(at 0 -2.38 0)
 			(layer "B.SilkS")
-			(uuid "27d5cf28-e687-480c-83ec-d440d15a3d31")
+			(uuid "290fe985-aed2-44aa-b934-479202f63c41")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -29466,7 +29466,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 0 10 0)
 			(layer "F.Fab")
-			(uuid "be7cea53-b563-4760-b394-b1a1abe32695")
+			(uuid "5ca34075-767d-42c7-b7ba-0528eb71e090")
 			(effects
 				(font
 					(size 1 1)
@@ -29478,7 +29478,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "578cb814-cc99-4ba2-9e59-c0009fe49d34")
+			(uuid "02cd1dcf-bddc-4393-821a-7aa58cb99ad9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29489,7 +29489,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b6229bb-d69e-4902-b771-19855ad6bfbb")
+			(uuid "92ffebc7-02f5-401a-8521-4bbc5a023606")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33026,6 +33026,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d0b98a6d-245f-46bd-8673-e056725a8171")
 	)
+	(gr_text "X19 Control Board\nColin Mattson\nLeads: Sam Nadol, Nick Zhang\nFrancis Hasin, Lucas Mauser"
+		(at 111.32 133.73 0)
+		(layer "F.SilkS")
+		(uuid "3983d3d3-13e4-4c92-aa70-1a99d1925fc4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Backup"
 		(at 84.071903 79.833989 0)
 		(layer "F.SilkS")
@@ -33196,7 +33209,7 @@
 		)
 	)
 	(gr_text "MISO"
-		(at 111.15 124.55 0)
+		(at 111.11 123.31 0)
 		(layer "F.SilkS")
 		(uuid "9df30e27-7aaa-48b7-8bba-997890cea268")
 		(effects
@@ -33209,7 +33222,7 @@
 		)
 	)
 	(gr_text "MOSI"
-		(at 111.2 121.95 0)
+		(at 111.16 120.71 0)
 		(layer "F.SilkS")
 		(uuid "78db1e0a-290d-462c-8cf2-8b76f3cf1e4e")
 		(effects
@@ -33222,7 +33235,7 @@
 		)
 	)
 	(gr_text "CLK"
-		(at 111.2 127 0)
+		(at 111.16 125.76 0)
 		(layer "F.SilkS")
 		(uuid "af50ff7d-43d2-4b2f-b70d-67a38819fdbd")
 		(effects
@@ -33235,22 +33248,9 @@
 		)
 	)
 	(gr_text "GND"
-		(at 111.2 129.2 0)
+		(at 111.16 127.96 0)
 		(layer "F.SilkS")
 		(uuid "5a5c4c75-a349-4304-a09a-75f52a3e8736")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "X19 Control Board\nDesigner: Colin Mattson\nElectrical Leads: Sam Nadol, \nFrancis Hasin, Nick Zhang"
-		(at 112.2 134.5 0)
-		(layer "F.SilkS")
-		(uuid "3983d3d3-13e4-4c92-aa70-1a99d1925fc4")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -36773,14 +36773,6 @@
 		(uuid "0d025d76-c1c6-47bc-a70e-38676109e5a4")
 	)
 	(segment
-		(start 107.737903 121.415989)
-		(end 109.547903 121.415989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MOSI")
-		(uuid "15b1d3d5-0a15-4a31-9bbd-180b6fa8d811")
-	)
-	(segment
 		(start 109.408402 110.315494)
 		(end 109.408402 110.956952)
 		(width 0.254)
@@ -36789,12 +36781,28 @@
 		(uuid "24f54058-e82f-4906-bf37-eb760d885eaf")
 	)
 	(segment
+		(start 99.093903 117.679989)
+		(end 100.417903 116.355989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MOSI")
+		(uuid "3b7dba97-7579-4df5-9eba-ee023707ed64")
+	)
+	(segment
 		(start 111.604464 98.995033)
 		(end 112.229904 98.369593)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MOSI")
 		(uuid "4e4e120f-161d-4054-bb22-76292862dfc5")
+	)
+	(segment
+		(start 106.177903 116.355989)
+		(end 107.047903 117.225989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MOSI")
+		(uuid "627e293c-0670-468a-97f2-5e7b45d4895f")
 	)
 	(segment
 		(start 108.78496 109.692052)
@@ -36813,6 +36821,14 @@
 		(uuid "943d22d7-626e-484b-b53e-f52e905e8114")
 	)
 	(segment
+		(start 85.595903 117.679989)
+		(end 99.093903 117.679989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MOSI")
+		(uuid "9ec9bddd-3840-4c7f-949a-69221f9a167d")
+	)
+	(segment
 		(start 111.604464 99.598989)
 		(end 111.604464 98.995033)
 		(width 0.254)
@@ -36821,44 +36837,20 @@
 		(uuid "a12cb505-50cf-4ada-a935-66c178e76709")
 	)
 	(segment
-		(start 85.595903 117.679989)
-		(end 99.093903 117.679989)
+		(start 107.047903 119.577903)
+		(end 107.645989 120.175989)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MOSI")
-		(uuid "b1c4432c-e2bd-43df-a482-afb471b0fa5a")
+		(uuid "b8c6a916-3ac2-47a7-a3c2-9428e5818deb")
 	)
 	(segment
 		(start 107.047903 117.225989)
-		(end 107.047903 120.725989)
+		(end 107.047903 119.577903)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MOSI")
-		(uuid "bf30225a-ca09-43ea-8d58-81b864a11609")
-	)
-	(segment
-		(start 106.177903 116.355989)
-		(end 107.047903 117.225989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MOSI")
-		(uuid "bfd4b141-9e8d-4185-a9cb-d8996f206823")
-	)
-	(segment
-		(start 107.047903 120.725989)
-		(end 107.737903 121.415989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MOSI")
-		(uuid "c155a94f-aac2-45e1-80ac-10e46ea43a64")
-	)
-	(segment
-		(start 99.093903 117.679989)
-		(end 100.417903 116.355989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MOSI")
-		(uuid "ce6c8542-be62-44b9-8676-003ec2304f05")
+		(uuid "d6d0292f-b5e6-405c-8584-b31ff7564d41")
 	)
 	(segment
 		(start 100.417903 116.355989)
@@ -36866,7 +36858,7 @@
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MOSI")
-		(uuid "e7820d2c-c19a-4897-93eb-e02fb3fb809a")
+		(uuid "e4b5d869-c5df-4e04-bfe2-f403b3f0223f")
 	)
 	(segment
 		(start 111.731464 99.725989)
@@ -36875,6 +36867,14 @@
 		(layer "F.Cu")
 		(net "MOSI")
 		(uuid "e81f9262-766f-45c7-b6fd-aab7a88c86dd")
+	)
+	(segment
+		(start 107.645989 120.175989)
+		(end 109.507903 120.175989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MOSI")
+		(uuid "fe25b0b8-ca8d-4c97-a3c7-84179e1e534a")
 	)
 	(via
 		(at 108.78496 109.593088)
@@ -36989,6 +36989,22 @@
 		(uuid "23254834-ac24-4291-b44e-6a15e9f1a55c")
 	)
 	(segment
+		(start 106.047903 121.795989)
+		(end 109.507903 125.255989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "SCLK")
+		(uuid "26656676-6028-4583-a3d9-e4abcde0a210")
+	)
+	(segment
+		(start 106.047903 120.725989)
+		(end 106.047903 121.795989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "SCLK")
+		(uuid "3905a2a4-0e2c-4091-a320-d0c0061313e6")
+	)
+	(segment
 		(start 103.381903 120.225989)
 		(end 105.547903 120.225989)
 		(width 0.254)
@@ -37011,14 +37027,6 @@
 		(layer "F.Cu")
 		(net "SCLK")
 		(uuid "6269eb3d-7785-477f-84c8-d29660b3f4ec")
-	)
-	(segment
-		(start 106.047903 120.725989)
-		(end 106.047903 125.725989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "SCLK")
-		(uuid "733e7a3c-9712-4337-a397-861fa71512b2")
 	)
 	(segment
 		(start 111.150464 100.203794)
@@ -37061,14 +37069,6 @@
 		(uuid "d77de029-afbe-414a-a226-8d771528e341")
 	)
 	(segment
-		(start 106.047903 125.725989)
-		(end 106.817903 126.495989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "SCLK")
-		(uuid "d898f135-fbe3-47f1-906e-21989fa2f8a7")
-	)
-	(segment
 		(start 105.547903 120.225989)
 		(end 106.047903 120.725989)
 		(width 0.254)
@@ -37083,14 +37083,6 @@
 		(layer "F.Cu")
 		(net "SCLK")
 		(uuid "eaccc858-39e0-434d-877c-db525d52dc57")
-	)
-	(segment
-		(start 106.817903 126.495989)
-		(end 109.547903 126.495989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "SCLK")
-		(uuid "ed245ade-427e-4c8b-835b-efaa3d5d6f6b")
 	)
 	(via
 		(at 109.667542 109.60479)
@@ -37213,20 +37205,20 @@
 		(uuid "f86d3e2b-ed59-42bd-be99-54edeb6e2479")
 	)
 	(segment
-		(start 106.547903 123.225989)
-		(end 107.277903 123.955989)
+		(start 105.501903 117.679989)
+		(end 106.547903 118.725989)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MISO")
-		(uuid "0e5cc720-d12b-4daf-abba-ea991bb87f11")
+		(uuid "0e75253f-5b5b-4c5a-83d3-87ef22bcc54e")
 	)
 	(segment
-		(start 107.277903 123.955989)
-		(end 109.547903 123.955989)
+		(start 106.547903 121.267903)
+		(end 107.995989 122.715989)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MISO")
-		(uuid "36be2f70-e490-4a17-8149-569529e3f560")
+		(uuid "1e2df8f1-8f5f-4de8-b3d4-fb2edecd59bf")
 	)
 	(segment
 		(start 108.195213 111.15)
@@ -37235,14 +37227,6 @@
 		(layer "F.Cu")
 		(net "MISO")
 		(uuid "468ea1b9-ab54-46ed-9cbe-edd3cca4d735")
-	)
-	(segment
-		(start 106.547903 118.725989)
-		(end 106.547903 123.225989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MISO")
-		(uuid "469fbc40-51fc-44f9-ac64-9085148ee93b")
 	)
 	(segment
 		(start 111.209873 100.887959)
@@ -37261,12 +37245,12 @@
 		(uuid "518595f4-2b6a-489b-95aa-0af596f87994")
 	)
 	(segment
-		(start 105.501903 117.679989)
-		(end 106.547903 118.725989)
+		(start 107.995989 122.715989)
+		(end 109.507903 122.715989)
 		(width 0.254)
 		(layer "F.Cu")
 		(net "MISO")
-		(uuid "61559f14-a324-45ac-b335-82edf1d84c8d")
+		(uuid "605ba2bd-48a9-48db-9948-4164514a9df9")
 	)
 	(segment
 		(start 111.229903 98.08549)
@@ -37275,14 +37259,6 @@
 		(layer "F.Cu")
 		(net "MISO")
 		(uuid "635b93a1-9d2b-4e56-b79d-6803271d4061")
-	)
-	(segment
-		(start 103.375903 117.679989)
-		(end 105.501903 117.679989)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "MISO")
-		(uuid "6eeb85ba-2ebe-49b2-bee7-aa1aead6fa42")
 	)
 	(segment
 		(start 107.75 111.15)
@@ -37299,6 +37275,14 @@
 		(layer "F.Cu")
 		(net "MISO")
 		(uuid "b2f75afc-c0ad-4fae-878f-1ef8d801ac5e")
+	)
+	(segment
+		(start 103.375903 117.679989)
+		(end 105.501903 117.679989)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MISO")
+		(uuid "c8b59157-c3b3-4fb9-b31b-ad9acafc7c7d")
 	)
 	(segment
 		(start 111.737723 101.141842)
@@ -37331,6 +37315,14 @@
 		(layer "F.Cu")
 		(net "MISO")
 		(uuid "e5c36a02-9463-4e99-bc6a-e484b0bb681c")
+	)
+	(segment
+		(start 106.547903 118.725989)
+		(end 106.547903 121.267903)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "MISO")
+		(uuid "e8fa5612-274c-4d44-a81d-7d6300822e5e")
 	)
 	(via
 		(at 111.737723 101.141842)
