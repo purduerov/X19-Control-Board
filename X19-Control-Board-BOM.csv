@@ -23,7 +23,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 22,"Resistor, US symbol",R_US,R7 R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,RC0603FR-07120RL,,,,,,,,
 23,"Resistor, US symbol",R_US,R15 R16 R17 R18 R23 R24 R25 R26 R29 R30,220,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,10, ,,RC0603FR-07220RL,,,,,,,,
 24,"Resistor, US symbol",R_US,R9,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-07330RL,,,,,,,,
-25,"Resistor, US symbol",R_US,R8,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-071KL,,,,,,,,
+25,"Resistor, US symbol",R_US,R8,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-072K2L,,,,,,,,
 26,"Resistor, US symbol",R_US,R20,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,RC0603FR-074K7L,,,,,,,,
 27,"Resistor, US symbol",R_US,R1 R5 R6 R11 R12 R13 R14 R19 R21 R22 R27 R28 R31 R32,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,14, ,,RC0603FR-0710KL,,,,,,,,
 28,,BMI270,U3,BMI270,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1, ,BMI270,BMI270,,,,,,,,
@@ -41,7 +41,7 @@ Project info:
 Schematic:,X19-Control-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_22-27-14
+Date:,2026-11-19_22-47-04
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,33
